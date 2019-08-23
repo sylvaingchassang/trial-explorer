@@ -1,2 +1,2 @@
 # trial-explorer
-exploration tools for ClinicalTrials.gov database
+exploration tools for the [clinicaltrials.gov](clinicaltrials.gov) database
