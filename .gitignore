@@ -35,8 +35,7 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
-htmlcov/
+# Unit test / coverage reports/
 .tox/
 .coverage
 .coverage.*
@@ -102,3 +101,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# raw data files not to commited to git
+raw_data/
+
+# pycharm generated folders
+.idea/
