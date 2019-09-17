@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# raw data files not to commited to git
+raw_data/
+
+# pycharm generated folders
+.idea/
