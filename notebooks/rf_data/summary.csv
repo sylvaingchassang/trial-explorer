@@ -1,0 +1,594 @@
+node,total_count,file_count,unique_per_file,level,avg_per_file,pct_files,ex1,ex2,ex3,ex4,ex5
+./required_header/download_date,316464,316464,True,2,1.0,1.0,"ClinicalTrials.gov processed this data on September 16, 2019","ClinicalTrials.gov processed this data on September 16, 2019","ClinicalTrials.gov processed this data on September 16, 2019","ClinicalTrials.gov processed this data on September 16, 2019","ClinicalTrials.gov processed this data on September 16, 2019"
+./required_header/link_text,316464,316464,True,2,1.0,1.0,Link to the current ClinicalTrials.gov record.,Link to the current ClinicalTrials.gov record.,Link to the current ClinicalTrials.gov record.,Link to the current ClinicalTrials.gov record.,Link to the current ClinicalTrials.gov record.
+./required_header/url,316464,316464,True,2,1.0,1.0,https://clinicaltrials.gov/show/NCT01575444,https://clinicaltrials.gov/show/NCT02491242,https://clinicaltrials.gov/show/NCT02307513,https://clinicaltrials.gov/show/NCT03993132,https://clinicaltrials.gov/show/NCT03392870
+./id_info/org_study_id,316434,316434,True,2,1.0,0.9999052024874868,CLEVER-2011,2017-08-124-C,940597,R01AT001146-01,Rad 2:5:1
+./id_info/secondary_id,115345,74853,False,2,1.5409536023940256,0.2365292734718641,CDR0000398140,2014-000218-67,ID-RCB 2007-A01326-47,SPARROW-I071-341-03,E-6200
+./id_info/nct_id,316464,316464,True,2,1.0,1.0,NCT00212628,NCT02336581,NCT03421834,NCT01341951,NCT00235287
+./brief_title,316464,316464,True,1,1.0,1.0,Evaluation of an Advance Care Planning Activity: Feasibility Testing for a Randomized Controlled Trial,CCFES + tDCS for Motor Control,Atorvastatin as GVHD Prophylaxis for Allogeneic Hematopoietic Cell Transplantation,Web-based Attention Bias Modification Treatment for Childhood Anxiety Disorders,Effect of Transcutaneous Electrical Stimulation on Post-stroke Dysphagic Patients
+./acronym,82149,82149,True,1,1.0,0.25958402851509177,PAIDDA,CEPTAS,RADAR,CERETI,DIRECTGLP
+./official_title,306260,306260,True,1,1.0,0.9677562060771524,Retinal Nerve Fiber Layer Thickness Measurements Using Optical Coherence Tomography in Patients With Sleep Apnea Syndrome,Pilot Study to Detect DENGUE Virus in Sperm.,"Adolescent and Young Adult (AYA) Cancers Clinical Model: An Evaluation of the AYA Clinical Care Model by Assessment of Clinical, Psychosocial, and Health Economic Factors Related to AYA Patient Outcomes","A Randomised, Double-blind, Placebo-controlled Study to Determine the Long-term Efficacy and Safety of Ramelteon in Adults With Chronic Insomnia.",Daily vs Intermittent Restriction of Energy: Randomised Controlled Trial to Reduce Diabetes Risk (DIRECT)
+./sponsors/lead_sponsor/agency,316464,316464,True,3,1.0,1.0,Novartis Vaccines,University of Melbourne,Massachusetts General Hospital,Eli Lilly and Company,EndoControl
+./sponsors/lead_sponsor/agency_class,315636,315636,True,3,1.0,0.9973835886546336,Other,Industry,Other,Other,Other
+./source,316464,316464,True,1,1.0,1.0,AstraZeneca,Memorial Sloan Kettering Cancer Center,University Magna Graecia,Mahidol University,Bayer
+./oversight_info/has_dmc,259197,259197,True,2,1.0,0.8190410283634157,Yes,Yes,Yes,No,Yes
+./oversight_info/is_fda_regulated_drug,91929,91929,True,2,1.0,0.29048801759441834,Yes,No,Yes,No,No
+./oversight_info/is_fda_regulated_device,91941,91941,True,2,1.0,0.2905259365994236,No,No,No,No,No
+./brief_summary/textblock,315635,315635,True,2,1.0,0.9973804287375501,"
+      The purpose of the study is to extend the use of opicapone 25 or 50mg once per day by
+      subjects who participated in the BIA 9-1067-302 clinical trial according form 4a for
+      additional three years.
+    ","
+      Effective, reversible postpartum contraception decreases the chance of rapid repeat pregnancy
+      and poor perinatal outcome in a subsequent pregnancy especially in women delivered by
+      cesarean section.The traditional 6-week postpartum visits not evidenced based and may not
+      meet patient needs, particularly with respect to provision of contraception.Intrauterine
+      device placement after delivery of the placenta is an appealing strategy for increasing
+      access to postpartum Intrauterine device because it does not require a separate postpartum
+      visit.
+
+      Advantage of post-placental Intrauterine device insertion, Intrauterine devices are
+      recommended as first-line contraceptives by the American Academy of Pediatricians. The
+      Centers for Disease Control and Prevention united state . Medical Eligibility Criteria for
+      Contraceptive Use places no restrictions on use, and states advantages generally outweigh the
+      risks for immediate postpartum use of Intrauterine devices.
+    ","
+      No study was conducted to evaluate the rabies neutralizing antibody titers after RIG
+      injection on day 7. The only study that has supported the delay of RIG administration was
+      done in 1996 by our institute, of which RIG was given on day 5 with the original Thai Red
+      Cross intradermal regimen (2-2-2-0-1-1).
+    ","
+      This is a phase II trial using a non-myeloablative cyclophosphamide/ fludarabine/total body
+      irradiation (TBI) preparative regimen followed by a related or unrelated donor stem cell
+      infusion. The primary objective is to evaluate rates of acute graft-versus-host disease
+      (GVHD) grades II-IV and chronic GVHD with an updated GVHD prophylaxis of tacrolimus and
+      mycophenolate mofetil (MMF) with a non-myeloablative preparative regimen in persons with
+      hematologic malignancies.
+    ","
+      Accurate characterization of malignant cells obtained via thoracocentesis is of paramount
+      importance in the management of cancer patients. The identification of novel biomarkers may
+      in that regard considerably improve the diagnostic approach of these pleural effusions, guide
+      therapeutic decisions, particularly with respect to targeted therapies, and offer helpful
+      prognostic information. Nuclear anomalies represent the cornerstone of the cytologic and/or
+      histopathologic diagnosis of malignant cells. The nuclear matrix is a fundamental constituent
+      of the nuclear architecture via its interaction with the nuclear membrane, but is also
+      directly involved with DNA and RNA processing. Prior studies have suggested that in some
+      cancers, the lamins, a major constituent of the nuclear matrix, have different patterns of
+      expression or nuclear localization that could potentially have prognostic implications. Our
+      project aims at studying the constituents of the nuclear matrix of malignant cells isolated
+      for pleural fluid in patients with metastatic disease, both of bronchogenic or
+      non-bronchogenic origin, which, to our knowledge, has not yet been done. Both proteomic
+      (localization by immunofluorescence and expression by Western-Blot) and genomic (microarray,
+      CGH type) analyses will be undertaken to identify microrearrangements in the genes of
+      interest. The primary aim is to identify specific biomarkers to more accurately characterize
+      malignant cells in metastatic pleural disease.
+    "
+./overall_status,316464,316464,True,1,1.0,1.0,Completed,Completed,Completed,Completed,Completed
+./start_date,311674,311674,True,1,1.0,0.9848639971687144,September 2019,August 2012,July 2010,"July 27, 2017",November 2016
+./completion_date,298071,298071,True,1,1.0,0.9418796450781132,April 2014,December 2004,November 2010,September 2021,December 2014
+./primary_completion_date,294277,294277,True,1,1.0,0.929890919662268,"December 31, 2019",November 2006,December 2004,"January 14, 2019",October 2017
+./phase,249961,249961,True,1,1.0,0.7898560341776631,N/A,Phase 1,Phase 2,N/A,Phase 3
+./study_type,316464,316464,True,1,1.0,1.0,Interventional,Interventional,Interventional,Interventional,Observational
+./has_expanded_access,310999,310999,True,1,1.0,0.9827310531371656,No,No,No,No,No
+./study_design_info/allocation,190766,190766,True,2,1.0,0.6028047424035593,Randomized,Randomized,Randomized,Non-Randomized,Randomized
+./study_design_info/intervention_model,243163,243163,True,2,1.0,0.7683749178421558,Parallel Assignment,Parallel Assignment,Parallel Assignment,Single Group Assignment,Single Group Assignment
+./study_design_info/primary_purpose,242315,242315,True,2,1.0,0.7656953081551141,Basic Science,Prevention,Treatment,Basic Science,Treatment
+./study_design_info/masking,244579,244579,True,2,1.0,0.7728493604327823,None (Open Label),"Double (Participant, Investigator)",None (Open Label),Double,"Triple (Participant, Investigator, Outcomes Assessor)"
+./primary_outcome/measure,505778,299198,False,2,1.690445791749945,0.9454408716315283,Maximum plasma concentration (Cmax) of YM178,change of outer arteriolar diameter,"Safety and tolerability: Clinical laboratory safety evaluations (hematology, serum biochemistry [including S-cortisol and basal S-DHEAS], coagulation and urinalysis)","Prevention of possible, probable or proven fungal infection.",survival rate
+./primary_outcome/time_frame,484571,285732,False,2,1.6958933546120143,0.9028894281814044,Week 16,1 year,7-11 days from start of manufacturing,Day 14 to 0; week 4; week 8-12; week 12-16 (or month 6-12 for photopheresis),Day 1
+./primary_outcome/description,344777,198330,False,2,1.7384006453889982,0.6267063552252389,acute kidney injury during postoperative seven days defined by Kidney Disease Improving Global Outcomes (KDIGO) criteria,The change in concentration of brain 31P metabolites,Overall response will be monitored using the Bayesian stopping boundaries calculated based on beta-binomial distribution.,Change in wellbeing,Increases in correct parental definition of fever temperature detected using a questionnaire
+./secondary_outcome/measure,1062396,228909,False,2,4.641128133887265,0.7233334597300167,Schirmer Test,Brain-Derived Neurotrophic Factor (BDNF),Area Under the Plasma Concentration Curve (0-12 Weeks),"Renal function during the course of the trial, especially after CNI withdrawal.",number of ventilator-free days from day 1 to 28
+./secondary_outcome/time_frame,1030200,218227,False,2,4.720772406714111,0.6895792254411244,4 weeks,6 weeks,Throughout study,1 hour,during induction
+./secondary_outcome/description,725610,155676,False,2,4.661026747860942,0.4919232519338693,Patients having fetus with retardation of growth in both arms.,Unplanned hospitalization (In hospital stay for a minimum of 48 hours) assessed using in hospital chart reviews and self-reported hospitalization.,30 day readmission rate,"Spirometry was performed prior to chamber exposure, approximately every 10 minutes during exposure, and approximately every 20 minutes after exposure until FEV1 returned to within 10% of baseline value. A smaller change in FEV1 indicates a reduced response to the allergen exposure.",Change from baseline in Serum Cortisol concentration (ng/mL) measured by Radioimmunoassay method at 08.00-09.00 am.
+./number_of_arms,225942,225942,True,1,1.0,0.7139579857424542,3,2,2,3,2
+./enrollment,309828,309828,True,1,1.0,0.9790307902320644,60,20,44,0,146
+./condition,525097,315623,False,1,1.6636842055236785,0.9973425097325446,Amyotrophic Lateral Sclerosis,Endothelial Dysfunction,Diabetic Macular Edema,Phlebitis,Asthma
+./arm_group/arm_group_label,554268,266926,False,2,2.076485617736751,0.8434640275039182,Tofacitinib Arm,colesevelam,biweekly then triweekly,Treatment Group,Ipilimumab (1 mg/kg) + Nivolumab (3 mg/kg) IV
+./arm_group/arm_group_type,480622,225965,False,2,2.1269754165468098,0.7140306638353809,Experimental,Experimental,Experimental,Active Comparator,Active Comparator
+./arm_group/description,480287,231224,False,2,2.077150295817044,0.7306486677789574,"This will be a crossover study with 2 cohorts and an interleaving design with placebo substitution. The study will be conducted over 4 treatment periods in Cohort 1 (n=9) and over 3 treatment periods in Cohort 2 (n=9). Six subjects will be allocated to receive PF-04991532 and three subjects will be allocated to receive placebo treatment during each dosing period, except for the 4th period of Cohort 1. The 4th period of Cohort 1 will be dedicated to assess the effect of food on PF-04991532 PK parameters at one of the doses previously tested in Cohort 1; hence all 9 subjects will be dosed with PF-04991532 in an open-label fashion. A washout period of at least 7 days will occur between each dose.",Mavik® 4 mg Tablet (reference) dosed in first period followed by Trandolapril 4 mg Tablet (test) dosed in second period,single dose of diclofenac 25 mg with pre-exposure to pineapple juice,"Endocris - 40 mg/0,4mL",patients undergoing EBUS
+./intervention/intervention_type,547752,282110,False,2,1.9416256070327176,0.8914442085039689,Drug,Drug,Drug,Drug,Radiation
+./intervention/intervention_name,547752,282110,False,2,1.9416256070327176,0.8914442085039689,Dietary Supplement: Pregnenolone,Community-based peer health coach intervention,Placebo supplementation,umbilical vein catheterization,Epiduo Gel
+./intervention/description,456221,235554,False,2,1.9368000543399813,0.7443311087517064,"The MitraClip System includes a MitraClip device, a Steerable Guide Catheter, and a MitraClip Delivery System that enables placement of the MitraClip device on the mitral valve leaflets","Resilience skills training including: pleasant activities, hope/goal-setting, pain acceptance, positive events/reappraisals, and self-efficacy.",Patients will be administrated with placebo powder at a dosage of 1g/kg twice a day after randomisation.,FDC tablet,Tunes up the center of the motion discrimination working range
+./intervention/arm_group_label,684273,250068,False,2,2.7363477134219494,0.7901941453056271,mFFX+SBRT,RRx-001 + Irinotecan,Group 3: HIV-MAG+GENEVAX® IL-12 followed by Ad35-GRIN/ENV,Propofol,Fludarabine plus Cyclophosphamide
+./eligibility/criteria/textblock,315551,315551,True,3,1.0,0.9971149957025128,"
+        Inclusion Criteria:
+
+          -  Colorectal cancer peritoneal metastasis
+
+          -  Pseudomyxoma peritonei
+
+          -  ECOG (Eastern Cooperative Oncology Group) performance status 0-3
+
+          -  Normal bone marrow, kidney, and liver function
+
+          -  Patient must sign and date the informed consent
+
+        Exclusion Criteria:
+
+          -  Palliative surgery
+
+          -  Palliative intraperitoneal chemotherapy
+
+          -  Psychotic disorder
+
+          -  Drug abuser
+      ","
+        Inclusion Criteria:
+
+          -  Able to wear study lenses in parameters available
+
+          -  Non-presbyopes between the ages of 18-45
+
+          -  Understand and sign informed consent
+
+          -  Willing to follow the protocol
+
+          -  Achieve at least 20/30 (6/9) visual acuity (VA) in right eye (OD) and left eye (OS)
+             with study lenses
+
+          -  Myopia -0.75 to -6.25, cylinder -0.75 to -1.50 diopters (D) (axis 90 +/- 15, 180 +/-
+             15) or -1.75 D (axis 90 +/- 10, 180 +/- 10)
+
+          -  Adapted soft contact lens wearer
+
+          -  Swims no more than once a week
+
+          -  Has a wearable pair of spectacles.
+
+        Exclusion Criteria:
+
+          -  Any ocular or systemic disorder which may contraindicate contact lens wear
+
+          -  Any topical ocular medication
+
+          -  Aphakic
+
+          -  Corneal refractive surgery
+
+          -  Corneal distortion from hard CL wear or keratoconus
+
+          -  Pregnant or lactating
+
+          -  Grade 2 or worse slit lamp signs
+
+          -  Infectious disease
+
+          -  Previous clinical study within 2 weeks
+
+          -  Don't agree to participate
+
+          -  Polymethyl methacrylate (PMMA) or rigid gas-permeable (RGP) lens wear in last 8 weeks
+
+          -  Previous adverse effects that contraindicate extended lens wear.
+
+          -  Self-reported symptoms of itchiness or scratchiness with habitual lenses.
+      ","
+        Inclusion Criteria:
+
+          -  Age >=18 years
+
+          -  Female and male
+
+          -  Eastern Cooperative Oncology Group (ECOG) performance status 0-1
+
+          -  Life expectancy >=6 months
+
+          -  Histologically proven adenocarcinoma of the stomach or gastroesophageal junction (GEJ)
+             (excluding Siewert I) that is: Stage IIB (T3N1 only), IIIA (T2N3 not eligible), IIIB,
+             and IIIC, i.e. T3 - T4a and node positive, or T4b and/ or node positive, according to
+             American Joint Committee on Cancer (AJCC) 7th edition
+
+          -  Considered operable following initial staging investigations or after pre-operative
+             therapy Disease which can be radically treated with radiotherapy to 45 Gy with
+             standard fractionation
+
+          -  Adequate organ function defined as follows:
+
+          -  Bone marrow: Haemoglobin >=90 g/L, Absolute neutrophil count (ANC) >=1.5 x 109 /L,
+             Platelet count >=100 x 109 /L; Hepatic: Serum bilirubin <=1.5 x upper limit of normal,
+             aspartate aminotransferase (AST) and/or alanine transaminase (ALT) <=2.5 x upper limit
+             of normal; Renal: Serum creatinine <=1.0 x upper limit of normal
+
+          -  Patients are willing to obey the treatment and provide blood and tissue specimens
+
+          -  Written informed consent obtained before randomization
+
+        Exclusion Criteria:
+
+          -  Pregnant or lactating females or female patients of childbearing potential who have
+             not been surgically sterilized or are without adequate contraceptive measures
+
+          -  Sexually active males or females refuse to practice contraception during the study
+             until 30 days after end of study
+
+          -  Evidence of metastatic disease
+
+          -  Prior chemotherapy or radiotherapy
+
+          -  Patients with a past history of cancer in the 5 years before randomization except for
+             the squamous or basal cell carcinoma of the skin that has been effectively treated,
+             and carcinoma in situ of the cervix that has been treated by operation
+
+          -  Patients with other significant underlying medical conditions that may be aggravated
+             by the study treatment or are not controlled
+
+          -  Patients with central nervous system(CNS) disorder or peripheral nervous system
+             disorder or psychiatric disease
+
+          -  Known history of uncontrolled or symptomatic angina, uncontrolled arrhythmias and
+             hypertension, or congestive heart failure, or cardiac infarction within 6 months prior
+             to study enrollment, or cardiac insufficiency
+
+          -  Concurrent severe infection
+
+          -  Severe gastrointestinal bleeding, gastrointestinal perforation
+
+          -  Unable to swallow
+
+          -  Concurrent disease or condition that would make the subject inappropriate for study
+             participation or any serious medical disorder that would interfere with the subject's
+             safety
+
+          -  Known hypersensitivity reaction or metabolic disorder to S-1or oxaliplatin
+
+          -  Renal impairment (GFR <=50ml/min)
+
+          -  Linitis plastica
+      ","
+        Inclusion Criteria:
+
+          -  healthy males and females having 2 sighted eyes aging 21 y/o and above
+
+          -  primary angle closure with pupil block component
+
+          -  plateau iris syndrome or plateau iris configuration
+
+          -  occludable angles 180 deg and above
+
+          -  have uncontrolled IOP (>21 mmHg)
+
+          -  able to follow up
+
+          -  able to give informed consent
+
+        Exclusion Criteria:
+
+          -  advanced visual field defect affecting 10 degrees of fixation
+
+          -  previous ocular surgeries
+
+          -  advanced corneal edema or opacification
+
+          -  flat anterior chamber
+
+          -  synechially closed angles
+
+          -  coexisting ocular pathology except cataract
+      ","
+        Inclusion Criteria:
+
+          -  All patients undergoing pacemaker implantation
+
+        Exclusion Criteria:
+
+          -  Dementia Patients
+
+          -  Psychiatric Patients
+
+          -  Unconscious Patients
+
+          -  Patients with sensitivity to EMLA
+      "
+./eligibility/gender,315619,315619,True,2,1.0,0.9973298700642096,All,All,All,All,All
+./eligibility/minimum_age,315619,315619,True,2,1.0,0.9973298700642096,18 Years,18 Years,18 Years,18 Years,N/A
+./eligibility/maximum_age,315619,315619,True,2,1.0,0.9973298700642096,90 Years,60 Years,75 Years,65 Years,N/A
+./eligibility/healthy_volunteers,311110,311110,True,2,1.0,0.9830818039334648,No,No,Accepts Healthy Volunteers,No,Accepts Healthy Volunteers
+./overall_contact/last_name,82063,82063,True,2,1.0,0.25931227564588705,"Lan Lan, PhD","Ganga Devaiah, MS","RuiHua Xu, MD, PhD",Ketah Doty,Jill Boyum
+./overall_contact/phone,78524,78524,True,2,1.0,0.2481293290864048,385911651333,412-647-8583,+47 95104217,303-724-7790,+82-53-200-5879
+./overall_contact/phone_ext,11601,11601,True,2,1.0,0.03665819808888215,002,+385989088286,003216344290,8389,5791
+./overall_contact/email,80729,80729,True,2,1.0,0.2550969462561302,stran@orthoinno.com,alborel@chu-grenoble.fr,jiafuj@hotmail.com,babikbarna@gmail.com,sgiebel@io.gliwice.pl
+./location/facility/name,1990107,270816,False,3,7.3485576923076925,0.8557561049598058,Radboud University Nijmegen Medical Centre,Howard Brown Health Center,Tri-Service General Hospital,The Retina Center,Zengcheng
+./location/facility/address/city,2212683,279104,False,4,7.9278082721852785,0.8819454977501391,Nimes,Higashi,Kansas City,Birmingham,Changchun
+./location/facility/address/zip,1737336,241521,False,4,7.1933123827741685,0.7631863339905961,20892,100034,02169,90032,02155
+./location/facility/address/country,2212683,279104,False,4,7.9278082721852785,0.8819454977501391,United States,Hong Kong,United States,China,China
+./location/status,407568,78474,False,2,5.193669240767643,0.247971333232216,Recruiting,Recruiting,Recruiting,Recruiting,Enrolling by invitation
+./location/contact/last_name,237429,69755,False,3,3.4037560031538963,0.22042001617877546,"Philippe Aftimos, MD PhD","Christina Vogel, PhD","Luigi Di Biase, MD PhD","John Griffin, MD","René Nkoulou, Dr."
+./location/contact/phone,177122,57848,False,3,3.061851749412253,0.18279488346225795,078-302-7537,+86-189-8060-2213,03 80 29 36 86,003216347600,+82-52-250-8838
+./location/contact/phone_ext,12789,9740,False,3,1.3130390143737167,0.03077759239597553,6179,34711,55356,2723,5006
+./location/contact/email,162107,59418,False,3,2.728247332458177,0.18775595328378586,dtanen@emedharbor.edu,robertoluigi.cazzato@chru-strasbourg.fr,kpohlman@parker.edu,zynpyurttutmus@gmail.com,bojan.kovacevic@regionh.dk
+./location/investigator/last_name,195262,34886,False,3,5.597144986527547,0.11023686738459984,"Joel A Loieselle, MD","Evan K Johnson, PhD","Wenbo Shao, MD, Ph D","Sarah A Morrow, MD, MS, FRCPC (Neurology)","Alla Keyzner, MD"
+./location/investigator/role,195262,34886,False,3,5.597144986527547,0.11023686738459984,Principal Investigator,Principal Investigator,Principal Investigator,Principal Investigator,Principal Investigator
+./location_countries/country,426925,279104,False,2,1.5296269490942445,0.8819454977501391,Spain,Finland,Canada,United States,United States
+./verification_date,315636,315636,True,1,1.0,0.9973835886546336,February 2017,November 2016,September 2018,August 2019,October 2018
+./study_first_submitted,316464,316464,True,1,1.0,1.0,"November 1, 2013","September 20, 2005","June 22, 2015","December 21, 2004","January 14, 2018"
+./study_first_submitted_qc,316464,316464,True,1,1.0,1.0,"January 4, 2017","September 16, 2005","March 29, 2018","July 4, 2001","August 9, 2016"
+./study_first_posted,316464,316464,True,1,1.0,1.0,"July 2, 2008","September 9, 2005","October 14, 2011","May 14, 2010","April 9, 2008"
+./last_update_submitted,316464,316464,True,1,1.0,1.0,"January 4, 2010","September 9, 2016","August 12, 2019","June 11, 2018","March 24, 2014"
+./last_update_submitted_qc,316464,316464,True,1,1.0,1.0,"April 6, 2015","October 26, 2015","January 29, 2015","August 14, 2019","April 16, 2019"
+./last_update_posted,316464,316464,True,1,1.0,1.0,"August 7, 2017","September 9, 2019","December 15, 2011","April 24, 2013","October 19, 2012"
+./responsible_party/responsible_party_type,270276,270276,True,2,1.0,0.8540497497345669,Sponsor,Sponsor,Principal Investigator,Sponsor,Sponsor
+./keyword,880720,209835,False,1,4.19720256391927,0.6630612012740785,perioperative,cytomegalovirus,6-Minutes-Walking-Distance,Fluoro misonidazole,Visual field
+./condition_browse/mesh_term,541177,262469,False,2,2.061870163714572,0.8293802770615301,"Respiratory Distress Syndrome, Newborn",Pulmonary Fibrosis,Liver Diseases,Colorectal Neoplasms,Gonorrhea
+./detailed_description/textblock,207049,207049,True,2,1.0,0.6542576722786794,"
+      This is a double-blind, randomized, parallel-group, controlled, dose-ranging, multi-center
+      study to evaluate the safety and efficacy of RT001 compared to placebo applied as a single,
+      bilateral application in at least 180 subjects with moderate to severe LCLs. Subjects will be
+      randomized within each site to 1 of 3 treatment groups in a 1:1:1 ratio. The safety and
+      efficacy of two different doses of RT001, compared to placebo, will be evaluated.
+
+      At least 180 adult volunteers who have provided informed consent and have met the study
+      eligibility criteria will be enrolled. Subjects will be enrolled in two (2) sequential
+      cohorts. Cohort 1 will consist of 72 subjects; 24 subjects per treatment group. Cohort 2 will
+      consist of 108 subjects; 36 subjects per treatment group. In order to confirm the safety of
+      the test articles, Cohort 2 will not be enrolled until all Cohort 1 subjects have reached Day
+      14 or later with no Study Pause Criteria being observed.
+    ","
+      This Phase 1, open-label, two-period, single-sequence study is designed to evaluate the
+      effect of steady-state rifampin on the PK profile, safety, and tolerability of a single
+      1.5-mg tivozanib dose. On Day 1 of the first period, subjects will receive a single 1.5 mg
+      dose of tivozanib, and remain at the unit for at least 48 hours postdose followed by
+      outpatient visits for PK sampling and safety assessments up to 3 weeks postdose. For Period
+      2, subjects will be administered 600 mg of rifampin once daily (QD).for 6 days. On the 4th
+      day of Period 2, 1.5mg of tivozanib will be administered with 600mg of rifampin. PK sampling
+      will continue for 3-weeks postdose while the subjects continue to receive 600mg of rifampin
+      daily. An end of study visit will be completed 1-week after the last dose of rifampin.
+    ","
+      The purpose of this research project is to study the effect of non-ablative (non-cutting)
+      laser therapy, a technique that uses laser energy to try to improve the appearance of skin.
+      This type of laser treatment creates changes in a layer of the skin called the dermis without
+      causing an open wound in the skin. It is not yet clear how much improvement can be seen with
+      these treatments or exactly how the skin's response causes these improvements. In this study,
+      we are interested in learning how well such a laser works to improve the symptoms of acne.
+      The laser used in this particular study will be the CoolTouch II® laser, manufactured by ICN
+      Photonics, Inc., and has not been FDA-approved for the treatment of acne.
+    ","
+      To complete qualitative study, interview will also be conducted with : patients, general
+      practitioner, relative and home carers. An observation of geriatric multidisciplinary staff
+      will be done for better understanding of complexity.
+    ","
+      Breast cancer is the most commonly diagnosed malignant disease and the leading cause of
+      cancer-related mortality among women.
+
+      Zoledronate is a bone-targeted bisphosphonate, which is used to treat osteoporosis and to
+      reduce the risk of skeletal morbidity in patients with bone metastases. Zoledronate can also
+      reduce the persistence of disseminated tumour cells in the bone marrow of women with
+      early-stage breast cancer. Nowadays, consensus is emerging that certain subsets of patients
+      with early-stage breast cancer may benefit from bisphosphonate therapy.
+    "
+./responsible_party/investigator_affiliation,110546,110546,True,2,1.0,0.3493161939430709,University of Alabama at Birmingham,University of Rochester,Boston Medical Center,Montefiore Medical Center,Bulovka Hospital
+./responsible_party/investigator_full_name,110531,110531,True,2,1.0,0.3492687951868143,Deborah Chirnomas,Oh Young Bang,Peter Vilmann,Seung-Jung Park,Dr Sharat Pani
+./responsible_party/investigator_title,110538,110538,True,2,1.0,0.3492909146064007,Radiation Oncology Consultant,Consultant Nurse,Ayeesha Kamran Kamal,Professor,Professor
+./patient_data/sharing_ipd,97051,97051,True,2,1.0,0.3066731128975176,No,No,No,Yes,No
+./study_design_info/intervention_model_description,20796,20796,True,2,1.0,0.06571363567419991,"RE-DEFINE is a prospective, multicentre, randomized, parallel-group trial that will follow study participants over a period of 12-months. Asylum seekers and refugees with psychological distress, but without a mental disorder according to the MINI International Neuropsychiatric Interview (M.I.N.I.) for DSM-V and ICD-10, will be randomly assigned to the Self Help Plus intervention or to enhanced treatment as usual (ETAU).","Mixed methods feasibility study. Three phases: Phase 1: Interviews Health car professionals, Phase 2: Intervention, Phase 3: Interviews of Participants","randomized, double-blind, placebo-controlled, parallel-arm",Eligible participants will receive pembrolizumab intravenously at a dose of 200 mg every 3 weeks.,Randomized controlled trial with intervention versus active control
+./overall_contact_backup/last_name,40587,40587,True,2,1.0,0.1282515546792052,"Patrick deGrouchy, BA","Jeanne Sheffield, MD","Wender Figved, MD, PhD",Sumona Saha,Audrey CHirumberro
+./overall_contact_backup/phone,35758,35758,True,2,1.0,0.11299231508165225,+41 31 631 35 07,+4775534429,86 25 83718836,0086-021-64041990,+41 31 63 2 31 6
+./overall_contact_backup/email,38336,38336,True,2,1.0,0.12113858132362608,morgan.potter@childrenscolorado.org,fmchs@catholic.ac.kr,jean-philippe.bertocchio@aphp.fr,moh78_abdelhamed@yahoo.com,sophie.susen@chru-lille.fr
+./intervention_browse/mesh_term,317599,144183,False,2,2.20274928389616,0.4556063248900349,Mifepristone,Cisplatin,Anti-Retroviral Agents,Probenecid,Tenofovir
+./eligibility/gender_based,4407,4407,True,2,1.0,0.013925754588199606,Yes,Yes,Yes,Yes,Yes
+./reference/citation,349204,48447,False,2,7.207959213160772,0.1530885029576824,"Binder JR, Rao SM, Hammeke TA, Frost JA, Bandettini PA, Jesmanowicz A, Hyde JS. Lateralized human brain language systems demonstrated by task subtraction functional magnetic resonance imaging. Arch Neurol. 1995 Jun;52(6):593-601.","Escudier B, Pluzanska A, Koralewski P, Ravaud A, Bracarda S, Szczylik C, Chevreau C, Filipek M, Melichar B, Bajetta E, Gorbunova V, Bay JO, Bodrogi I, Jagiello-Gruszfeld A, Moore N; AVOREN Trial investigators. Bevacizumab plus interferon alfa-2a for treatment of metastatic renal cell carcinoma: a randomised, double-blind phase III trial. Lancet. 2007 Dec 22;370(9605):2103-11.","Gilmor ML, Owens MJ, Nemeroff CB. Inhibition of norepinephrine uptake in patients with major depression treated with paroxetine. Am J Psychiatry. 2002 Oct;159(10):1702-10.","Kissinger P, Rice J, Farley T, Trim S, Jewitt K, Margavio V, Martin DH. Application of computer-assisted interviews to sexual behavior research. Am J Epidemiol. 1999 May 15;149(10):950-4.","O'Leary S, Falla D, Elliott JM, Jull G. Muscle dysfunction in cervical spine pain: implications for assessment and management. J Orthop Sports Phys Ther. 2009 May;39(5):324-33. doi: 10.2519/jospt.2009.2872."
+./reference/PMID,328726,47226,False,2,6.960699614619067,0.14923024419839226,25800487,1614922,18161398,17233910,22647247
+./location/facility/address/state,1323800,188714,False,4,7.014847865023262,0.5963205925476516,Florida,Ontario,Vaud,Sindh,New York
+./study_design_info/masking_description,10887,10887,True,2,1.0,0.03440201729106628,All of participants must have subacromial impingement syndrome with glenohumeral internal rotation deficit.,"No masking, just one interventional group.","The participants and care providers will not be masked, but the investigators and data analysts will be masked to group allocation.","the study is dobbelblinded. The pharmacist do not know, whether the patient is randomized to the basic og to the extended intervention before they conduct the medication review. Thats i why the patients in the intervention group are randomized two times.",Investigators who will perform follow-up will be masked
+./other_outcome/measure,72111,21865,False,2,3.2980105190944435,0.06909158703675615,Changes in cardiovascular risk factors,Explorative Endpoint on changes in microbiome diversity (species not defined),Pocket Atlas of Female Genital Schistosomiasis,Cardiovascular Events According to Antiplatelet Trialists' Collaboration Through 1 Year,Time to onset of angina during Excise Tolerance Test (ETT);
+./other_outcome/time_frame,72058,21843,False,2,3.2989058279540355,0.06902206886091307,6 month,1 month after each MR scan,6 months,At enrollment,intra procedural
+./other_outcome/description,57597,18232,False,2,3.159115840280825,0.05761160827139896,Assessed using a buccal cell biorepository.,Ghrelin measured in fasting and postprandial plasma samples,"The home-based provider questionnaire collects information on enrollment and the characteristics of the children served, rates charged for care, participation in government programs, household composition, qualifications for and attitudes toward early childhood education, use of curricula and activities conducted with children (varied to be appropriate for younger children and school-age children). Portions of the home-based provider questionnaire will contribute to analyses of the ECE workforce and mirror the content of the workforce questionnaire administered to classroom-assigned instructional staff at center-based providers. Individual questionnaire items may be developed into scales by researchers, but specific scales are not prescribed in the study design or analysis plans.",Evaluation of potential switch process to mania in Bipolar Disorder,To observed changing of bacterial composition before and after treatment
+./overall_official/last_name,324147,254555,False,2,1.2733868908487358,0.8043726932605288,"Stephen Nicholls, MBBS, PhD","Debra Oliver, PhD","Stephen Aoki, MD","Nachum Soroker, M.D.",GSK Clinical Trials
+./overall_official/role,322719,253886,False,2,1.271117745759908,0.8022587087314829,Principal Investigator,Principal Investigator,Principal Investigator,Principal Investigator,Principal Investigator
+./overall_official/affiliation,321712,253133,False,2,1.270920820280248,0.7998792911673998,"Department of Neurology, University of Califonia, Irvine Medical Center",Southeast University,"Oncology Center Mansoura University (OCMU), Egypt",Hospital Sant Joan de Deu,University of Kansas Medical Center
+./location/contact_backup/last_name,31197,20919,False,3,1.4913236770400116,0.06610230547550433,"JOHN MARIADASON, Ph.D.","Jeff Leiter, PhD","Lugui Qiu, Doc","Wei Wu, Doctor","Laura Vacca, MD PhD"
+./location/contact_backup/phone,25678,18192,False,3,1.4114995602462619,0.057485211588047924,+86-20-87330341,05 61 77 64 94,(+86)2062782568,973-243-6903,6467748181
+./location/contact_backup/email,28580,19462,False,3,1.468502723255575,0.0614983062844431,cskarke@pennmedicine.upenn.edu,sanne.kikkert@balgrist.ch,John.Wells5@va.gov,cherry1996@live.cn,handongjihospital@163.com
+./sponsors/collaborator/agency,187068,106324,False,3,1.7594146194650313,0.3359750240153698,University of Chicago,Harvard University,Lorestan University of Medical Sciences,National Cancer Institute (NCI),"IEDCR, DGHS, Bangladesh"
+./sponsors/collaborator/agency_class,187068,106324,False,3,1.7594146194650313,0.3359750240153698,Other,Industry,Other,Other,Other
+./oversight_info/is_us_export,14978,14978,True,2,1.0,0.047329238080792764,No,No,Yes,No,No
+./study_design_info/observational_model,58871,58871,True,2,1.0,0.18602747863896046,Cohort,Cohort,Case Control,Case Control,Case-Only
+./study_design_info/time_perspective,61997,61997,True,2,1.0,0.19590537944284345,Prospective,Retrospective,Prospective,Prospective,Other
+./number_of_groups,40984,40984,True,1,1.0,0.1295060417614642,1,2,3,2,2
+./biospec_retention,14907,14907,True,1,1.0,0.047104883967844687,Samples With DNA,Samples Without DNA,Samples With DNA,Samples With DNA,Samples With DNA
+./biospec_descr/textblock,14976,14976,True,2,1.0,0.04732291824662521,"
+      An overall of 2-4 liter breath samples will be collected in inert Mylar bags and immediately
+      transferred to sorbent tubes.
+    ","
+      Blood, lung tissue, lung cancer tissue.
+    ","
+      A segment of vein that would usually be discarded will be taken to a lab for testing of
+      endothelial reactivity and quantification of endothelial coverage through CD31 staining.
+    ","
+      Blood samples for analyses as hs-CRP, Interleukins and other inflammatory agents.
+    ","
+      DNA samples are kept
+    "
+./eligibility/study_pop/textblock,60736,60736,True,3,1.0,0.19192072400020224,"
+        Patients diagnosed with uveal melanoma and determined by their treating physician to be
+        appropriate for DecisionDx-UM testing.
+      ","
+        Patients with known rheumatoid arthritis or psoriatic arthritis, with at least one swollen
+        joint, with evidence of joint inflammation in the feet and/or ankles (on clinical
+        examination and/or ultrasound)
+      ","
+        Patients experiencing pain. They may be from primary or secondary care.
+      ","
+        Participants receiving/having received Vismodegib for treatment of laBCC according to the
+        German label and in line with the current Summary of Product Characteristics (SmPC) and who
+        have no contraindication to Vismodegib therapy as per the local label are eligible for this
+        non-interventional study if written informed consent is provided.
+      ","
+        50 lung transplant recipients will be enrolled in the study. Subjects will be selected from
+        lung transplant recipients, who have undergone single or double lung transplantation during
+        the last six months
+      "
+./eligibility/sampling_method,60767,60767,True,2,1.0,0.19201868142979928,Non-Probability Sample,Non-Probability Sample,Non-Probability Sample,Non-Probability Sample,Non-Probability Sample
+./intervention/other_name,280088,95921,False,2,2.9199862386755764,0.30310240659285104,PEG2b,hand MRI,Ultiva,CEP Magna Ease MOdel 3300TFX,Trintellix
+./oversight_info/is_unapproved_device,5773,5773,True,2,1.0,0.01824220132463724,No,No,Yes,No,No
+./oversight_info/is_ppsd,4638,4638,True,2,1.0,0.014655695434551797,No,No,No,No,No
+./link/url,49915,39073,False,2,1.277480613211169,0.12346744021436876,http://jac.oxfordjournals.org/cgi/reprint/61/3/689,http://www.statcan.gc.ca/pub/89-519-x/2006001/t/4181621-eng.htm,http://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?id=15386,http://www.mdanderson.org,https://www.ncbi.nlm.nih.gov/pubmed/22286203
+./link/description,44849,35002,False,2,1.2813267813267812,0.1106034177663178,Click here for more information about this study on the TROG official website,UT MD Anderson Cancer Center website,TRACON Pharmaceuticals,PARQVE-Project Arthritis Recovering Quality of Life by Means of Education Short-term Outcome in a Randomized Clinical Trial,"To obtain contact information for a study center near you, click here."
+./patient_data/ipd_description,20137,20137,True,2,1.0,0.0636312503159917,510k Submission,IPD for this study will be made available via the Clinical Study Data Request site.,"AbbVie is committed to responsible data sharing regarding the clinical trials we sponsor. This includes access to anonymized, individual and trial-level data (analysis data sets), as well as other information (e.g., protocols and clinical study reports), as long as the trials are not part of an ongoing or planned regulatory submission. This includes requests for clinical trial data for unlicensed products and indications.",No sharing plan,"De-identified individual participant data (IPD) and applicable supporting clinical trial documents may be available upon request at https://vivli.org/. In cases where clinical trial data and supporting documents are provided pursuant to our company policies and procedures, Daiichi Sankyo will continue to protect the privacy of our clinical trial participants. Details on data sharing criteria and the procedure for requesting access can be found at this web address: https://vivli.org/ourmember/daiichi-sankyo/"
+./target_duration,5218,5218,True,1,1.0,0.016488447343141716,8 Weeks,5 Days,10 Years,2 Years,1 Month
+./results_reference/citation,69439,21867,False,2,3.1755156171399825,0.06909790687092371,"Knols R, Aaronson NK, Uebelhart D, Fransen J, Aufdemkampe G. Physical exercise in cancer patients during and after medical treatment: a systematic review of randomized and controlled clinical trials. J Clin Oncol. 2005 Jun 1;23(16):3830-42. Review.","Wallner K, Merrick G, True L, Sherertz T, Sutlief S, Cavanagh W, Butler W. 20 Gy versus 44 Gy supplemental beam radiation with Pd-103 prostate brachytherapy: preliminary biochemical outcomes from a prospective randomized multi-center trial. Radiother Oncol. 2005 Jun;75(3):307-10.","Carruthers A, Carruthers J, Coleman WP 3rd, Donofrio L, Flynn T, Gold M, Heinz M, Harrington L, Jones D, McDaniel D, Rohrer T, Schlöbe A, Solish N, Weiss RA. Multicenter, randomized, phase III study of a single dose of incobotulinumtoxinA, free from complexing proteins, in the treatment of glabellar frown lines. Dermatol Surg. 2013 Apr;39(4):551-8. doi: 10.1111/dsu.12100. Epub 2013 Feb 4.","Poddubnyy D, Rudwaleit M, Haibel H, Listing J, Märker-Hermann E, Zeidler H, Braun J, Sieper J. Effect of non-steroidal anti-inflammatory drugs on radiographic spinal progression in patients with axial spondyloarthritis: results from the German Spondyloarthritis Inception Cohort. Ann Rheum Dis. 2012 Oct;71(10):1616-22. doi: 10.1136/annrheumdis-2011-201252. Epub 2012 Mar 29.","Bigelow GE, Preston KL, Schmittner J, Dong Q, Gastfriend DR. Opioid challenge evaluation of blockade by extended-release naltrexone in opioid-abusing adults: dose-effects and time-course. Drug Alcohol Depend. 2012 Jun 1;123(1-3):57-65. doi: 10.1016/j.drugalcdep.2011.10.018. Epub 2011 Nov 12."
+./results_reference/PMID,65638,20899,False,2,3.140724436575913,0.06603910713382881,25775441,15972272,30541483,15728811,23945010
+./eligibility/gender_description,2931,2931,True,2,1.0,0.00926171697254664,adult female patients with acne vulgaris between 18-40 years old and control group of matched age and sex,18+,Pregnant females,postmenopausal women,This study recruits women with endometrial cancer
+./patient_data/ipd_info_type,13160,4414,False,2,2.9814227458087905,0.013947874007786036,Statistical Analysis Plan (SAP),Study Protocol,Study Protocol,Clinical Study Report (CSR),Informed Consent Form (ICF)
+./patient_data/ipd_time_frame,4292,4292,True,2,1.0,0.013562364123565398,"It is anticipated that the initial study findings will be available for dissemination by approximately January 2021.
+The final Statistical Analysis Plan (SAP) is still to be determined.",9 to 36 months following publication,"After the associated research findings have been published, data will be made available for research purposes","article in Anesthesiology and Intensive Therapy in 2021, case reports",IPD is available via the Clinical Study Data Request site (click on the link provided below)
+./patient_data/ipd_access_criteria,3926,3926,True,2,1.0,0.012405834470903484,"IRB approval, DUA executed",A Data Use Agreement (DUA) specifying the uses of such data to be shared must be in place before any data is shared. The requestor should contact the Principal Investigator for further instruction.,"To request access to the data, the researcher must sign a data use agreement and any shared data is to be used for non-commercial purposes.","A secured external environment with username, password, and RSA code.",Data access requests will be reviewed by an external independent review panel. requestors will be required to sign a data access agreement.
+./removed_countries/country,28461,12030,False,2,2.3658354114713216,0.03801380251782193,Germany,Hong Kong,Canada,Mexico,Spain
+./overall_contact_backup/phone_ext,5791,5791,True,2,1.0,0.018299079832145203,5706,17522,1258,36326,5038
+./location/contact_backup/phone_ext,3553,3152,False,3,1.1272208121827412,0.009960058648061073,6616,23960,4040,5621,002
+./provided_document_section/provided_document/document_type,10443,7015,False,3,1.4886671418389166,0.02216681834268669,Informed Consent Form,Statistical Analysis Plan,Informed Consent Form,Study Protocol,Study Protocol and Statistical Analysis Plan
+./provided_document_section/provided_document/document_has_protocol,10443,7015,False,3,1.4886671418389166,0.02216681834268669,Yes,No,No,Yes,Yes
+./provided_document_section/provided_document/document_has_icf,10443,7015,False,3,1.4886671418389166,0.02216681834268669,No,No,No,No,No
+./provided_document_section/provided_document/document_has_sap,10443,7015,False,3,1.4886671418389166,0.02216681834268669,No,Yes,Yes,No,No
+./provided_document_section/provided_document/document_date,10443,7015,False,3,1.4886671418389166,0.02216681834268669,"February 3, 2016","May 22, 2017","September 5, 2014","April 4, 2016","May 3, 2018"
+./provided_document_section/provided_document/document_url,10443,7015,False,3,1.4886671418389166,0.02216681834268669,https://ClinicalTrials.gov/ProvidedDocs/69/NCT02780869/SAP_001.pdf,https://ClinicalTrials.gov/ProvidedDocs/25/NCT01209325/Prot_SAP_001.pdf,https://ClinicalTrials.gov/ProvidedDocs/66/NCT03832166/ICF_000.pdf,https://ClinicalTrials.gov/ProvidedDocs/64/NCT02657564/SAP_001.pdf,https://ClinicalTrials.gov/ProvidedDocs/19/NCT01928719/Prot_SAP_001.pdf
+./pending_results/submitted,11403,6018,False,2,1.89481555333998,0.01901638101016229,"January 29, 2018","September 3, 2014","December 18, 2017","November 27, 2018","July 23, 2019"
+./pending_results/returned,9492,5533,False,2,1.7155250316284114,0.017483821224531067,"January 29, 2019","December 22, 2016","November 17, 2015","August 12, 2019","August 3, 2016"
+./patient_data/ipd_url,2851,2851,True,2,1.0,0.009008923605844585,http://engagezone.msd.com/ds_documentation.php,http://engagezone.msd.com/ds_documentation.php,https://www.pfizer.com/science/clinical_trials/trial_data_and_results/data_requests,http://clinicalstudydatarequest.com,http://engagezone.msd.com/ds_documentation.php
+./expanded_access_info/expanded_access_type_intermediate,43,43,True,2,1.0,0.00013587643460235603,Yes,Yes,Yes,Yes,Yes
+./why_stopped,21594,21594,True,1,1.0,0.06823524950705294,"
+    unable to implement the intervention
+  ","
+    Other - Pending evaluation of patients currently enrolled
+  ","
+    terminated ( Halted prematurely,expiration of investigationnal product)
+  ","
+    Stopped due to low recruitment.
+  ","
+    due to low enrollment
+  "
+./study_docs/study_doc/doc_type,10039,2412,False,3,4.162106135986733,0.00762172000606704,Informed Consent Form,Clinical Study Report,Annotated Case Report Form,Individual Participant Data Set,Statistical Analysis Plan
+./study_docs/study_doc/doc_url,10039,2412,False,3,4.162106135986733,0.00762172000606704,https://www.clinicalstudydatarequest.com,https://www.clinicalstudydatarequest.com,https://www.clinicalstudydatarequest.com,https://www.clinicalstudydatarequest.com,http://www.merck.com/clinical-trials/policies-perspectives.html
+./responsible_party/name_title,26931,26931,True,2,1.0,0.08509972698316398,"Alaa Alkhalaf, M.D",Prof. Dr. J. Steiger,"Richard Rothstein, MD",Allison Gladden,"Yvonne S. Thornton, M. D., M. P. H."
+./responsible_party/organization,26825,26825,True,2,1.0,0.08476477577228374,Hospital de la Santa Creu i Sant Pau,Mayo Clinic,Institut Rosell Lallemand,Samsung Medical Center,GISL
+./expanded_access_info/expanded_access_type_individual,119,119,True,2,1.0,0.00037603013296931087,Yes,Yes,Yes,Yes,Yes
+./id_info/nct_alias,2975,2799,False,2,1.0628795998570921,0.008844607917488246,NCT00014703,NCT00321607,NCT00335127,NCT00018915,NCT00354055
+./last_known_status,33071,33071,True,1,1.0,0.10450161787754687,"Active, not recruiting",Not yet recruiting,Not yet recruiting,Recruiting,Recruiting
+./results_first_submitted,38837,38837,True,1,1.0,0.1227216997825977,"November 5, 2014","December 22, 2015","February 14, 2017","April 29, 2009","September 17, 2010"
+./results_first_submitted_qc,38837,38837,True,1,1.0,0.1227216997825977,"November 15, 2013","January 16, 2013","August 9, 2011","August 28, 2014","April 26, 2017"
+./results_first_posted,38837,38837,True,1,1.0,0.1227216997825977,"May 26, 2016","March 21, 2014","March 23, 2010","November 1, 2018","June 22, 2016"
+./clinical_results/participant_flow/group_list/group/title,90030,38837,False,5,2.3181502175760227,0.1227216997825977,"Fluzone Quadrivalent Vaccine, 0.25-mL",Omarigliptin 25 mg/Thiazolidinediones (TZD) (Phase A+B),Investigational Eye Drop,Erlotinib Followed by Chemotherapy,Placebo
+./clinical_results/participant_flow/group_list/group/description,88865,38356,False,5,2.316847429346126,0.1212017796653016,"Subjects will be up-titrated with a matching placebo during the first week of treatment in the following manner: 0.5 mg once daily for 3 days followed by 0.5 mg twice daily for 4 days, and then 1 mg twice daily for the following 11 weeks of the treatment period.","Benralizumab (MEDI-563) 100 milligram (mg) injection subcutaneously every 4 weeks for the first 3 doses and then every 8 weeks for the next 5 doses (Day 1, 29, 57, 113, 169, 225, 281 and 337).","A single dose of a seasonal trivalent inactivated split virion influenza vaccine [A/California/7/2009, reassortant virus NYMC X-181 (H1N1), A/Victoria/210/2009, reassortant virus NYMC X-187 (H3N2), and B/Brisbane/60/2008, reassortant virus NYMC BX-35 virus strains] 0.5 ml. was administered via the intramuscular route to the subjects at day 0 after blood collection for immunology assays.","Participants must have a pathological diagnosis of Waldenstrom’s Macroglobulinemia, with advanced and/or symptomatic disease requiring therapy. At least one of the inclusion criteria:","Children aged ≥ 12 to ≤ 16 Years received ORF Tablets (10 mg, 15 mg or 20 mg taken every 12 hours). Study treatment could have lasted from 12 hours (single dose) to 72 hours (5 doses)."
+./clinical_results/participant_flow/period_list/period/title,48551,38837,False,5,1.250122306048356,0.1227216997825977,Overall Study,Overall Study,Treatment Period 2,Overall Study,Overall Study
+./clinical_results/participant_flow/period_list/period/milestone_list/milestone/title,156214,38837,False,7,4.022298323763422,0.1227216997825977,COMPLETED,STARTED,STARTED,NOT COMPLETED,STARTED
+./clinical_results/participant_flow/period_list/period/milestone_list/milestone/participants_list/participants,400310,38837,False,8,10.307438782604216,0.1227216997825977,,,,,
+./clinical_results/participant_flow/period_list/period/drop_withdraw_reason_list/drop_withdraw_reason/title,104691,24492,False,7,4.274497795198432,0.07739268921583498,Study terminated before data collected,Withdrawal by Subject,Withdrawal by Subject,Adverse Event,Lack of Efficacy
+./clinical_results/participant_flow/period_list/period/drop_withdraw_reason_list/drop_withdraw_reason/participants_list/participants,288935,24492,False,8,11.797117426098318,0.07739268921583498,,,,,
+./clinical_results/baseline/group_list/group/title,109806,38837,False,5,2.827355357004918,0.1227216997825977,Usual Care,ALK-inhibitor Naive,Total,Fostamatinib 50 mg Bid,RLX030 (Serelaxin)
+./clinical_results/baseline/group_list/group/description,108008,38407,False,5,2.8121956934933734,0.12136293543657414,Total of all reporting groups,"Ranolazine 500mg tablet
+500mg tablet two times per day for 7 days then,
+500mg tablet (1000mg) two times per day for 15 weeks
+Ranolazine: Ranolazine 500mg tablet
+500mg tablet two times per day for 7 days then,
+500mg tablet (1000mg) two times per day for 15 weeks","10 mg Alemtuzumab (Campath®; Genzyme) was administered intravenously daily for 10 days, after a 1 mg intravenous test dose.",Total of all reporting groups,"Patients receive Abraxane IV over 30 minutes on days 1, 8, and 15 and apply topical imiquimod to cutaneous lesions QD on days 1-4, 8-11, 15-18, and 22-25. Treatment repeats every 28 days for up to 3 cycles in the absence of disease progression or unacceptable toxicity.
+imiquimod: Given topically
+Abraxane: Given IV
+laboratory biomarker analysis: Correlative studies
+RNA analysis: Correlative studies
+immunoenzyme technique: Correlative studies"
+./clinical_results/baseline/analyzed_list/analyzed/units,38941,38837,False,5,1.0026778587429512,0.1227216997825977,Participants,Participants,Participants,Participants,Participants
+./clinical_results/baseline/analyzed_list/analyzed/scope,38941,38837,False,5,1.0026778587429512,0.1227216997825977,Overall,Overall,Overall,Overall,Overall
+./clinical_results/baseline/analyzed_list/analyzed/count_list/count,110066,38837,False,6,2.834050003862296,0.1227216997825977,,,,,
+./clinical_results/baseline/measure_list/measure/title,170674,38836,False,5,4.394736842105264,0.12271853986551393,"Sex: Female, Male",Age,"Sex: Female, Male",Region of Enrollment,"Sex: Female, Male"
+./clinical_results/baseline/measure_list/measure/units,170421,38786,False,5,4.393879234775436,0.12256054401132516,cells/ul,Participants,years,Participants,participants
+./clinical_results/baseline/measure_list/measure/param,170355,38719,False,5,4.399777886825589,0.12234882956671216,Count of Participants,Number,Count of Participants,Number,Mean
+./clinical_results/baseline/measure_list/measure/dispersion,55309,33049,False,5,1.6735453417652577,0.10443209970170382,Standard Deviation,Standard Deviation,Inter-Quartile Range,Full Range,Standard Deviation
+./clinical_results/baseline/measure_list/measure/class_list/class/category_list/category/measurement_list/measurement,1052657,38693,False,10,27.205360142661466,0.122266671722534,,,,,
+./clinical_results/baseline/measure_list/measure/class_list/class/category_list/category/title,204583,38003,False,9,5.3833381575138795,0.12008632893472874,Unknown or Not Reported,White,Male,Male,<=18 years
+./clinical_results/outcome_list/outcome/type,294694,38837,False,4,7.587970234570126,0.1227216997825977,Secondary,Secondary,Secondary,Secondary,Secondary
+./clinical_results/outcome_list/outcome/title,294694,38837,False,4,7.587970234570126,0.1227216997825977,Change From Baseline in Messenger Ribonucleic Acid (mRNA),Urinary Distress Between Standard and Robotic-assisted Laparoscopic Abdominal Sacrocolpopexy,Time to Distant Recurrence,"Percentage of Consented Participants Who Complete the Study, Defined as Completion of at Least 5 BBT",Percentage of Visits Abstinent of Smoking
+./clinical_results/outcome_list/outcome/description,264407,37261,False,4,7.096079010225169,0.11774167045856715,Measured participant's general anxiety; range 0 - 56; higher scores worse,Assesses Pre- and Post-infusion for Infusion Episode 1,"IL-6 is a sensitive laboratory assay for serum levels of interleukin-6, which is a pro-inflammatory cytokine used to evaluate the inflammatory response.",The Measurement and Treatment Research to Improve Cognition in Schizophrenia (MATRICS) Consensus Cognitive Battery (MCCB) was used to assess basic cognition. It includes tests representing 6 separable cognitive domains. The MCCB composite score (average of 6 domain t-scores) served as the primary cognitive outcome measure. Minimum and maximum values are 20 and 68. Higher scores mean a better outcome.,Response will be determined by Response Evaluation Criteria in Solid Tumors (RECIST v1.0) criteria where applicable and/or biopsy proven relapse/progression of disease.
+./clinical_results/outcome_list/outcome/time_frame,294631,38831,False,4,7.587520280188509,0.12270274028009505,Baseline and Week 16,baseline and 12 weeks,Measured at day 1 and day 2,"Discharge, 1 Month, 6 Month, 1 year",3 hours
+./clinical_results/outcome_list/outcome/population,230789,29667,False,4,7.7793170863248715,0.09374526012437434,"Cohort1: 33 pts enrolled to cohort 1,33 underwent surgery even if they did not complete all treatment Cohort 2: 27 enrolled to cohort 2 and 27 underwent surgery, even if they did not complete all treatment","Full analysis set. A mixed model for repeated measurements (MMRM) based on observed cases was used. ""n"" indicates the number of patients included in the analysis at each time point.",The efficacy assessment population was defined as participants who completed the study and had efficacy data at baseline and post-baseline time points available. Here 'Number of Participants Analyzed' is number of participants analyzed at the given populations.,"Full Analysis Set (FAS) consisted of all patients who received at least one dose of patupilone. Analysis of the primary and all secondary efficacy endpoints was performed based on this population. According to the Intention to Treat (ITT) principle, patients were analyzed based on the treatment to which they were assigned at study entry.",ITT Population. Only those participants available at the specified time points were analyzed.
+./clinical_results/outcome_list/outcome/group_list/group/title,687805,38837,False,6,17.710044545150247,0.1227216997825977,Vitamin E Placebo,Eleclazine,PET/Computed Tomography (CT),Treatment (Rituximab and Allogeneic HCT Transplant),Cohort A Arm II: Letrozole
+./clinical_results/outcome_list/outcome/group_list/group/description,675732,38169,False,6,17.703686237522597,0.12061087517063553,"Participants who completed LoadET study 0881A3-102090 (NCT00873730) and received either etanercept 50 mg weekly subcutaneously, etanercept 100 mg weekly subcutaneously, another drug, or abandoned medication as per standard clinical practice were observed retrospectively for 3 years.","Non-completers were those who failed to attend the first 5 weeks of treatment without missing two or more consecutive weeks; alternately, a participant who attended the first 4 weeks of treatment and missed the fifth week was considered a treatment non-completer if s/he did not attend treatment during the sixth week Data for the two ineligible but enrolled participants was removed from the analysis.",63 subjects placebo used for analysis.,"Dutasteride 0.5 milligrams (mg), repeat oral once daily dosing for 4 years. Dutasteride supplied as gelatin capsule.",Interscalene Block (ISB) - 0.375% Ropivacaine + additives: Ultrasound-guided single-injection ISB: ropivacaine 0.375% + (clonidine [100 mcg] + dexamethasone [4 mg] + buprenorphine [150 mcg]); Intravenous (IV): saline
+./clinical_results/outcome_list/outcome/measure/title,287035,38837,False,5,7.390761387336817,0.1227216997825977,Subjective Assessment of Therapy Comfort.,Number of Participants With Decrease in Blaivas-Groutz Anti-Incontinence Score at 1 Month and 3 Months,Progression Free Survival,Number of Participants With Abnormal Physical Examination Findings,Body Fat Percentage at the Baseline and at the End of 3-month Dietary Intervention
+./clinical_results/outcome_list/outcome/measure/description,260144,37227,False,5,6.988046310473582,0.1176342332777188,"split-mouth design
+Implant success and survival rate according the definition by Buser et al. 1990 are:
+Absence of persistent subjective complaints, such as pain, foreign body sensation and/or dysaesthesia
+Absence of a recurrent peri-implant infection with suppuration
+Absence of mobility
+Absence of a continuous radiolucency around the implant
+Possibility for restoration","Sum of time-weighted Pain Intensity Differences (SPID). Pain relief was assessed at completion of first treatment, 45min,60min,90min,2hrs,3hrs,4hrs,6hrs following T0 and every 2hrs between 6AM to 10PM. After 10 PM and before 6AM, pain relief assessments were done every 4hrs. Subjects rated pain relief relative to baseline using a categorical scale: 0=none; 1=a little; 2=some; 3= a lot; 4 = complete. SPIDt = ∑PID x (time(t) - time(t-1)) x PID(i). A more negative SPID value means less pain. Total score of SPID ranged from a min value of -1091550.00 in the active arm and -2120130.00 in the sham arm and a max value of 603060.00 in the active arm and 1077630.00 in the sham arm. No absolute min and max scores were calculated.","CRe required the following criteria as assessed, at least 2 months from completing therapy: a) peripheral blood lymphocytes (PBL) less than (<) 4 x 10^9/L, b) Absence of significant lymphadenopathy (LD) by physical examination (PE), c) No hepatomegaly/splenomegaly (HM/SM) by PE, d) Absence of constitutional symptoms and e) Blood counts above the following values (i. Neutrophils [Neu] >1.5 x 10^9/L without the need for exogenous growth factors [EGF], ii. Platelets (Plt) >100 x 10^9/L without the need for EGF, and iii. Hemoglobin (Hb) >11.0 g/dL without blood transfusion or need for erythropoietin), and d) Once clinical and laboratory reports demonstrated CRe, a BM aspirate and biopsy was performed at least 2 months after the last treatment; to define a CRe, BM sample should be normocellular for age, <30% of the cells being PBL and lymphoid nodules absent. CRi: CRe but persistent anemia/thrombocytopenia/neutropenia unrelated to CLL, but related to drug toxicity.",The hypothesis for this study was that the percentage of subjects experiencing persistent leg pain would be less than 10%,"Search for prognostic factors for OS was performed using Cox regression model. First, all parameters were analyzed in univariate models, and the hypothesis of proportional risks was tested. Significant parameters at 15%-level were retained for the multivariate model. For the multivariate analysis, two models were built for prognostic factors for OS. In the first one (Model 1), a stepwise selection method was used on all parameters that were significant in the univariate analyses, whatever the significance level of the associations between parameters. In the second one (Model 2), a stepwise selection was used on the significant parameters that were not correlated. The significance level for entry was 10% and the significance level for removal was 5%. The variables n°5 and n°6 were found to be significantly associated, thus only the variable n°6 was tested in the Model 2. This variable was not retained by the stepwise selection in the Model 1, contrary to the variable n°5."
+./clinical_results/outcome_list/outcome/measure/population,230789,29667,False,5,7.7793170863248715,0.09374526012437434,Response Evaluable Population,per protocol,One patient in the PEP005 Topical Gel 0.005% group received no dose of study medication and were therefore not included in the safety population.,All enrolled subjects treated who have at least one of the PK parameters of interest in at least one treatment period.,Pharmacokinetic Concentration Population
+./clinical_results/outcome_list/outcome/measure/units,274949,37554,False,5,7.321430473451562,0.11866752616411345,Participants,cm,mg/dL,ng/ml,Participants
+./clinical_results/outcome_list/outcome/measure/param,274978,37556,False,5,7.321812759612312,0.118673845998281,Number,Mean,Number,Mean,Number
+./clinical_results/outcome_list/outcome/measure/dispersion,176900,30309,False,5,5.8365501996106754,0.09577392689215836,Standard Deviation,Standard Deviation,Standard Deviation,Standard Error,95% Confidence Interval
+./clinical_results/outcome_list/outcome/measure/analyzed_list/analyzed/units,292163,38837,False,7,7.522800422277725,0.1227216997825977,Participants,Participants,Participants,Participants,Participants
+./clinical_results/outcome_list/outcome/measure/analyzed_list/analyzed/scope,292163,38837,False,7,7.522800422277725,0.1227216997825977,Measure,Measure,Measure,Measure,Measure
+./clinical_results/outcome_list/outcome/measure/analyzed_list/analyzed/count_list/count,698299,38837,False,8,17.980250791770736,0.1227216997825977,,,,,
+./clinical_results/outcome_list/outcome/measure/class_list/class/title,742636,19368,False,7,38.34345311854606,0.06120127407856817,2 week post treatment follow up,Hematoma or bleeding,Week 8: ACR70 response,"Week 12 MIST-C ""Focused"" Subscale",Partial Response (PR)
+./clinical_results/outcome_list/outcome/measure/class_list/class/category_list/category/measurement_list/measurement,2210018,37511,False,10,58.916531150862404,0.1185316497295111,,,,,
+./clinical_results/outcome_list/outcome/analysis_list/analysis/group_id_list/group_id,314409,13727,False,7,22.904421942157796,0.04337618180898933,O3,O1,O1,O2,O1
+./clinical_results/outcome_list/outcome/analysis_list/analysis/non_inferiority_type,162568,13727,False,6,11.842937276899539,0.04337618180898933,Other,Superiority or Other,Superiority or Other,Superiority or Other,Equivalence
+./clinical_results/outcome_list/outcome/analysis_list/analysis/p_value,133662,11674,False,6,11.449545999657357,0.036888872035997784,<0.05,0.505,0.0049,0.0219,0.3709
+./clinical_results/outcome_list/outcome/analysis_list/analysis/method,133662,11674,False,6,11.449545999657357,0.036888872035997784,ANOVA,"Regression, Logistic",Mixed Models Analysis,ANCOVA,Ordinal Categorical Analysis
+./clinical_results/outcome_list/outcome/analysis_list/analysis/param_type,108578,8985,False,6,12.084362826933779,0.028391854997724862,Mean Difference (Net),GMT Ratio (Experimental/Existing),2 Year EFS,"Estimated treatment difference, LS Mean",Geometric LS Mean Ratio
+./clinical_results/outcome_list/outcome/analysis_list/analysis/param_value,108578,8985,False,6,12.084362826933779,0.028391854997724862,102.1,-2.9,-0.3268,249.28,6.7
+./clinical_results/outcome_list/outcome/analysis_list/analysis/ci_n_sides,93339,7851,False,6,11.888803974016051,0.02480850902472319,2-Sided,2-Sided,2-Sided,2-Sided,2-Sided
+./clinical_results/reported_events/group_list/group/title,90988,38626,False,5,2.3556153885983533,0.12205495727792105,PPI Alone,Placebo,SCH 497079,EOS POS Benralizumab 20 mg,LY2181308 + Docetaxel
+./clinical_results/reported_events/group_list/group/description,88483,37586,False,5,2.3541478209971802,0.11876864351079428,The Formulation Lotion F#13541-131 on an occlusive patch was applied to a test site on each subject’s back three times a week for four weeks.,"Drug
+sunitinib malate : 50mg PO daily 4 weeks on -2 weeks off",Subjects were given 0.25 mg semaglutide once weekly s.c. injection for 4 weeks followed by 0.5 mg semaglutide once weekly s.c. injections for the remaining 26 weeks of the treatment period.,"Bilevel, 3 months
+Bilevel: 3 months","Participants who weighed at least 25 kg/55 lbs were dosed 1 mg of IM glucagon; participants who weighed less than 25 kg/55 Ibs, IM glucagon dose was 0.5 mg."
+./clinical_results/reported_events/serious_events/category_list/category/title,208094,38621,False,6,5.38810491701406,0.12203915769250215,"Respiratory, thoracic and mediastinal disorders",Total,Total,Nervous system disorders,Total
+./clinical_results/reported_events/serious_events/category_list/category/event_list/event/sub_title,798338,38621,False,8,20.671085678775803,0.12203915769250215,"Total, serious adverse events","Total, serious adverse events","Total, serious adverse events",Gram negative rods septicemia,"Total, serious adverse events"
+./clinical_results/reported_events/serious_events/category_list/category/event_list/event/counts,2129158,38621,False,8,55.129540923331874,0.12203915769250215,,,,,
+./clinical_results/reported_events/other_events/frequency_threshold,38621,38621,True,4,1.0,0.12203915769250215,5,5,5,0,0
+./clinical_results/reported_events/other_events/category_list/category/title,255803,38621,False,6,6.623417311825173,0.12203915769250215,General disorders,Total,Total,Total,Nervous system disorders
+./clinical_results/reported_events/other_events/category_list/category/event_list/event/sub_title,953650,38621,False,8,24.69252479221149,0.12203915769250215,Infections within one year of transplant,Nasal congestion,"Total, other adverse events",gastrointestinal complaints,Arthralgia
+./clinical_results/reported_events/other_events/category_list/category/event_list/event/counts,2854145,38621,False,8,73.90137489966598,0.12203915769250215,,,,,
+./clinical_results/certain_agreements/pi_employee,38837,38837,True,3,1.0,0.1227216997825977,Principal Investigators are NOT employed by the organization sponsoring the study.,Principal Investigators are NOT employed by the organization sponsoring the study.,Principal Investigators are NOT employed by the organization sponsoring the study.,All Principal Investigators ARE employed by the organization sponsoring the study.,Principal Investigators are NOT employed by the organization sponsoring the study.
+./clinical_results/certain_agreements/restrictive_agreement,38019,38019,True,3,1.0,0.12013688760806915,"GSK agreements may vary with individual investigators, but will not prohibit any investigator from publishing. GSK supports the publication of results from all centers of a multi-center trial but requests that reports based on single-site data not precede the primary publication of the entire clinical trial.",There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. ,There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. ,There is NOT an agreement between Principal Investigators and the Sponsor (or its agents) that restricts the PI's rights to discuss or publish trial results after the trial is completed. ,"The investigator shall have the right to independently publish study results from his site after a multicenter publication, or 12 months after the completion of the study by all sites. He must provide the sponsor a copy of any such publication derived from the study for review and comment at least 45 days (20 days for abstracts) in advance of any submission for publication. The Sponsor may request for the publication to be delayed for upto 90 days to preserve its proprietary rights."
+./clinical_results/point_of_contact/name_or_title,38837,38837,True,3,1.0,0.1227216997825977,"Aleksandar Pastrak, MD, PhD, Vice President Clinical Development","James Polli, Professor",Director of Regulatory Affairs,Director of Clinical Trials,"Thomas Olencki, DO"
+./clinical_results/point_of_contact/organization,38833,38833,True,3,1.0,0.1227090601142626,Hoffmann-La Roche,Genzyme Corporation,UPENN,"Centocor Research & Development, Inc.",Philips Consumer Lifestyle
+./clinical_results/point_of_contact/phone,35404,35404,True,3,1.0,0.11187370443399564,866-435-7343,202-444-3677,(416) 946-2253,1-800-718-1021,714-456-8176
+./clinical_results/point_of_contact/email,33944,33944,True,3,1.0,0.1072602254916831,kattie@acceleronpharma.com,czachary@uci.edu,Argyrios.Stampas@uth.tmc.edu,gonzalezan@kennedykrieger.org,hania@ipgate.pl
+./pending_results/submission_canceled,982,755,False,2,1.3006622516556292,0.00238573739825067,"September 23, 2018",Unknown,Unknown,"September 11, 2019",Unknown
+./expanded_access_info/expanded_access_type_treatment,66,66,True,2,1.0,0.00020855452752919763,Yes,Yes,Yes,Yes,Yes
+./clinical_results/participant_flow/pre_assignment_details,15293,15293,True,3,1.0,0.04832461196218212,A total of 234 participants that met the inclusion but none of the exclusion criteria were enrolled and vaccinated.,Forty-two (42) children were not eligible for the study because they were considered by their schools to be developmentally unable to learn.,All participants who agreed to be re-evaluated were enrolled in this study.,Screening for eligibility,"Healthy Volunteers were enrolled equally in 1 of 2 treatment groups, Norovirus Bivalent VLP Vaccine or Placebo."
+./clinical_results/baseline/population,11002,11002,True,3,1.0,0.034765407755700486,"Baseline analyses includes the baseline information of individuals lacking primary outcome measurements (i.e., patients that withdrew for any reason n = 24).","All patients with non-valvular atrial fibrillation (NVAF), who received conventional vitamin K antagonist (VKA) with uncontrolled anticoagulation status and those with controlled anticoagulation status receiving VKA or direct oral anticoagulant (DOAC) treatment at least 6 months and up to 2 years were included.",Baseline characteristics were only documented and analyzed for participants who complete the study. Details for the four who dropped out are no longer available.,Safety Analysis Set: participants who received at least 1 dose of study drug,Analysis was performed on safety population that included population who did actually received at least one dose or part of a dose of the open-label investigational medicinal product (IMP). Participants were analyzed according to the dose of alirocumab actually received.
+./clinical_results/outcome_list/outcome/analysis_list/analysis/ci_percent,104477,8428,False,6,12.396416706217373,0.026631781182061786,95,95,95,95,95
+./clinical_results/outcome_list/outcome/analysis_list/analysis/ci_lower_limit,102139,8087,False,6,12.630023494497342,0.02555424945649426,0.46,-8.80,0.03,0.63,1.3
+./clinical_results/outcome_list/outcome/analysis_list/analysis/ci_upper_limit,101808,8078,False,6,12.603119584055461,0.025525810202740282,1.92,91.0,4.5,10.5,5.488
+./clinical_results/outcome_list/outcome/measure/class_list/class/analyzed_list/analyzed/units,178182,3116,False,9,57.1829268292683,0.00984630163304515,Participants,Participants,Participants,Participants,Participants
+./clinical_results/outcome_list/outcome/measure/class_list/class/analyzed_list/analyzed/scope,178182,3116,False,9,57.1829268292683,0.00984630163304515,Class,Class,Class,Class,Class
+./clinical_results/outcome_list/outcome/measure/class_list/class/analyzed_list/analyzed/count_list/count,460910,3116,False,10,147.91720154043645,0.00984630163304515,,,,,
+./clinical_results/reported_events/time_frame,24361,24361,True,3,1.0,0.07697874007786036,4 months,2 years,Treatment period AEs were collected up to week 52. Extension period AEs were collected following completion of the treatment period until the product was commercially available (up to week 118).,First until last visit (planned: 4 weeks),20 weeks
+./clinical_results/reported_events/desc,14589,14589,True,3,1.0,0.046100030335204,"As no vaccine was administered in this trial, monitoring of safety events was limited to serious adverse events considered related to study procedures (i.e., collection of the blood sample). No safety events were reported. This was an immunogenicity assessment involving participants of an earlier study MTA77 (NCT01442675).",64 patients are included for Arm I adverse events as one patient was deemed ineligible. 61 patients are included for Arm II adverse events as three patients were deemed ineligible.,No adverse events were noted in any of the patients.,Solicited and unsolicited adverse event reporting,"Consistent with EudraCT disclosure specifications, Novartis has reported under the Serious adverse events fields ""number of deaths resulting from adverse events"" all those deaths, resulting from serious adverse events that are deemed to be causally related to treatment by the investigator."
+./clinical_results/reported_events/other_events/default_vocab,18972,18972,True,4,1.0,0.05994994691339299,CTCAE (4.0),CTCAE (3.0),MedDRA 13.0,MedDRA 19.0,MedDRA (19.0)
+./clinical_results/reported_events/other_events/default_assessment,25242,25242,True,4,1.0,0.07976262702866678,Non-systematic Assessment,Non-systematic Assessment,Non-systematic Assessment,Non-systematic Assessment,Non-systematic Assessment
+./clinical_results/baseline/measure_list/measure/description,18860,7186,False,5,2.6245477317005292,0.022707164164012337,"ECOG performance status was used to classify participants according to their functional impairment. Score 0 = fully active, able to carry on all pre-disease performance without restriction. Score 1 = restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, for example, light house work, office work.","Follow up study, gender at follow up assessment. A self report, demographic questionnaire was used to gather information about household composition, household income, age, race and ethnicity, gender, and age.","Baseline clinical characteristics, including percentage of bone marrow blasts were assessed centrally and locally. Central values are included here. Baseline blasts were the last non-missing value on or prior to the date of randomization. The bone marrow blasts cells are not typically found in the circulating blood of healthy individuals. Abnormal immature white blood cells (blasts) fill the bone marrow and spill into the bloodstream.",Age of 20 (0.26%) patients not reported by investigators.,"Percent predicted for age, gender, and height"
+./clinical_results/reported_events/serious_events/default_vocab,16143,16143,True,4,1.0,0.05101054148339148,MedDRA 15.0,"MedDRA, version 13.0",MedDRA 17.0,MedDRA 10.0,MedDRA (11.0)
+./clinical_results/reported_events/serious_events/default_assessment,20053,20053,True,4,1.0,0.06336581728095454,Systematic Assessment,Systematic Assessment,Non-systematic Assessment,Systematic Assessment,Systematic Assessment
+./clinical_results/limitations_and_caveats,8457,8457,True,2,1.0,0.026723418777491282,The study was prematurely terminated once the last subject had completed three years of treatment (compared to the six years planned in protocol Amendment) for strategic reasons.,This study only included established CPAP users.,"Limitations of the current pilot study include a small sample size, relative racial homogeneity, and exclusion of patients with comorbidity.",This was an open-label registry. Patients may have increased their adherence due to a Hawthorne effect. Patients may have been selective in the medications that they actually ingested.,This study was concluded prior to schedule due to community conflict affecting the length of follow-up time; we relied on self-reports due to the poor information systems within the study context.
+./clinical_results/participant_flow/recruitment_details,17098,17098,True,3,1.0,0.05402826229839729,"12-Dec-2003 (First Patient First Visit) 02-Mar-2005 (Last Patient Last Visit of Extension). At the time of early termination, 39 centers had screened subjects, 22 centers had randomized subjects to the double-blind phase.",Hospitals and medical clinics,One-hundred and four (104) participants were recruited between January 2006 and June 2007 from 20 North Central Cancer Treatment Group (NCCTG) member sites.,The study was conducted at 3 study centers (2 in the United States and 1 in the United Kingdom). The first subject was enrolled in April 2011 and the last subject completed the study in Feb 2012.,"Investigation period: Feb 2017 - March 2017. The study was conducted on 21 enrolled subjects at one site in the US. Subjects included were 18 years, and above, undergoing elective primary hip or knee arthroplasty."
+./study_docs/study_doc/doc_id,8829,1559,False,3,5.663245670301476,0.00492631073360635,115775,114956,113810,112851,113006
+./clinical_results/baseline/measure_list/measure/class_list/class/title,111980,27175,False,7,4.120699172033119,0.08587074675160522,Between 18 and 80 years,United States,United States,United States,United States
+./clinical_results/reported_events/other_events/category_list/category/event_list/event/description,20976,3678,False,8,5.703099510603589,0.011622175034127104,"Includes Localized allergic reaction, allergic conjunctivitis, solution sensitivity allergic keratoconjunctivitis, Contact lens papillary conjunctivitis, symptoms of problems requiring treatment, Blepharoconjunctivitis, non-significant infiltrate","Patient experienced pain score of 3 on VAS scale 0 - 10, 24 hours post procedure.","Includes side effects of feeling ""spacey"", sleepiness, drowsiness, sexual dysfunction, irritability.","For all AEs, # participants affected reported here as # events. Patients may have experienced an event more than one time and were clinically managed for recurring toxicity; however, study data are not structured for analysis by patient.",This is a gender-specific AE. Only female participants were at risk.
+./clinical_results/reported_events/other_events/category_list/category/event_list/event/assessment,7591,1176,False,8,6.454931972789114,0.0037160624905202494,Non-systematic Assessment,Non-systematic Assessment,Non-systematic Assessment,Systematic Assessment,Non-systematic Assessment
+./disposition_first_submitted,6763,6763,True,1,1.0,0.02137051923757521,"October 16, 2009","October 2, 2015","March 17, 2015","December 1, 2016","November 1, 2016"
+./disposition_first_submitted_qc,6763,6763,True,1,1.0,0.02137051923757521,"August 6, 2012","June 20, 2016","June 17, 2014","January 4, 2013","September 13, 2012"
+./disposition_first_posted,6763,6763,True,1,1.0,0.02137051923757521,"March 19, 2012","November 9, 2018","November 21, 2012","April 9, 2012","September 11, 2019"
+./clinical_results/outcome_list/outcome/analysis_list/analysis/groups_desc,92247,7489,False,6,12.317665910001335,0.023664619040396382,Analysis at 2 hours on Day 7 after multiple doses,"Sleep Quantity: P-value was calculated using linear mixed model analysis with treatment, period and sequence as fixed effects. Random effects were participant within sequence and residual error. The LS means and SE were used to test for a treatment difference and construct 2-sided 95% CIs. The hypothesis test was 2-sided and conducted at the 5% level of significance.",Generalized Linear Model was adjusted for strata (renal function and use of prophylactic antithrombotic therapy) and investigational site.,Day 57 to 84,Treatment Difference between Tocilizumab and TNF inhibitor at Week 52: Analysis is based on an ANCOVA model with change from baseline to 12 months in HAQ-DI as dependent variable; therapy and treatment as fixed effects; HAQ-DI at baseline as covariates.
+./clinical_results/baseline/measure_list/measure/population,5005,2156,False,5,2.321428571428572,0.006812781232620456,Race and Ethnicity were not collected from any participant.,Race and Ethnicity were not collected from any participant.,ITT population,ITT population,Race and Ethnicity were not collected from any participant.
+./clinical_results/baseline/measure_list/measure/class_list/class/analyzed_list/analyzed/units,18058,1857,False,9,9.72428648357566,0.0058679660245715155,Participants,Participants,Participants,Participants,Participants
+./clinical_results/baseline/measure_list/measure/class_list/class/analyzed_list/analyzed/scope,18058,1857,False,9,9.72428648357566,0.0058679660245715155,Class,Class,Class,Class,Class
+./clinical_results/baseline/measure_list/measure/class_list/class/analyzed_list/analyzed/count_list/count,53153,1857,False,10,28.6230479267636,0.0058679660245715155,,,,,
+./clinical_results/outcome_list/outcome/analysis_list/analysis/estimate_desc,35671,3547,False,6,10.056667606427967,0.011208225896152484,Bioequivalence is established when 90% Confidence Interval falls within 80-125.,"HR was based on a Cox regression model (with treatment as the only covariate) stratified by factors defined above, and was relative to placebo with < 1 favoring Enzalutamide.",Hazard ratio is based on a Cox regression model (with treatment as the only covariate) stratified by disease stage at study entry and is relative to bicalutamide with < 1 favoring enzalutamide.,Bioequivalence is established when 90% Confidence Interval falls within 80 - 125,Pemetrexed + cisplatin + LY2603618 was considered superior to pemetrexed + cisplatin if the posterior probability of superiority exceeded 0.85.
+./clinical_results/outcome_list/outcome/posting_date,1288,308,False,4,4.181818181818182,0.0009732544618029225,01/2023,12/2018,12/2016,12/2018,12/2017
+./clinical_results/outcome_list/outcome/analysis_list/analysis/non_inferiority_desc,14821,2821,False,6,5.253810705423608,0.008914126093331311,MK-1293 was to be considered non-inferior to Lantus in type 2 diabetes mellitus (T2DM) if the upper bound of the two-sided 95% confidence interval (CI) for the between-treatment difference (MK-1293 minus Lantus) in least-squares (LS) means was below 0.4% based on a cLDA model.,The aim of this study was to find the ideal dose of treatment for bacterial eradication and non-inferiority with the comparative groups.,ARMS<= 3 %SpO2 Error per International Organization For Standardization (ISO) -80601-2-61 Pilot study Monte Carlo simulation provided 80% Power with 25 subjects for an expected ARMS< 3 % SpO2.,The standard deviation (SD) of the change in salivary flow was assumed to be 0.0168 for the placebo and 0.0906 for the dexamethasone parotid. The within-subject correlation between two glands was assumed to be 0.15. A total of 16 patients would be required to have 80% power to detect a one-sided 40% increase in dexamethasone-irrigated parotid glands compared with the saline irrigated parotid glands with respect to change in salivary flow from Day 0 to Day 56.,"The ANOVA model containing factors for sequence of products, subjects within sequence, periods, and products was utilized in comparing the effects between the test and reference products. Differences were declared statistically significant at the 5% level (p<0.05)."
+./clinical_results/baseline/measure_list/measure/units_analyzed,578,104,False,5,5.557692307692308,0.0003286313767126751,Participants,Participants,community,Eyes,Implants
+./clinical_results/outcome_list/outcome/measure/units_analyzed,5216,1436,False,5,3.6323119777158768,0.004537640932301936,eyes,Endometrial genes,Overnight PSG and AED algorithms,Eyes,Isolated imantinib-responsive genes
+./clinical_results/outcome_list/outcome/analysis_list/analysis/method_desc,35181,3643,False,6,9.65715069997255,0.011511577936194952,2 by 2 Fisher's Exact Test,"Based on ANCOVA with terms for baseline, treatment, number of previous anti-diabetic medications and country.",The Analysis of Covariance took into account the patient covariates age and gender.,"MMRM method with model terms: baseline, visit, and baseline by visit interaction.",Bioequivalence is established when 90% Confidence Interval falls within 80.00 % -125.00 %.
+./study_docs/study_doc/doc_comment,8954,1675,False,3,5.3456716417910455,0.0052928611153243346,For additional information about this study please refer to the GSK Clinical Study Register,For additional information about this study please refer to the GSK Clinical Study Register,For additional information about this study please refer to the GSK Clinical Study Register,For additional information about this study please refer to the GSK Clinical Study Register,For additional information about this study please refer to the GSK Clinical Study Register
+./clinical_results/outcome_list/outcome/analysis_list/analysis/p_value_desc,46567,4370,False,6,10.656064073226542,0.013808837656099904,P-values are calculated based on the difference in proportion between Latino and Non-Latino White group,Significance defined as 0.05.,"A paired comparison between baseline CRP values with values obtained after 1, 3, and 6 months of treatment was conducted, with a p-value of 0.05 used as the a priori threshold of statistical significance.","The null and alternative hypotheses were:
+H0: µSVS ≥µM H1: µSVS < µM where µSVS was the mean in-segment 8-month percent diameter stenosis for the SVS study and µM was the mean in-segment 6-month percent diameter stenosis for Micro-Driver.","An analysis of covariance (ANCOVA) method with a general linear model, using the corresponding baseline PD value as a covariate, was used to evaluate the comparisons between dabigatran and placebo at 7 days."
+./clinical_results/outcome_list/outcome/analysis_list/analysis/dispersion_type,30473,2206,False,6,13.81368993653672,0.006970777086809242,Standard Error of the Mean,Standard Error of the Mean,Standard Error of the Mean,Standard Error of the Mean,Standard Error of the Mean
+./clinical_results/outcome_list/outcome/analysis_list/analysis/dispersion_value,30473,2206,False,6,13.81368993653672,0.006970777086809242,0.36,.08,0.36,0.620,0.777
+./clinical_results/reported_events/serious_events/category_list/category/event_list/event/description,13315,3482,False,8,3.823951751866743,0.011002831285707063,includes bail-out stenting,1,not related to product,Dysphagia led to hospitalization,The subject notified the clinic on 8/25/11 that he was unable to attend his weekly visit because he was hospitalized for an anal abscess.
+./clinical_results/reported_events/serious_events/category_list/category/event_list/event/assessment,1854,513,False,8,3.6140350877192975,0.0016210374639769453,Systematic Assessment,Systematic Assessment,Systematic Assessment,Non-systematic Assessment,Non-systematic Assessment
+./clinical_results/outcome_list/outcome/measure/class_list/class/category_list/category/title,27906,1142,False,9,24.436077057793344,0.0036086253096718735,none,Recurrence-free,Engrafted by day 21,HIV RNA >= 400 copies/mL,5 antigens
+./clinical_results/outcome_list/outcome/analysis_list/analysis/other_analysis_desc,780,205,False,6,3.804878048780488,0.0006477830021740231,The direction of comparison is currently working to not currently working.,"The null hypothesis was that we could further decrease infection to 1% or less in more of the communities in the surveillance intervention arm, compared to control communities.",Superiority would be declared if the lower end of the confidence interval was above 0%,"A dose level for RAD001 will be considered acceptable if no patient of the first 3patients or no more than 2 patients of the first 6 patients experience a DLT. If the current level is considered acceptable, then dose escalation will occur and the protocol will be reopened. Otherwise, the preceding acceptable dose level will be declared the MTD.","The PK parameters were compared between treatments using an analysis of variance statistical model with treatment as the fixed effect, using the natural logarithms of the data. As the objective was to assess whether comparable exposure could be obtained using the higher SQ dose, the data were not normalized for dose before the statistical analysis."
+./clinical_results/baseline/measure_list/measure/analyzed_list/analyzed/units,458,29,False,7,15.79310344827586,9.163759542949593e-05,Vessels,Participants,Sites,Participants,Participants
+./clinical_results/baseline/measure_list/measure/analyzed_list/analyzed/scope,458,29,False,7,15.79310344827586,9.163759542949593e-05,Measure,Measure,Measure,Measure,Measure
+./clinical_results/baseline/measure_list/measure/analyzed_list/analyzed/count_list/count,1154,29,False,8,39.793103448275865,9.163759542949593e-05,,,,,
+./clinical_results/outcome_list/outcome/analysis_list/analysis/ci_upper_limit_na_comment,42,9,False,6,4.666666666666667,2.8439253753981488e-05,"Not Appropriate, upper intervals were not used in the statistical analysis and were not of interest for the study.","Not Appropriate, upper intervals were not used in the statistical analysis and were not of interest for the study.",The upper limit is infinity.,infinity,infinity
