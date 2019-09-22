@@ -1,4 +1,6 @@
 numpy==1.16.4
 pandas==0.25.1
+wget
 pytest==5.1.2
 pytest-cov==2.7.1
+psycopg2>=2.7

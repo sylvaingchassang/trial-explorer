@@ -108,3 +108,9 @@ raw_data/
 
 # pycharm generated folders
 .idea/
+
+# files in donotcommit folders
+**donotcommit/
+
+# storing private credentials
+*.private.ini
