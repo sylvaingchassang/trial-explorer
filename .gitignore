@@ -109,5 +109,5 @@ raw_data/
 # pycharm generated folders
 .idea/
 
-# pickles
-*.p
+# files in donotcommit folders
+**donotcommit/
