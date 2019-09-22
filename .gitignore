@@ -111,3 +111,6 @@ raw_data/
 
 # files in donotcommit folders
 **donotcommit/
+
+# storing private credentials
+*.private.ini
