@@ -4,6 +4,7 @@ Connection manager, used to send queries either to aact's hosted postgres db or 
 Only supports SELECT queries, returns pandas dataframes
 """
 import sys
+import os
 import pandas as pd
 import psycopg2
 import configparser
@@ -15,7 +16,8 @@ class AACTConnection:
     LOCAL = 'local'
     VALID_SOURCES = [REMOTE, LOCAL]
 
-    def __init__(self, source=REMOTE):
+    def __init__(self, ini_path_ovrd=None, source=REMOTE):
+        self.ini_path = ini_path_ovrd
         self._init_config()
         self.source = source
 
@@ -60,12 +62,11 @@ class AACTConnection:
                                     database=config.AACT_DB,
                                     user=self.config['Remote']['User'],
                                     password=self.config['Remote']['Password'])
-        except ConnectionError:
-            print("Unable to connect to remote server: %s, db: %s. "
-                  "Try signing up for a login at "
-                  "https://aact.ctti-clinicaltrials.org/users/sign_up" % (config.AACT_HOST,
-                                                                          config.AACT_DB),
-                  file=sys.stderr)
+        except Exception:
+            raise ConnectionError("Unable to connect to remote server: %s, db: %s. "
+                                  "Try signing up for a login at "
+                                  "https://aact.ctti-clinicaltrials.org/users/sign_up" % (config.AACT_HOST,
+                                                                                          config.AACT_DB))
 
     def connect_to_local(self):
         """ connect to the preset local connection string """
@@ -74,17 +75,21 @@ class AACTConnection:
                                     database=config.LOCAL_DB,
                                     user=self.config['Local']['User'],
                                     password=self.config['Local']['Password'])
-        except ConnectionError:
-            print("Unable to connect to local server %s, db: %s "
-                  "Please ensure that you have a local instance of postgres running " % (config.LOCAL_HOST,
-                                                                                         config.LOCAL_DB),
-                  file=sys.stderr)
+        except Exception:
+            raise ConnectionError("Unable to connect to local server %s, db: %s "
+                                  "Please ensure that you have a local instance of "
+                                  "postgres running " % (config.LOCAL_HOST, config.LOCAL_DB))
 
     def _init_config(self):
         """ reads the private ini file located as specified by the config """
-        try:
+        if self.ini_path is None or self.ini_path == '':
+            used_path = config.PRIVATE_CONFIG_LOC
+        else:
+            used_path = self.ini_path
+
+        if os.path.exists(used_path):
             cur_config = configparser.ConfigParser()
-            cur_config.read(config.PRIVATE_CONFIG_LOC)
-            self.config = cur_config
-        except FileNotFoundError:
-            print("Could not load private credentials from %s" % config.PRIVATE_CONFIG_LOC)
+            cur_config.read(used_path)
+        else:
+            raise FileNotFoundError("Could not find private credentials from %s" % used_path)
+        self.config = cur_config
