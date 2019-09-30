@@ -1,7 +1,8 @@
 """
 Connection manager, used to send queries either to aact's hosted postgres db or the localhost
 
-Only supports SELECT queries, returns pandas dataframes
+query only supports SELECT queries, returns pandas dataframes
+exec supports other queries
 """
 import sys
 import os
@@ -20,6 +21,7 @@ class AACTConnection:
         self.ini_path = ini_path_ovrd
         self._init_config()
         self.source = source
+        self.active_conn = None
 
     def set_source(self, source):
         """
@@ -41,27 +43,55 @@ class AACTConnection:
         :param parse_dates: passed to the pd.read_sql function
         :return: dataframe with results
         """
-        if self.source == self.REMOTE:
-            conn = self.connect_to_remote()
-        elif self.source == self.LOCAL:
-            conn = self.connect_to_local()
-        else:
-            print("Data source set incorrectly to %s, only valid sources are %s. Try running .set_source()"
-                  % (self.source,
-                     str(self.VALID_SOURCES)))
-            return False  # returns False to indicate failed execution
+        if self.active_conn is None:
+            if self.source == self.REMOTE:
+                self.connect_to_remote()
+            elif self.source == self.LOCAL:
+                self.connect_to_local()
+            else:
+                print("Data source set incorrectly to %s, only valid sources are %s. Try running .set_source()"
+                      % (self.source,
+                         str(self.VALID_SOURCES)))
+                return False  # returns False to indicate failed execution
 
-        df = pd.read_sql(sql, conn, index_col=index_col, parse_dates=parse_dates)
-        conn.close()
+        df = pd.read_sql(sql, self.active_conn, index_col=index_col, parse_dates=parse_dates)
         return df
+
+    def execute(self, sql_template, *args):
+        """
+        executes sql on connected database
+        :param sql_template: sql or the sql template with ? characters if need to substitute with args
+        :param args: list of arguments to use in the sql template
+        :return:
+        """
+        if self.active_conn is None:
+            if self.source == self.REMOTE:
+                self.connect_to_remote()
+            elif self.source == self.LOCAL:
+                self.connect_to_local()
+            else:
+                print("Data source set incorrectly to %s, only valid sources are %s. Try running .set_source()"
+                      % (self.source,
+                         str(self.VALID_SOURCES)))
+                return False  # returns False to indicate failed execution
+
+        self.active_conn.cursor().execute(sql_template, args)
+        self.active_conn.commit()
+        return True
+
+    def close(self):
+        if self.active_conn:
+            self.active_conn.close()
+            self.active_conn = None
 
     def connect_to_remote(self):
         """ connect to the preset remote connection string """
         try:
-            return psycopg2.connect(host=config.AACT_HOST,
+            conn = psycopg2.connect(host=config.AACT_HOST,
                                     database=config.AACT_DB,
                                     user=self.config['Remote']['User'],
                                     password=self.config['Remote']['Password'])
+            self.active_conn = conn
         except Exception:
             raise ConnectionError("Unable to connect to remote server: %s, db: %s. "
                                   "Try signing up for a login at "
@@ -71,10 +101,11 @@ class AACTConnection:
     def connect_to_local(self):
         """ connect to the preset local connection string """
         try:
-            return psycopg2.connect(host=config.LOCAL_HOST,
+            conn = psycopg2.connect(host=config.LOCAL_HOST,
                                     database=config.LOCAL_DB,
                                     user=self.config['Local']['User'],
                                     password=self.config['Local']['Password'])
+            self.active_conn = conn
         except Exception:
             raise ConnectionError("Unable to connect to local server %s, db: %s "
                                   "Please ensure that you have a local instance of "

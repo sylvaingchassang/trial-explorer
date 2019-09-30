@@ -6,16 +6,16 @@ import pdaactconn as pconn
 
 def test_remote_conn():
     ac = pconn.AACTConnection()
-    conn = ac.connect_to_remote()
-    assert conn.closed == 0
-    conn.close()
+    ac.connect_to_remote()
+    assert ac.active_conn.closed == 0
+    ac.close()
 
 
 def test_local_conn():
     ac = pconn.AACTConnection()
-    conn = ac.connect_to_local()
-    assert conn.closed == 0
-    conn.close()
+    ac.connect_to_local()
+    assert ac.active_conn.closed == 0
+    ac.close()
 
 
 def test_source_setting():
@@ -31,6 +31,7 @@ def test_remote_query():
     ac = pconn.AACTConnection()
     df = ac.query("SELECT * FROM studies LIMIT 1")
     assert df.shape[0] == 1
+    ac.close()
 
 
 def test_local_query():
@@ -38,6 +39,7 @@ def test_local_query():
     ac.set_source(ac.LOCAL)
     df = ac.query("SELECT * FROM studies LIMIT 1")
     assert df.shape[0] == 1
+    ac.close()
 
 
 def test_poor_source():
@@ -45,9 +47,11 @@ def test_poor_source():
     ac.source = 'foo'  # bad source
     df = ac.query("SELECT * FROM studies LIMIT 1")
     assert not df
+    ac.close()
 
 
 def test_bad_set_source():
     ac = pconn.AACTConnection()
     ac.set_source('foo')
     assert True
+    ac.close()
