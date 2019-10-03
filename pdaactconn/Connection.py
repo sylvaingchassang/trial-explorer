@@ -2,7 +2,7 @@
 Connection manager, used to send queries either to aact's hosted postgres db or the localhost
 
 query only supports SELECT queries, returns pandas dataframes
-exec supports other queries
+exec supports other queries, autocommits
 """
 import sys
 import os
@@ -35,12 +35,13 @@ class AACTConnection:
             print("Cannot set source to %s, only valid sources are %s" % (source, str(self.VALID_SOURCES)),
                   file=sys.stderr)
 
-    def query(self, sql, index_col=None, parse_dates=None):
+    def query(self, sql, index_col=None, parse_dates=None, keep_alive=False):
         """
         queries the current connection's set database
         :param sql: string query
         :param index_col: passed to the pd.read_sql function
         :param parse_dates: passed to the pd.read_sql function
+        :param keep_alive: if true, keeps the connection alive (preserves temp tables)
         :return: dataframe with results
         """
         if self.active_conn is None:
@@ -55,13 +56,18 @@ class AACTConnection:
                 return False  # returns False to indicate failed execution
 
         df = pd.read_sql(sql, self.active_conn, index_col=index_col, parse_dates=parse_dates)
+
+        if not keep_alive:
+            self.close()
+
         return df
 
-    def execute(self, sql_template, *args):
+    def execute(self, sql_template, *args, keep_alive=False):
         """
         executes sql on connected database
         :param sql_template: sql or the sql template with ? characters if need to substitute with args
         :param args: list of arguments to use in the sql template
+        :param keep_alive: if true, keeps the connection alive (preserves temp tables)
         :return:
         """
         if self.active_conn is None:
@@ -77,6 +83,10 @@ class AACTConnection:
 
         self.active_conn.cursor().execute(sql_template, args)
         self.active_conn.commit()
+
+        if not keep_alive:
+            self.close()
+
         return True
 
     def close(self):
