@@ -63,6 +63,7 @@ class AACTStudySet(StudySet):
     def refresh_dim_data(self):
         self._sync_temp_table()
         for dim_name, dim_obj in self.dimensions.items():
+            print(" - Loading dimension %s" % dim_name)
             dim_obj.load_data(self.conn)
         self.conn.close()
 
@@ -73,6 +74,17 @@ class AACTStudySet(StudySet):
         end_count = self.studies.shape[0]
         print("ended with %s studies" % end_count)
 
+        for dim_name, cur_dim in self.dimensions.items():
+            print("Dropping records from the %s dimension" % dim_name)
+            # dropping from the dim raw data
+            cur_dim.raw_data = cur_dim.raw_data[~cur_dim.raw_data[config.MAIN_ID_COL].isin(to_drop)].copy()
+            # copy because we set the raw_data and all of the data pointers to another dataframe
+            # should let the GC collect the old dataframe - need testing
+            # todo: make sure that the dropping studies frees up memory
+
+            # dropping from the dim data
+            cur_dim.allocate_raw_data()
+
     def add_constraint(self, constraint):
         """ adds AND constraints, enforces brackets aroudn the constraint, OR constraints should be added together """
         bracketed_cons = "(" + constraint + ")"
@@ -80,7 +92,7 @@ class AACTStudySet(StudySet):
 
     def remove_constraint(self, constraint_num):
         """ removes the nth constraint """
-        del self._constraints[constraint_num - 1]
+        del self._constraints[constraint_num]
 
     def show_constraints(self):
         """ generates and shows the constraint string block """

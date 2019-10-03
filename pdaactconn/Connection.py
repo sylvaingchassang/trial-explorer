@@ -31,6 +31,7 @@ class AACTConnection:
         """
         if source in self.VALID_SOURCES:
             self.source = source
+            print(source)
         else:
             print("Cannot set source to %s, only valid sources are %s" % (source, str(self.VALID_SOURCES)),
                   file=sys.stderr)
