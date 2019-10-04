@@ -16,11 +16,11 @@ class StudySet(ABC):
         self.study2dim_map = {}  # maps from study's nct_id the dim_name to the dimension object
 
     @abstractmethod
-    def add_dimension(self, dim_name):
+    def add_dimensions(self, dim_names):
         """ add a dimension to load"""
 
     @abstractmethod
-    def drop_dimension(self, dim_name):
+    def drop_dimensions(self, dim_names):
         """ remove a dimension from to-load, delete the associated date"""
 
     @abstractmethod

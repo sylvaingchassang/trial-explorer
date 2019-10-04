@@ -45,20 +45,36 @@ class AACTStudySet(StudySet):
         self.studies = self.conn.query(sql, index_col=[config.MAIN_ID_COL])
         print("%s studies loaded!" % self.studies.shape[0])
 
-    def add_dimension(self, dim_name):
-        if dim_name in DIM_HANDLE_MAP:
-            handler = DIM_HANDLE_MAP[dim_name]
-            self.dimensions[dim_name] = handler(dim_name)
-            print("added %s to dimensions list, now %s active" % (dim_name, len(self.dimensions.keys())))
-        else:
-            raise AssertionError("Handler not found for %s, please add it to dim_handlers.py" % dim_name)
+    def add_dimensions(self, dim_names):
+        # handling single string input to make it a list
+        if isinstance(dim_names, str):
+            dim_names = [dim_names]
 
-    def drop_dimension(self, dim_name):
-        if dim_name in self.dimensions:
-            self.dimensions[dim_name].dump_data()
-            self.dimensions[dim_name] = None
-        else:
-            print("%s was not an enabled dimension, nothing was done" % dim_name)
+        success_list = []
+        fail_list = []
+        for dim_name in dim_names:
+            if dim_name in DIM_HANDLE_MAP:
+                handler = DIM_HANDLE_MAP[dim_name]
+                self.dimensions[dim_name] = handler(dim_name)
+                success_list.append(dim_name)
+            else:
+                fail_list.append(dim_name)
+
+        print("Successfuly added these %s dimensions: %s" % (len(success_list), str(success_list)))
+        print("Failed to add these %s dimensions: %s" % (len(fail_list), str(fail_list)))
+
+    def drop_dimensions(self, dim_names):
+        # handling single string input to make it a list
+        if isinstance(dim_names, str):
+            dim_names = [dim_names]
+
+        for dim_name in dim_names:
+            if dim_name in self.dimensions:
+                self.dimensions[dim_name].dump_data()
+                self.dimensions[dim_name] = None
+                print("%s successfully dumped" % dim_name)
+            else:
+                print("%s was not an enabled dimension, nothing was done" % dim_name)
 
     def refresh_dim_data(self):
         self._sync_temp_table()
