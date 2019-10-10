@@ -34,7 +34,6 @@ DIM_HANDLE_MAP = {
     'result_groups': AACTStudyDimFlat,
     'outcomes': AACTStudyDimFlat,
     'interventions': AACTStudyDimFlat,
-    'facilities': AACTStudyDimFlat,
+    'facilities': AACTStudyDimFacilitiesFields,
     'milestones': AACTStudyDimResultsGroupFields,
 }
-
