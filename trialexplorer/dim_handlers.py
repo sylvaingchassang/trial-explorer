@@ -36,4 +36,6 @@ DIM_HANDLE_MAP = {
     'interventions': AACTStudyDimFlat,
     'facilities': AACTStudyDimFacilitiesFields,
     'milestones': AACTStudyDimResultsGroupFields,
+    'intervention_other_names' : AACTStudyDimIntervention,
+    'design_groups' : AACTStudyDimIntervention
 }
