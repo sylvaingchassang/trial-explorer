@@ -2,6 +2,7 @@
 map for dim name to its handler
 """
 from trialexplorer.AACTStudyDimFlat import AACTStudyDimFlat
+from trialexplorer.AACTStudyDimResultsGroupFields import AACTStudyDimResultsGroupFields
 
 # for each implemented dimension, its handler must be specified here.
 # ****key must equal table name****
@@ -30,5 +31,10 @@ DIM_HANDLE_MAP = {
     'design_outcomes': AACTStudyDimFlat,
     'eligibilities': AACTStudyDimFlat,
     'designs': AACTStudyDimFlat,
+    'result_groups': AACTStudyDimFlat,
+    'outcomes': AACTStudyDimFlat,
+    'interventions': AACTStudyDimFlat,
+    'facilities': AACTStudyDimFlat,
+    'milestones': AACTStudyDimResultsGroupFields,
 }
 

@@ -69,9 +69,9 @@ class AACTStudySet(StudySet):
             dim_names = [dim_names]
 
         for dim_name in dim_names:
-            if dim_name in self.dimensions:
+            if dim_name in list(self.dimensions.keys()):
                 self.dimensions[dim_name].dump_data()
-                self.dimensions[dim_name] = None
+                del self.dimensions[dim_name]
                 print("%s successfully dumped" % dim_name)
             else:
                 print("%s was not an enabled dimension, nothing was done" % dim_name)
