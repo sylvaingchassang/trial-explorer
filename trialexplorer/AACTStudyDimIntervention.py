@@ -6,7 +6,7 @@ from trialexplorer import config
 from pdaactconn.Connection import AACTConnection
 
 
-class AACTStudyDimInterventionGroup(AACTStudyDimBase):
+class AACTStudyDimIntervention(AACTStudyDimBase):
     """
     class for flat dimensions that are just 1 table
     """
@@ -44,8 +44,13 @@ class AACTStudyDimInterventionGroup(AACTStudyDimBase):
                      b.name as intervention_other_names_name
                      FROM %s a
                      JOIN %s tmp ON tmp.nct_id = a.nct_id
-                     JOIN %s b ON a.nct_id = b.nct_id AND a.id = b.intervention_id         
-                """ % ('interventions', config.MAIN_TEMP_TABLE, self.name)
+                     JOIN (
+		         SELECT b2.*
+			 FROM %s b2
+			 JOIN %s tmp2 ON tmp2.nct_id = b2.nct_id
+                         ) b
+                       ON tmp.nct_id = b.nct_id AND a.id = b.intervention_id         
+                """ % ('interventions', config.MAIN_TEMP_TABLE, self.name, config.MAIN_TEMP_TABLE)
         else:
             sql = """
                      SELECT
@@ -55,19 +60,24 @@ class AACTStudyDimInterventionGroup(AACTStudyDimBase):
                      a.name as intervention_name,
                      a.description as intervention_description,
                      b.id as design_group_id,
-                     b.group_type as as design_group_type,
+                     b.group_type as design_group_type,
                      b.title as design_group_title,
                      b.description as design_group_description
                      FROM %s a
                      JOIN %s tmp ON tmp.nct_id = a.nct_id
                      JOIN %s b ON b.nct_id = tmp.nct_id
-                     JOIN %s c ON a.nct_id = b.nct_id AND a.id = b.intervention_id 
-                         AND b.id = c.design_group_id
-                """ % ('interventions', config.MAIN_TEMP_TABLE, 'design_groups', self.name)
+                     JOIN (
+			SELECT c2.*
+			FROM %s c2
+			JOIN %s tmp2 ON tmp2.nct_id = c2.nct_id
+			) c
+		        ON c.nct_id = tmp.nct_id AND a.id = c.intervention_id 
+                            AND b.id = c.design_group_id
+                """ % ('interventions', config.MAIN_TEMP_TABLE, 'design_groups', self.name, config.MAIN_TEMP_TABLE)
         self.raw_data = conn.query(sql, keep_alive=True)
 
     def allocate_raw_data(self):
         """ split the dataframe into a keyed-by-nct_id dict """
         print(" -- Creating memory pointers for the .data dictionary keyed by nct_id")
-        for nct_id, sub_df in self.raw_data.groupby():
+        for nct_id, sub_df in self.raw_data.groupby(config.MAIN_ID_COL):
             self.data[nct_id] = sub_df
