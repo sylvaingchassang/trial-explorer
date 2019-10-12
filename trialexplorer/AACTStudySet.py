@@ -138,6 +138,7 @@ class AACTStudySet(StudySet):
         self._create_temp_table()
         self._reset_temp_table()
         self._chunk_insert(chunksize=config.SQL_CHUNK_SIZE)
+        self._create_index()
 
     def _reset_temp_table(self):
         """ resets the records in the temp table """
@@ -157,11 +158,20 @@ class AACTStudySet(StudySet):
         else:
             chunk_iter = self.tqdm(range(0, num_chunks))
 
-        print("Syncing the temp table %s in %s chunks x %s records each" % (config.MAIN_TEMP_TABLE, num_chunks, chunksize))
+        print("Syncing the temp table %s in %s chunks x %s records each" % (config.MAIN_TEMP_TABLE,
+                                                                            num_chunks,
+                                                                            chunksize))
         for i in chunk_iter:
             cur_insert = to_insert[chunksize * i: chunksize * (i + 1)]
             cur_insert_template = _generate_chunk_insert_sql(len(cur_insert))
             self.conn.execute(cur_insert_template, *tuple(cur_insert), keep_alive=True)
+
+    def _create_index(self):
+        print("Creating index on the temp table")
+        sql = """
+        CREATE INDEX IDX_tmp_nct_id ON %s(%s)
+        """ % (config.MAIN_TEMP_TABLE, config.MAIN_ID_COL)
+        self.conn.execute(sql, keep_alive=True)
 
     def _generate_constr_block(self):
         """ generates and shows the constraint string block """

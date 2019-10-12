@@ -2,9 +2,9 @@
 map for dim name to its handler
 """
 from trialexplorer.AACTStudyDimFlat import AACTStudyDimFlat
-from trialexplorer.AACTStudyDimResultsGroupFields import AACTStudyDimResultsGroupFields
-from trialexplorer.AACTStudyDimIntervention import AACTStudyDimIntervention
-from trialexplorer.AACTStudyDimFacilitiesFields import AACTStudyDimFacilityGroup
+from trialexplorer.AACTStudyDim2dGen import generate_2d_dim_constructor
+from trialexplorer.AACTStudyDimOtcmAlysGrps import AACTStudyDimOtcmAlysGrps
+from trialexplorer.AACTStudyDimOtcmCountsMeasure import AACTStudyDimOtcmCountsMeasure
 
 # for each implemented dimension, its handler must be specified here.
 # ****key must equal table name****
@@ -34,11 +34,19 @@ DIM_HANDLE_MAP = {
     'eligibilities': AACTStudyDimFlat,
     'designs': AACTStudyDimFlat,
     'result_groups': AACTStudyDimFlat,
+    'milestones': generate_2d_dim_constructor('result_groups', 'result_group_id'),
+    'drop_withdrawals': generate_2d_dim_constructor('result_groups', 'result_group_id'),
+    'reported_events': generate_2d_dim_constructor('result_groups', 'result_group_id'),
+    'baseline_counts': generate_2d_dim_constructor('result_groups', 'result_group_id'),
+    'baseline_measurements': generate_2d_dim_constructor('result_groups', 'result_group_id'),
     'outcomes': AACTStudyDimFlat,
+    'outcome_analyses': generate_2d_dim_constructor('outcomes', 'outcome_id'),
+    'outcome_analysis_groups': AACTStudyDimOtcmAlysGrps,
+    'outcome_counts': AACTStudyDimOtcmCountsMeasure,
+    'outcome_measurements': AACTStudyDimOtcmCountsMeasure,
     'interventions': AACTStudyDimFlat,
-    'facilities': AACTStudyDimFacilityGroup,
-    'milestones': AACTStudyDimResultsGroupFields,
-    'intervention_other_names' : AACTStudyDimIntervention,
-    'design_group_interventions' : AACTStudyDimIntervention,
-    'design_groups' : AACTStudyDimFlat
+    'intervention_other_names': generate_2d_dim_constructor('interventions', 'intervention_id'),
+    'facilities': AACTStudyDimFlat,
+    'facility_contacts': generate_2d_dim_constructor('facilities', 'facility_id'),
+    'facility_investigators': generate_2d_dim_constructor('facilities', 'facility_id')
 }

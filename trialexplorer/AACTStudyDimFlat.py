@@ -31,12 +31,7 @@ class AACTStudyDimFlat(AACTStudyDimBase):
     def load_raw_data(self, conn: AACTConnection):
         """ loads all of the raw data into a dataframe """
         print(" -- Loading raw data")
-        sql = """
-                SELECT 
-                    a.* 
-                FROM %s a
-                JOIN %s tmp ON tmp.nct_id = a.nct_id 
-                """ % (self.name, config.MAIN_TEMP_TABLE)
+        sql = self._generate_load_query()
         self.raw_data = conn.query(sql, keep_alive=True)
 
     def allocate_raw_data(self):
@@ -44,3 +39,13 @@ class AACTStudyDimFlat(AACTStudyDimBase):
         print(" -- Creating memory pointers for the .data dictionary keyed by nct_id")
         for nct_id, sub_df in self.raw_data.groupby(config.MAIN_ID_COL):
             self.data[nct_id] = sub_df
+
+    def _generate_load_query(self):
+        """ generates the query used to load data """
+        sql = """
+                SELECT 
+                    a.* 
+                FROM %s a
+                JOIN %s tmp ON tmp.nct_id = a.nct_id 
+                """ % (self.name, config.MAIN_TEMP_TABLE)
+        return sql

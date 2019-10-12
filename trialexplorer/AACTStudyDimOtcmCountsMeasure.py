@@ -6,9 +6,9 @@ from trialexplorer import config
 from pdaactconn.Connection import AACTConnection
 
 
-class AACTStudyDimResultsGroupFields(AACTStudyDimBase):
+class AACTStudyDimOtcmCountsMeasure(AACTStudyDimBase):
     """
-    class for flat dimensions that are just 1 table
+    class for the outcome_analysis_groups table
     """
     def __init__(self, dim_name):
         super().__init__()
@@ -31,17 +31,23 @@ class AACTStudyDimResultsGroupFields(AACTStudyDimBase):
     def load_raw_data(self, conn: AACTConnection):
         """ loads all of the raw data into a dataframe """
         print(" -- Loading raw data")
-        sql = """
-                SELECT 
-                    a.* 
-                FROM result_groups rg
-                JOIN %s tmp ON tmp.nct_id = rg.nct_id
-                JOIN %s a on a.nct_id=tmp.nct_id and rg.id = a.result_group_id
-                """ % (config.MAIN_TEMP_TABLE, self.name)
+        sql = self._generate_load_query()
         self.raw_data = conn.query(sql, keep_alive=True)
 
     def allocate_raw_data(self):
         """ split the dataframe into a keyed-by-nct_id dict """
         print(" -- Creating memory pointers for the .data dictionary keyed by nct_id")
-        # for nct_id, sub_df in self.raw_data.groupby(config.MAIN_ID_COL):
-        #    self.data[nct_id] = sub_df
+        for cur_id, sub_df in self.raw_data.groupby(by=[config.MAIN_ID_COL, 'result_group_id', 'outcome_id']):
+            self.data[cur_id] = sub_df
+
+    def _generate_load_query(self):
+        """ generates the query used to load data """
+        sql = """
+                SELECT 
+                    a.* 
+                FROM %s a
+                JOIN %s tmp ON tmp.nct_id = a.nct_id 
+                JOIN result_groups rg on rg.nct_id = tmp.nct_id and a.result_group_id = rg.id
+                JOIN outcomes o on o.nct_id = tmp.nct_id  and a.outcome_id = o.id
+                """ % (self.name, config.MAIN_TEMP_TABLE)
+        return sql
