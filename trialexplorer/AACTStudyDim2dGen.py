@@ -15,35 +15,27 @@ def generate_2d_dim_constructor(second_table, second_ident):
         def __init__(self, dim_name):
             super().__init__()
             self.name = dim_name
-            self.raw_data = None
             self.data = {}
             self.second_table = second_table
             self.second_ident = second_ident
 
         def load_data(self, conn):
             """ loads the data from the live connection, with temp table as nct_id list """
-            # resetting
-            self.data = {}
-            # reloading
-            self.load_raw_data(conn)
-            self.allocate_raw_data()
+            self.data = {}  # resetting
+            self.load_data_from_db(conn)  # reloading
 
         def dump_data(self):
-            self.raw_data = None
             self.data = None
 
-        def load_raw_data(self, conn: AACTConnection):
+        def load_data_from_db(self, conn: AACTConnection):
             """ loads all of the raw data into a dataframe """
             print(" -- Loading raw data")
             sql = self._generate_load_query()
-            self.raw_data = conn.query(sql, keep_alive=True)
-
-        def allocate_raw_data(self):
-            """ split the dataframe into a keyed-by-nct_id dict """
-            print(" -- Creating memory pointers for the .data dictionary keyed by %s, %s" % (config.MAIN_ID_COL,
-                                                                                             self.second_ident))
-            for cur_ident, sub_df in self.raw_data.groupby(by=[config.MAIN_ID_COL, self.second_ident]):
-                self.data[cur_ident] = sub_df
+            self.data = conn.query(sql,
+                                   index_col=[config.MAIN_ID_COL, self.second_ident],
+                                   keep_alive=True)
+            print(" -- Sorting index")
+            self.data.sort_index(inplace=True)
 
         def _generate_load_query(self):
             sql = """

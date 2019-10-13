@@ -13,7 +13,6 @@ class StudySet(ABC):
         self.studies = None  # stores the object that represents the flat studies data
         self.required_dims = None  # stores the list of dim_name that represents required dimensions
         self.constraints = None  # constraints in a syntax that is understood by the _load_studies method
-        self.study2dim_map = {}  # maps from study's nct_id the dim_name to the dimension object
 
     @abstractmethod
     def add_dimensions(self, dim_names):

@@ -1,11 +1,15 @@
 """
 implementation of StudySet that uses the aact database as the datasource
 """
-import pandas as pd
+from ctypes import cdll, CDLL
 import pdaactconn as pc
 from trialexplorer.StudySet import StudySet
 from trialexplorer import config
 from trialexplorer.dim_handlers import DIM_HANDLE_MAP
+
+# fix for pandas memory leak
+cdll.LoadLibrary("libc.so.6")
+libc = CDLL("libc.so.6")
 
 
 class DimAutoCompleter:
@@ -28,7 +32,6 @@ class AACTStudySet(StudySet):
         # other attrs avail on the super:
         # self.studies = None  # stores the object that represents the flat studies data
         # self.required_dims = None  # stores the list of dim_name that represents required dimensions
-        # self.study2dim_map = {}  # maps from study's nct_id the dim_name to the dimension object
 
         if conn:
             self.conn = conn
@@ -68,10 +71,14 @@ class AACTStudySet(StudySet):
         if isinstance(dim_names, str):
             dim_names = [dim_names]
 
+        dim_names = list(dim_names)
+        cur_dims = list(self.dimensions)
+
         for dim_name in dim_names:
-            if dim_name in list(self.dimensions.keys()):
+            if dim_name in cur_dims:
                 self.dimensions[dim_name].dump_data()
                 del self.dimensions[dim_name]
+                libc.malloc_trim(0)
                 print("%s successfully dumped" % dim_name)
             else:
                 print("%s was not an enabled dimension, nothing was done" % dim_name)
@@ -92,14 +99,11 @@ class AACTStudySet(StudySet):
 
         for dim_name, cur_dim in self.dimensions.items():
             print("Dropping records from the %s dimension" % dim_name)
-            # dropping from the dim raw data
-            cur_dim.raw_data = cur_dim.raw_data[~cur_dim.raw_data[config.MAIN_ID_COL].isin(to_drop)].copy()
-            # copy because we set the raw_data and all of the data pointers to another dataframe
-            # should let the GC collect the old dataframe - need testing
-            # todo: make sure that the dropping studies frees up memory
-
-            # dropping from the dim data
-            cur_dim.allocate_raw_data()
+            if cur_dim.data.index.nlevels == 1:
+                cur_dim.data.drop(to_drop, inplace=True, errors='ignore')
+            else:
+                cur_dim.data.drop(to_drop, level=config.MAIN_ID_COL, inplace=True, errors='ignore')
+            libc.malloc_trim(0)
 
     def add_constraint(self, constraint):
         """ adds AND constraints, enforces brackets aroudn the constraint, OR constraints should be added together """

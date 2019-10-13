@@ -15,7 +15,7 @@ DIM_HANDLE_MAP = {
     'conditions': AACTStudyDimFlat,
     'browse_conditions': AACTStudyDimFlat,
     'id_information': AACTStudyDimFlat,
-    'key_words': AACTStudyDimFlat,
+    'keywords': AACTStudyDimFlat,
     'countries': AACTStudyDimFlat,
     'calculated_values': AACTStudyDimFlat,
     'central_contacts': AACTStudyDimFlat,

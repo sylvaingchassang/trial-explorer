@@ -13,32 +13,25 @@ class AACTStudyDimFlat(AACTStudyDimBase):
     def __init__(self, dim_name):
         super().__init__()
         self.name = dim_name
-        self.raw_data = None
-        self.data = {}
+        self.data = None
 
     def load_data(self, conn):
         """ loads the data from the live connection, with temp table as nct_id list """
-        # resetting
-        self.data = {}
-        # reloading
-        self.load_raw_data(conn)
-        self.allocate_raw_data()
+        self.data = None  # resetting
+        self.load_data_from_db(conn)  # reloading
 
     def dump_data(self):
-        self.raw_data = None
         self.data = None
 
-    def load_raw_data(self, conn: AACTConnection):
+    def load_data_from_db(self, conn: AACTConnection):
         """ loads all of the raw data into a dataframe """
         print(" -- Loading raw data")
         sql = self._generate_load_query()
-        self.raw_data = conn.query(sql, keep_alive=True)
-
-    def allocate_raw_data(self):
-        """ split the dataframe into a keyed-by-nct_id dict """
-        print(" -- Creating memory pointers for the .data dictionary keyed by nct_id")
-        for nct_id, sub_df in self.raw_data.groupby(config.MAIN_ID_COL):
-            self.data[nct_id] = sub_df
+        self.data = conn.query(sql,
+                               index_col=[config.MAIN_ID_COL],
+                               keep_alive=True)
+        print(" -- Sorting index")
+        self.data.sort_index(inplace=True)
 
     def _generate_load_query(self):
         """ generates the query used to load data """
