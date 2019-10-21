@@ -9,6 +9,28 @@ https://clinicaltrials.gov/AllPublicXML.zip into ./raw_data/ and unzip it for us
 bash ./scripts/wget_raw_data.sh
 ```
 
+## Setting up local Postgres database with AACT data
+Full instructions here https://aact.ctti-clinicaltrials.org/snapshots, slightly modified below:
+
+Download a snapshot of the database from link above and unzip to `Downloads`
+```$ `createuser -s postgres```
+
+```$ createdb aact -U postgres``` 
+
+```$ psql -U posgres```
+
+```postgres-# create database aact_back;```
+
+```postgres-# \q```
+
+```pg_restore -e -v -O -x --dbname=aact --no-owner --clean --create  ~/Downloads/postgres_data.dmp```
+
+Check it completed successfully:
+
+```SELECT * FROM pg_catalog.pg_tables```
+```WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';```
+
+
 ## Usage
 #### Initialization
 ```python
