@@ -105,6 +105,7 @@ venv.bak/
 
 # raw data files not to commited to git
 raw_data/
+xml/
 
 # pycharm generated folders
 .idea/
