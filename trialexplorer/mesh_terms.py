@@ -61,6 +61,8 @@ class MeSHCatalog:
 
     def lookup_higher_level(self, mesh_term, level):
         """ looksup a term that is at a higher or equal level than at least 1 of the current term's levels """
+        if mesh_term not in self.term2trees.keys():
+            return []
         tree_nums = self.term2trees[mesh_term]
         all_lookups = []
         for tree_num in tree_nums:
