@@ -81,11 +81,40 @@ class MeSHCatalog:
                     all_terms.append(cur_term)
         return sorted(all_terms)
 
+    def shortest_mesh_dist(self, term1, term2):
+        """
+        takes 2 terms, and determine shortest tree distance between them
+        returns -1 if error
+        """
+
+        is_error = False
+        if term1 not in self.term2trees:
+            print("%s was not found on the mesh tree" % term1)
+            is_error = True
+        if term2 not in self.term2trees:
+            print("%s was not found on the mesh tree" % term2)
+            is_error = True
+
+        if is_error:
+            return -1
+
+        t1_codes = self.term2trees[term1]
+        t2_codes = self.term2trees[term2]
+
+        shortest_dist = -1
+        for cur_t1_code in t1_codes:
+            for cur_t2_code in t2_codes:
+                cur_dist = get_code_distance(cur_t1_code, cur_t2_code)
+                if cur_dist < shortest_dist or shortest_dist == -1:
+                    shortest_dist = cur_dist
+
+        return shortest_dist
+
     def _load_from_local(self, filename):
-        print("Parsing MeSH xml: xml/%s ..." % filename)
-        tree = ElementTree.parse('xml/%s' % filename)
-        self.root = tree.getroot()
-        print("Parse Complete! (parsed ElementTree root can be found in the .root attribute)")
+            print("Parsing MeSH xml: xml/%s ..." % filename)
+            tree = ElementTree.parse('xml/%s' % filename)
+            self.root = tree.getroot()
+            print("Parse Complete! (parsed ElementTree root can be found in the .root attribute)")
 
     def _map_tree2term(self):
         self.tree2term = {}  # reset the dict
@@ -127,6 +156,18 @@ class MeSHCatalog:
                         self.term2trees[cur_term].append(tree_num)
                     else:
                         self.term2trees[cur_term] = [tree_num]
+
+
+def get_code_distance(c1, c2):
+    """ input are 2 period delimited tree codes such as: D02.705.539.345.800 """
+    l1 = c1.split('.')
+    l2 = c2.split('.')
+    for i in range(min(len(l1), len(l2))):
+        if l1[i] != l2[i]:
+            return len(l1) + len(l2) - 2 * i
+
+    # all of sub trees matched
+    return abs(len(l1) - len(l2))
 
 
 def _fetch_ftp_file(filename):
