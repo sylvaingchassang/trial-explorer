@@ -2,15 +2,17 @@
 module for determining the similarity of a study in terms of the conditions studied and the intervention used
 """
 import nltk
+from nltk.corpus import stopwords
+from nltk.probability import FreqDist
 import re
 import string
+import numpy as np
+from fuzzywuzzy import fuzz
 
 
-def featurize_conditions(df):
-    """
-    takes a dataframe of studies and featurizes it into the the features used to determine similarity to other studies
-    """
-
+######################
+# --- FEATURIZERS ---#
+######################
 
 ######################
 # --- MESH ---#
@@ -33,13 +35,55 @@ def get_mesh_terms(nctid1, nctid2, data):
     return s1terms, s2terms
 
 
-def mesh_jaccard_dist(nctid1, nctid2, data):
+def mesh_jaccard_sim(nctid1, nctid2, data):
     s1terms, s2terms = get_mesh_terms(nctid1, nctid2, data)
-    return list_jaccard_dist(s1terms, s2terms)
+    return list_jaccard_sim(s1terms, s2terms)
+
+
+def mesh_tree_dist(nctid1, nctid2, data, mc):
+    """ compute the set of all tree distances and returns tuple of min, max, mean """
+    s1terms, s2terms = get_mesh_terms(nctid1, nctid2, data)
+
+    all_dist = []
+    for t1 in s1terms:
+        for t2 in s2terms:
+            cur_dist = mc.shortest_mesh_dist(t1, t2)
+            all_dist.append(cur_dist)
+
+    return min(all_dist), max(all_dist), np.mean(all_dist)
 
 
 ######################
-# --- NLTK ---#
+# --- FUZZYWUZZY ---#
+######################
+
+
+def noun_partial_fuzzy_dist(c1, c2):
+    cur_tokens1 = nltk.word_tokenize(c1)
+    pos_tags1 = nltk.pos_tag(cur_tokens1)
+    cur_nouns1 = ' '.join([x[0] for x in pos_tags1 if x[1] in ('NN', 'NNS')])
+
+    cur_tokens2 = nltk.word_tokenize(c2)
+    pos_tags2 = nltk.pos_tag(cur_tokens2)
+    cur_nouns2 = ' '.join([x[0] for x in pos_tags2 if x[1] in ('NN', 'NNS')])
+    return fuzz.partial_ratio(cur_nouns1, cur_nouns2)
+
+
+def extract_nouns(c_in):
+    cur_tokens = nltk.word_tokenize(c_in)
+    pos_tags = nltk.pos_tag(cur_tokens)
+    cur_nouns = ' '.join([x[0] for x in pos_tags if x[1] in ('NN', 'NNS')])
+    return cur_nouns
+
+
+def fuzzy_noun_dist(c1, c2):
+    n1 = extract_nouns(c1)
+    n2 = extract_nouns(c2)
+    return fuzz.ratio(n1, n2)
+
+
+######################
+# --- ADJECTIVES AND VERBS ---#
 ######################
 
 
@@ -59,6 +103,13 @@ def extract_adj_and_vb(condition_str):
     return all_jj, all_vb
 
 
+def adj_and_vb_dist(adjvb1, adjvb2):
+    adj1, vb1 = adjvb1[0], adjvb1[1]
+    adj2, vb2 = adjvb2[0], adjvb2[1]
+    adj_sim = list_jaccard_sim(adj1, adj2)
+    vb_sim = list_jaccard_sim(vb1, vb2)
+    return 1 - adj_sim, 1 - vb_sim
+
 ######################
 # --- STAGE, TYPE, GRADES ---#
 ######################
@@ -75,6 +126,8 @@ word_nums = [
 ]
 
 word2num = dict(zip(word_nums, range(0, 21)))
+
+full_dissim_score = 10.
 
 
 ######################################################
@@ -450,12 +503,197 @@ def full_extract(orig_cond):
         return None
 
 
+def calc_stage_diff(s1, s2):
+    """ compute distance between 3b and 1 for example """
+    enumeratable_letters = 'abcdef'
+    d1, c1 = digstr2parts(s1)
+    d2, c2 = digstr2parts(s2)
+
+    # case 1, both digits are None
+    if d1 is None and d2 is None and \
+            c1 in enumeratable_letters and \
+            c2 in enumeratable_letters:
+        return abs(ord(c2) - ord(c1))
+
+    # case 2, 1 digit is None
+    if d1 is not None and d2 is None:
+        return full_dissim_score
+    if d1 is None and d2 is not None:
+        return full_dissim_score
+
+    # case 3,
+    if d1 is not None and d2 is not None:
+        if c1 == '' and c2 == '':
+            return abs(d2 - d1)
+        elif c1 != '' and c1 == c2:
+            return abs(d2 - d1)
+        else:
+            return abs(d2 - d1) + .5
+
+    return full_dissim_score
+
+
+# function to compute simiarity between two extracted stage dicts
+def stage_sim_dist(stage_dict1, stage_dict2):
+    """ stage_dict has key type, grade etc
+    if dissimilar, returns 10
+    if stage, type, grade, returns number diff
+    if both letters, returns char ord diff
+
+    for full_match types applies an (1 - jaccard multiplier) to list diffs
+    """
+    # if 1 of the dict is blank, return full dissimilarity
+    if stage_dict1 is None and stage_dict2 is None:
+        return 0.
+    elif stage_dict1 is None or stage_dict2 is None:
+        return full_dissim_score
+
+    # hepatitis, genotype, ajcc must be full match
+    full_sim_required_types = ['hepatitis', 'ajcc', 'genotyp_']
+    full_match_scores = []
+    for cur_type in full_sim_required_types:
+        if len(stage_dict1[cur_type]) > 0 and len(stage_dict2[cur_type]) > 0:
+            one_m_jdist = 1 - list_jaccard_sim(stage_dict1[cur_type], stage_dict2[cur_type])
+            full_match_scores.append(one_m_jdist * full_dissim_score)
+        elif len(stage_dict1[cur_type]) > 0 or len(stage_dict2[cur_type]) > 0:
+            full_match_scores.append(full_dissim_score)
+    # if any was filled, then it means some full-match dicts were not null
+    if len(full_match_scores) > 0:
+        max_full_score = max(full_match_scores)
+        if max_full_score > 0:  # only returns if the full match was non-zero other wise check part matches
+            return max_full_score
+
+    # grade, type, stage can be partially matched
+    partial_sim_required_types = ['grade', 'type', 'stage']
+    l1, l2 = [], []
+    for cur_type in partial_sim_required_types:
+        for cur_item in stage_dict1[cur_type]:  # append to l1
+            if cur_item not in l1 and cur_item != '':
+                l1.append(cur_item)
+        for cur_item in stage_dict2[cur_type]:  # append to l2
+            if cur_item not in l2 and cur_item != '':
+                l2.append(cur_item)
+
+    # the elements that are not matching contribute to the difference (if they match, they contribute 0 score)
+    l1_diff, l2_diff = [], []
+    l1_diff = [x for x in l1 if x not in l2]
+    l2_diff = [x for x in l2 if x not in l1]
+
+    # how many were matched?
+    num_matched = len(l1) - len(l1_diff)
+    num_diff = len(l1_diff) + len(l2_diff)
+
+    # compute the average distance between l1 and l2 values
+    all_min_dist = []
+    for l1_diff_val in l1_diff:
+        if len(l2_diff) > 0:  # exit condition
+            all_dist = [calc_stage_diff(l1_diff_val, x) for x in l2_diff]
+            min_dist = min(all_dist)
+            min_idx = all_dist.index(min_dist)
+            del l2_diff[min_idx]
+            all_min_dist.append(min_dist)
+        else:
+            all_min_dist.append(full_dissim_score)
+
+    # if any left in l2_diff, add them as fully dissim
+    for l2_diff_val in l2_diff:
+        all_min_dist.append(full_dissim_score)
+
+    if len(all_min_dist) == 0:
+        return 0.
+
+    mean_dist = sum(all_min_dist) / len(all_min_dist)
+    return mean_dist * num_diff / (num_matched + num_diff)
+
+
+######################
+# --- BAG OF WORDS FOR BING RESULTS ---#
+######################
+
+bag_of_words_topx = 25
+stop_words = set(stopwords.words('english'))
+
+
+def get_top_x_words(fdist_mc, x=bag_of_words_topx):
+    """ only gets the top x words by count """
+    cur_w_c = 0
+    res_mc = []
+    for word, n_occ in fdist_mc:
+        if cur_w_c + n_occ < x:  # case 1 we haave capacity
+            res_mc.append((word, n_occ))
+            cur_w_c += n_occ
+        else:  # case 2 fill to capacity
+            n_capacity = x - cur_w_c
+            res_mc.append((word, n_capacity))
+            cur_w_c = x
+            return dict(res_mc)
+    return dict(res_mc)
+
+
+def doc_to_tokencount(cur_doc, num_words=bag_of_words_topx):
+    merged_cur_doc = ' '.join(cur_doc)
+    cur_tokens = nltk.word_tokenize(merged_cur_doc)
+    table = str.maketrans('', '', string.punctuation)
+    stripped = [w.translate(table) for w in cur_tokens]
+    no_blank_lower = [w.lower() for w in stripped if w != '']
+    no_stop_words = [w for w in no_blank_lower if not w in stop_words]
+    fdist = FreqDist(no_stop_words)
+    most_common_100token = fdist.most_common(num_words)
+    most_common_100w = get_top_x_words(most_common_100token, x=num_words)
+    return most_common_100w
+
+
+def wasserstein_dist(token_counts1, token_counts2):
+    total_dist = 0
+    # building dict of all keys
+    full_list = list(token_counts1.keys())
+    for k in token_counts2.keys():
+        if k not in full_list:
+            full_list.append(k)
+
+    # looping through all keys
+    for k in full_list:
+        if k in token_counts1.keys() and k in token_counts2.keys():
+            total_dist += abs(token_counts1[k] - token_counts2[k])  # add diff in counts
+        elif k in token_counts1.keys():
+            total_dist += token_counts1[k]  # add full count from token_count1
+        elif k in token_counts2.keys():
+            total_dist += token_counts2[k]  # add full count from token_count2
+
+    return total_dist
+
+
+######################
+# --- LIST OF LINKS ---#
+######################
+
+def compute_link_list_sim(uniql1, uniql2):
+    if len(uniql1) == 0 or len(uniql2) == 0:
+        return 0.  # not similar if either is blank (jaccard returns 1 if both blank)
+    else:
+        return list_jaccard_sim(uniql1, uniql2)
+
+
+######################
+# --- WIKI---#
+######################
+
+
+def compute_wiki_sim(w1, w2):
+    if len(w1) == 0 or len(w2) == 0:
+        return 0.
+    elif w1 == w2:
+        return 1.
+    else:
+        return 0.
+
+
 ######################
 # --- HELPERS ---#
 ######################
 
 
-def list_jaccard_dist(l1, l2):
+def list_jaccard_sim(l1, l2):
     """ provided 2 lists, compute the jacard similarity between them """
     full_list = []
     for cur_term in l1:
@@ -465,7 +703,7 @@ def list_jaccard_dist(l1, l2):
             full_list.append(cur_term)
 
     if len(full_list) == 0:
-        return -1.
+        return 1.
     intersect_count = 0
     for term in full_list:
         if term in l1 and term in l2:
@@ -474,4 +712,11 @@ def list_jaccard_dist(l1, l2):
     return intersect_count / len(full_list)
 
 
+def unique_list(cl):
+    ul = []
+    for i in cl:
+        if i not in ul:
+            ul.append(i)
+
+    return ul
 
