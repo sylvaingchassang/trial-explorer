@@ -12,8 +12,18 @@ WAIT_TIME_STD = 0.2
 WAIT_TIME_FLOOR = 0.5
 WAIT_TIME_CAP = 2.0
 
-headers = {'User-Agent':
-           'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:54.0) Gecko/20100101 Firefox/54.0'}
+user_agent_list = [
+    'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)',
+    'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+]
+
+
+def random_ua():
+    return np.random.choice(user_agent_list)
 
 
 def do_wait(multiple=1.0):
@@ -65,6 +75,7 @@ def bing(search_term, do_print=True):
     feat_wiki = []
 
     url = search(search_term)
+    headers = {'User-Agent': random_ua()}
     r = requests.get(url, headers=headers)
     soup = BeautifulSoup(r.content, 'html5lib')
     content_list = soup.find_all('a')

@@ -13,6 +13,106 @@ from fuzzywuzzy import fuzz
 ######################
 # --- FEATURIZERS ---#
 ######################
+def featurize_cond_full(c1, c2, bing_data):
+    f1 = featurize_one_cond(c1, bing_data)
+    f2 = featurize_one_cond(c2, bing_data)
+    return featurize_conditions(f1, f2)
+
+
+def featurize_one_cond(c1, bing_data):
+    """
+    extracts raw features for just 1 condition
+    :param c1: condition string
+    :param bing_data: dict of the bing features that is pre-built, if cond_str not in its keys, then no bing features
+    :return:
+    """
+    # nouns
+    fraw_dict = {
+        'condition': c1.lower(),
+        'nouns': extract_nouns(c1.lower())
+    }
+
+    # ---------------------------
+    # bing features
+    # ---------------------------
+    if c1 in bing_data.keys() and not has_no_data(bing_data[c1]):
+        fraw_dict['bing_tokens'] = doc_to_tokencount(bing_data[c1]['doc'])
+        fraw_dict['bing_links'] = unique_list(bing_data[c1]['links'])
+        fraw_dict['bing_wiki'] = bing_data[c1]['wiki']
+    else:
+        fraw_dict['bing_tokens'] = None
+        fraw_dict['bing_links'] = None
+        fraw_dict['bing_wiki'] = None
+
+    c1_lower = c1.lower()
+    # ---------------------------
+    # stage feature
+    # ---------------------------
+    fraw_dict['stages'] = full_extract(c1_lower)
+
+    # ---------------------------
+    # adj and verb features
+    # ---------------------------
+    fraw_dict['adj_and_verbs'] = extract_adj_and_vb(c1_lower)
+
+    return fraw_dict
+
+
+def featurize_conditions(f1, f2):
+    """
+    full featurizer for the given condition pair, computes distance features
+    :param f1: dict of the featurized first condition
+    :param f2: dict of the featurized second condition
+    :return: dict of all of the features for this condition pair
+    """
+    # ---------------------------
+    # basic fuzz features
+    # ---------------------------
+    fdict = {
+        'full_fuzzy_ratio': fuzz.ratio(f1['condition'], f2['condition']),  # full lev sim ratio:
+    }
+
+    # ---------------------------
+    # basic fuzz features
+    # ---------------------------
+    if f1['nouns'] == '' and f2['nouns'] == '':
+        fdict['noun_fuzzy_ratio'] = 0.
+    else:
+        fdict['noun_fuzzy_ratio'] = fuzz.ratio(f1['nouns'], f2['nouns'])
+
+    # ---------------------------
+    # bing features
+    # ---------------------------
+    if f1['bing_tokens'] is not None and f2['bing_tokens'] is not None:
+        fdict['bing_bagoword_dist'] = wasserstein_dist(f1['bing_tokens'], f2['bing_tokens'])
+    else:
+        fdict['bing_bagoword_dist'] = np.NaN
+
+    if f1['bing_links'] is not None and f2['bing_links'] is not None:
+        fdict['bing_link_sim'] = compute_link_list_sim(f1['bing_links'], f2['bing_links'])
+    else:
+        fdict['bing_link_sim'] = np.NaN
+
+    if f1['bing_wiki'] is not None and f2['bing_wiki'] is not None:
+        fdict['same_wiki'] = compute_wiki_sim(f1['bing_wiki'], f2['bing_wiki'])
+    else:
+        fdict['same_wiki'] = np.NaN
+
+    # ---------------------------
+    # stage feature
+    # ---------------------------
+    fdict['stage_dist'] = stage_sim_dist(f1['stages'], f2['stages'])
+
+    # ---------------------------
+    # adj and verb features
+    # ---------------------------
+    jjvb1 = f1['adj_and_verbs']
+    jjvb2 = f2['adj_and_verbs']
+    jj_dist, vb_dist = adj_and_vb_dist(jjvb1, jjvb2)
+    fdict['adj_dist'] = jj_dist
+    fdict['vb_dist'] = vb_dist
+
+    return fdict
 
 ######################
 # --- MESH ---#
@@ -76,9 +176,7 @@ def extract_nouns(c_in):
     return cur_nouns
 
 
-def fuzzy_noun_dist(c1, c2):
-    n1 = extract_nouns(c1)
-    n2 = extract_nouns(c2)
+def fuzzy_noun_dist(n1, n2):
     return fuzz.ratio(n1, n2)
 
 
@@ -661,6 +759,14 @@ def wasserstein_dist(token_counts1, token_counts2):
             total_dist += token_counts2[k]  # add full count from token_count2
 
     return total_dist
+
+
+def has_no_data(bing_res_val):
+    """ checks the bing results for whether there is data """
+    for k, v in bing_res_val.items():
+        if len(v) > 0:
+            return False
+    return True
 
 
 ######################
