@@ -1,1001 +1,1001 @@
 downcase_name,downcase_name
-healthy,6425
-breast cancer,4170
-obesity,3888
-hypertension,2413
-prostate cancer,2345
-pain,2341
-depression,2226
-asthma,2134
-schizophrenia,1929
-stroke,1889
-"diabetes mellitus, type 2",1791
-hiv infections,1770
-diabetes,1697
-coronary artery disease,1674
-colorectal cancer,1602
-cancer,1557
-lung cancer,1499
-lymphoma,1463
-heart failure,1429
-healthy volunteers,1357
-type 2 diabetes mellitus,1349
-multiple myeloma,1300
-rheumatoid arthritis,1282
-leukemia,1255
-type 2 diabetes,1176
-diabetes mellitus,1143
-hiv,1100
-ovarian cancer,1037
-atrial fibrillation,1027
-pancreatic cancer,994
-multiple sclerosis,979
-non-small cell lung cancer,978
-influenza,963
-osteoarthritis,945
-anxiety,930
-major depressive disorder,917
-cardiovascular diseases,907
-chronic obstructive pulmonary disease,889
-head and neck cancer,844
-overweight,788
-infertility,785
-parkinson's disease,781
-melanoma,779
-alzheimer's disease,779
-gastric cancer,748
-cystic fibrosis,742
-parkinson disease,740
-hepatocellular carcinoma,738
-postoperative pain,733
-acute myeloid leukemia,728
+healthy,6512
+breast cancer,4242
+obesity,3942
+hypertension,2432
+pain,2378
+prostate cancer,2375
+depression,2258
+asthma,2153
+schizophrenia,1954
+stroke,1938
+"diabetes mellitus, type 2",1822
+hiv infections,1788
+diabetes,1719
+coronary artery disease,1694
+colorectal cancer,1623
+cancer,1583
+lung cancer,1514
+lymphoma,1472
+heart failure,1449
+healthy volunteers,1386
+type 2 diabetes mellitus,1354
+multiple myeloma,1325
+rheumatoid arthritis,1297
+leukemia,1257
+type 2 diabetes,1197
+diabetes mellitus,1159
+hiv,1110
+atrial fibrillation,1053
+ovarian cancer,1045
+pancreatic cancer,1012
+multiple sclerosis,1008
+non-small cell lung cancer,989
+influenza,972
+anxiety,957
+osteoarthritis,950
+major depressive disorder,935
+cardiovascular diseases,928
+chronic obstructive pulmonary disease,899
+head and neck cancer,855
+overweight,799
+infertility,799
+parkinson's disease,792
+melanoma,788
+alzheimer's disease,783
+parkinson disease,776
+gastric cancer,766
+hepatocellular carcinoma,764
+postoperative pain,762
+cystic fibrosis,753
+acute myeloid leukemia,751
+pregnancy,712
 "unspecified adult solid tumor, protocol specific",712
-pregnancy,708
-metabolic syndrome,691
-bipolar disorder,690
-cardiovascular disease,683
-anemia,660
-physical activity,658
-low back pain,651
-neoplasms,650
-chronic pain,647
-smoking cessation,637
-myelodysplastic syndromes,634
-hepatitis c,626
-osteoporosis,621
-chronic kidney disease,609
-"diabetes mellitus, type 1",605
-"pain, postoperative",604
-epilepsy,603
-"pulmonary disease, chronic obstructive",603
-alzheimer disease,600
-quality of life,599
-psoriasis,597
-inflammation,589
-myocardial infarction,582
-insulin resistance,575
-copd,571
-malaria,568
-hypercholesterolemia,561
-knee osteoarthritis,542
-healthy subjects,542
-aging,537
-cervical cancer,536
-anesthesia,532
-solid tumors,526
-obstructive sleep apnea,519
-type 1 diabetes,509
-surgery,507
-ulcerative colitis,501
-bladder cancer,499
-breast neoplasms,492
-esophageal cancer,491
-metastatic breast cancer,488
-dementia,483
-smoking,475
-crohn's disease,471
-sarcoma,468
-glaucoma,463
-"osteoarthritis, knee",458
-chronic lymphocytic leukemia,455
-type 1 diabetes mellitus,443
-insomnia,443
-glioblastoma,441
-myelodysplastic syndrome,440
-tuberculosis,440
-fibromyalgia,437
-traumatic brain injury,436
-atopic dermatitis,432
-cataract,426
+metabolic syndrome,708
+bipolar disorder,698
+cardiovascular disease,684
+chronic pain,671
+physical activity,671
+low back pain,664
+anemia,663
+neoplasms,660
+smoking cessation,646
+myelodysplastic syndromes,639
+"pain, postoperative",631
+hepatitis c,629
+quality of life,628
+osteoporosis,625
+alzheimer disease,615
+"diabetes mellitus, type 1",611
+chronic kidney disease,611
+epilepsy,611
+"pulmonary disease, chronic obstructive",608
+psoriasis,606
+inflammation,604
+myocardial infarction,593
+copd,589
+insulin resistance,588
+malaria,570
+hypercholesterolemia,568
+knee osteoarthritis,561
+aging,555
+healthy subjects,553
+anesthesia,550
+cervical cancer,547
+solid tumors,532
+obstructive sleep apnea,529
+type 1 diabetes,524
+surgery,522
+ulcerative colitis,514
+bladder cancer,511
+metastatic breast cancer,501
+dementia,501
+esophageal cancer,500
+breast neoplasms,497
+smoking,480
+"osteoarthritis, knee",475
+crohn's disease,474
+sarcoma,471
+glaucoma,469
+chronic lymphocytic leukemia,461
+insomnia,451
+glioblastoma,450
+tuberculosis,449
+type 1 diabetes mellitus,449
+fibromyalgia,444
+atopic dermatitis,443
+myelodysplastic syndrome,441
+traumatic brain injury,439
+mild cognitive impairment,438
+cataract,434
+"carcinoma, non-small-cell lung",428
+acute coronary syndrome,427
 hiv infection,424
-"carcinoma, non-small-cell lung",422
-mild cognitive impairment,421
-acute coronary syndrome,421
-atherosclerosis,416
-sepsis,413
-myopia,406
-non small cell lung cancer,400
-schizoaffective disorder,397
-rectal cancer,389
+sepsis,423
+atherosclerosis,422
+non small cell lung cancer,411
+myopia,408
+rectal cancer,400
+schizoaffective disorder,400
+solid tumor,388
+fatigue,386
 brain and central nervous system tumors,384
-fatigue,382
-spinal cord injury,372
-contraception,372
-solid tumor,370
-heart diseases,369
-migraine,368
-hepatitis b,367
-cerebral palsy,366
-advanced solid tumors,366
-vitamin d deficiency,360
-metastatic cancer,358
-ocular hypertension,357
-colon cancer,356
-end stage renal disease,356
-attention deficit hyperactivity disorder,350
-peripheral arterial disease,349
-autism spectrum disorder,346
-metastatic colorectal cancer,339
-acute lymphoblastic leukemia,338
-weight loss,335
-sickle cell disease,335
-irritable bowel syndrome,334
-acne vulgaris,332
-advanced cancer,330
-stress,327
+migraine,375
+contraception,374
+cerebral palsy,373
+spinal cord injury,373
+hepatitis b,372
+heart diseases,372
+advanced solid tumors,371
+vitamin d deficiency,366
+end stage renal disease,362
+colon cancer,362
+metastatic cancer,361
+peripheral arterial disease,360
+ocular hypertension,359
+autism spectrum disorder,359
+attention deficit hyperactivity disorder,356
+sickle cell disease,346
+weight loss,345
+metastatic colorectal cancer,343
+stress,343
+acute lymphoblastic leukemia,342
+irritable bowel syndrome,340
+acne vulgaris,336
+advanced cancer,336
+healthy volunteer,328
+critical illness,326
 neuroblastoma,322
-healthy volunteer,322
-critical illness,315
-liver cancer,313
-renal cell carcinoma,311
-fallopian tube cancer,309
-colorectal neoplasms,307
-spinal cord injuries,306
-coronary disease,306
-malnutrition,300
-pneumonia,298
-ischemic stroke,297
-endometrial cancer,297
-dental caries,296
-dyslipidemia,296
-congestive heart failure,295
-polycystic ovary syndrome,294
-kidney cancer,294
-kidney transplantation,292
-septic shock,290
+spinal cord injuries,320
+liver cancer,318
+renal cell carcinoma,317
+fallopian tube cancer,312
+colorectal neoplasms,310
+coronary disease,309
+malnutrition,303
+pneumonia,303
+endometrial cancer,302
+ischemic stroke,302
+congestive heart failure,300
+dental caries,300
+polycystic ovary syndrome,299
+septic shock,297
+dyslipidemia,297
+kidney cancer,297
+blood pressure,295
+posttraumatic stress disorder,292
+kidney transplantation,291
 chronic hepatitis c,289
-posttraumatic stress disorder,289
 hyperlipidemia,287
-blood pressure,285
-non-hodgkin's lymphoma,284
-infection,282
-amyotrophic lateral sclerosis,280
-"hepatitis c, chronic",280
-glioblastoma multiforme,275
-erectile dysfunction,275
-systemic lupus erythematosus,273
-hiv/aids,270
-constipation,270
-melanoma (skin),269
+non-hodgkin's lymphoma,287
+infection,284
+amyotrophic lateral sclerosis,283
+hiv/aids,282
+erectile dysfunction,282
+"hepatitis c, chronic",281
+systemic lupus erythematosus,278
+glioblastoma multiforme,276
+constipation,274
+overactive bladder,271
+sleep,271
+pulmonary hypertension,270
+prostatic neoplasms,270
+melanoma (skin),270
+overweight and obesity,269
 multiple myeloma and plasma cell neoplasm,269
-pulmonary hypertension,269
-prostatic neoplasms,267
-overactive bladder,266
-acute myocardial infarction,262
-chronic obstructive pulmonary disease (copd),260
-sleep,259
-overweight and obesity,258
-anxiety disorders,257
-pharmacokinetics,256
-pulmonary arterial hypertension,256
-nicotine dependence,256
-health behavior,255
-diarrhea,254
-allergic rhinitis,253
-cirrhosis,253
-urinary incontinence,252
-alcohol dependence,249
-acute kidney injury,249
-diabetic macular edema,248
-sarcopenia,245
-chronic low back pain,242
-coronary heart disease,239
-ptsd,238
-tobacco use disorder,237
-cognitive impairment,234
-menopause,234
-substance-related disorders,232
-myocardial ischemia,232
-chronic hepatitis b,231
-crohn disease,230
+pharmacokinetics,264
+acute myocardial infarction,263
+anxiety disorders,263
+chronic obstructive pulmonary disease (copd),263
+health behavior,262
+nicotine dependence,262
+urinary incontinence,261
+pulmonary arterial hypertension,257
+diarrhea,257
+allergic rhinitis,255
+cirrhosis,254
+acute kidney injury,252
+diabetic macular edema,252
+alcohol dependence,251
+sarcopenia,248
+coronary heart disease,243
+chronic low back pain,243
+ptsd,243
+crohn disease,240
+cognitive impairment,240
+tobacco use disorder,239
+neck pain,237
+menopause,237
+chronic hepatitis b,237
+substance-related disorders,234
+myocardial ischemia,233
 neoplasm metastasis,227
-neck pain,226
-alcoholism,225
-metastatic melanoma,220
-glioma,220
-delirium,220
-"arthritis, rheumatoid",218
-morbid obesity,215
-substance abuse,213
-small cell lung cancer,212
-depressive disorder,209
-autism,209
-venous thromboembolism,209
-liver cirrhosis,208
-major depression,206
-prediabetes,206
-dry eye,205
-alcohol use disorder,203
-periodontitis,200
-exercise,200
-adhd,199
-"lymphoma, non-hodgkin",198
-oxidative stress,198
-acute pain,197
-sedentary lifestyle,197
-endometriosis,197
-diabetic retinopathy,196
-cardiac arrest,196
-pulmonary embolism,195
-neuropathic pain,195
-"depressive disorder, major",195
-generalized anxiety disorder,195
-respiratory failure,194
-age-related macular degeneration,193
-hyperglycemia,193
-burns,191
-obsessive-compulsive disorder,191
-acute myelogenous leukemia,190
-trauma,189
+alcoholism,226
+metastatic melanoma,224
+delirium,224
+glioma,224
+"arthritis, rheumatoid",223
+morbid obesity,218
+depressive disorder,217
+dry eye,216
+small cell lung cancer,215
+venous thromboembolism,215
+substance abuse,214
+alcohol use disorder,214
+exercise,212
+liver cirrhosis,212
+autism,211
+prediabetes,209
+endometriosis,208
+major depression,207
+periodontitis,207
+adhd,205
+acute pain,203
+diabetic retinopathy,202
+oxidative stress,201
+"depressive disorder, major",200
+"lymphoma, non-hodgkin",199
+pulmonary embolism,199
+neuropathic pain,199
+sedentary lifestyle,198
+generalized anxiety disorder,197
+hyperglycemia,197
+cardiac arrest,197
+obsessive-compulsive disorder,196
+burns,196
+respiratory failure,196
+trauma,195
+age-related macular degeneration,195
+mantle cell lymphoma,193
+acute myelogenous leukemia,192
+opioid-related disorders,189
 stage iv breast cancer,188
-recurrent adult acute myeloid leukemia,188
-mantle cell lymphoma,188
-opioid-related disorders,186
-tetanus,184
-diphtheria,183
-"carcinoma, hepatocellular",183
-alcohol abuse,183
-diabetes mellitus type 2,182
-ischemic heart disease,181
-postoperative complications,181
-macular degeneration,180
-post-traumatic stress disorder,178
-human immunodeficiency virus,178
+tetanus,186
+recurrent adult acute myeloid leukemia,186
+postoperative complications,186
+alcohol abuse,185
+ischemic heart disease,184
+"carcinoma, hepatocellular",184
+diphtheria,184
+diabetes mellitus type 2,183
+macular degeneration,182
+post-traumatic stress disorder,181
+human immunodeficiency virus,181
+hearing loss,181
+plaque psoriasis,178
+endothelial dysfunction,177
 cerebrovascular accident,176
+back pain,176
 recurrent mantle cell lymphoma,175
-plaque psoriasis,173
+pelvic organ prolapse,175
+follicular lymphoma,175
+childhood obesity,175
+nasopharyngeal carcinoma,173
+benign prostatic hyperplasia,173
 chronic periodontitis,173
-hearing loss,172
-pelvic organ prolapse,171
-back pain,171
-endothelial dysfunction,171
-follicular lymphoma,170
-benign prostatic hyperplasia,170
-nasopharyngeal carcinoma,170
-childhood obesity,169
-diffuse large b-cell lymphoma,169
-idiopathic pulmonary fibrosis,168
-nausea,167
-medication adherence,167
-chronic heart failure,166
-postoperative nausea and vomiting,166
-colonoscopy,166
-"kidney failure, chronic",166
-lung diseases,165
+nausea,172
+medication adherence,171
+diffuse large b-cell lymphoma,170
+non-alcoholic fatty liver disease,170
+idiopathic pulmonary fibrosis,169
+postoperative nausea and vomiting,169
+shoulder pain,169
+"sleep apnea, obstructive",168
+chronic heart failure,168
+colonoscopy,168
+lung diseases,168
+"kidney failure, chronic",167
+head and neck neoplasms,167
+hiv-1 infection,166
 hodgkin lymphoma,165
-head and neck neoplasms,164
-hiv-1 infection,164
-non-alcoholic fatty liver disease,164
-"sleep apnea, obstructive",163
-liver transplantation,162
-hypotension,161
-graft versus host disease,160
+cardiovascular risk factor,164
+hypotension,164
+depressive symptoms,164
+liver transplantation,163
+nsclc,162
+gastroesophageal reflux disease,162
+graft versus host disease,161
+malignant melanoma,161
+head and neck squamous cell carcinoma,160
+chronic disease,160
 cocaine dependence,160
+psychotic disorders,160
 recurrent small lymphocytic lymphoma,159
-shoulder pain,159
-gastroesophageal reflux disease,159
-malignant melanoma,158
-chronic disease,157
-sleep apnea,157
-end-stage renal disease,157
-psychotic disorders,157
+end-stage renal disease,159
+sleep apnea,159
+aortic valve stenosis,159
+peripheral artery disease,159
+triple negative breast cancer,158
+"stress disorders, post-traumatic",158
+essential hypertension,158
 arthritis,157
-essential hypertension,157
-"stress disorders, post-traumatic",156
-peripheral artery disease,156
+pancreatic neoplasms,157
+chronic myelomonocytic leukemia,157
+cholangiocarcinoma,156
+dyslipidemias,155
+opioid use,155
+non-hodgkin lymphoma,155
 seasonal allergic rhinitis,155
-aortic valve stenosis,155
-nsclc,155
-depressive symptoms,155
-chronic myelomonocytic leukemia,154
-non-hodgkin lymphoma,154
-pancreatic neoplasms,154
-cholangiocarcinoma,153
-head and neck squamous cell carcinoma,153
-lung neoplasms,152
-inflammatory bowel disease,152
-cardiovascular risk factor,151
+inflammatory bowel disease,153
+brain metastases,153
+lung neoplasms,153
+inflammatory bowel diseases,153
+stress urinary incontinence,153
+substance use disorders,152
+gingivitis,152
+actinic keratosis,152
+preterm birth,152
+diabetic foot ulcer,151
 "heart failure, congestive",151
-gingivitis,150
-actinic keratosis,150
-brain metastases,149
-triple negative breast cancer,149
-stress urinary incontinence,148
-type2 diabetes,147
-inflammatory bowel diseases,147
+cardiac surgery,151
+type2 diabetes,150
+helicobacter pylori infection,149
+soft tissue sarcoma,149
+carpal tunnel syndrome,148
+hemophilia a,148
 adult acute myeloid leukemia with 11q23 (mll) abnormalities,147
-hemophilia a,146
-recurrent grade 2 follicular lymphoma,146
-recurrent grade 1 follicular lymphoma,146
+brain tumor,147
+vomiting,146
+elderly,146
+hypoglycemia,146
+acute respiratory distress syndrome,145
+recurrent grade 2 follicular lymphoma,145
 stage iiia breast cancer,145
-hypoglycemia,145
-stage iiib breast cancer,145
-carpal tunnel syndrome,145
-cardiac surgery,145
-brain tumor,145
-soft tissue sarcoma,145
-preterm birth,144
+headache,145
+psychosis,145
+recurrent grade 1 follicular lymphoma,145
+neuroendocrine tumors,144
 stage iv non-small cell lung cancer,144
 adult acute myeloid leukemia with t(16;16)(p13;q22),144
-substance use disorders,144
-dyslipidemias,144
-vomiting,143
-elderly,143
-diabetic foot ulcer,143
-helicobacter pylori infection,143
-acute respiratory distress syndrome,143
-peripheral vascular disease,142
-premature birth,142
-opioid use,142
-headache,141
-chronic myeloid leukemia,141
-tinnitus,141
-psychosis,141
-urinary tract infections,140
+stage iiib breast cancer,144
+premature birth,144
+tinnitus,143
+chronic myeloid leukemia,143
+peripheral vascular disease,143
+renal failure,142
+"stress, psychological",141
+renal insufficiency,141
+urinary tract infections,141
+analgesia,141
+cocaine-related disorders,140
 adult acute myeloid leukemia with t(8;21)(q22;q22),140
-cocaine-related disorders,139
-dysphagia,139
+dysphagia,140
+cesarean section,140
 adult acute myeloid leukemia with inv(16)(p13;q22),139
-neuroendocrine tumors,139
-cesarean section,139
+osteoarthritis of the knee,138
+congenital heart disease,138
 poliomyelitis,138
-renal insufficiency,137
-heart disease,137
-stomach neoplasms,137
 hypogonadism,137
-stage iiic breast cancer,137
+surgical site infection,137
+hypertriglyceridemia,137
+stomach neoplasms,137
+heart disease,137
+alcohol drinking,137
+stage iiic breast cancer,136
+refractory chronic lymphocytic leukemia,136
 open-angle glaucoma,136
-osteoarthritis of the knee,136
-refractory chronic lymphocytic leukemia,135
-mental disorders,135
-renal failure,135
-hypertriglyceridemia,135
-recurrent marginal zone lymphoma,135
+healthy participants,136
 metabolic syndrome x,135
+mental disorders,135
+recurrent marginal zone lymphoma,134
+psoriatic arthritis,134
+chronic kidney diseases,134
 squamous cell carcinoma of the head and neck,134
-"stress, psychological",134
-recurrent grade 3 follicular lymphoma,134
-recurrent adult diffuse large cell lymphoma,134
-surgical site infection,134
+recurrent grade 3 follicular lymphoma,133
 hot flashes,133
-congenital heart disease,133
-alcohol drinking,133
-attention deficit disorder with hyperactivity,132
-osteopenia,132
-diabetic nephropathy,131
-ankylosing spondylitis,131
-postpartum hemorrhage,130
-renal impairment,130
-"hepatitis b, chronic",129
-allergy,129
-thrombosis,129
-pancreatic adenocarcinoma,128
-hemodialysis,128
-analgesia,128
+recurrent adult diffuse large cell lymphoma,133
+diabetic nephropathy,133
+ankylosing spondylitis,133
+attention deficit disorder with hyperactivity,133
+renal impairment,132
+pancreatic adenocarcinoma,132
+osteopenia,131
+thrombosis,131
+total knee arthroplasty,131
+"hepatitis b, chronic",131
+postpartum hemorrhage,131
+allergy,131
+hemodialysis,130
+dry eye syndromes,130
+gingival recession,130
+anorexia nervosa,129
+deep vein thrombosis,129
+gestational diabetes,129
+macular edema,129
+vascular diseases,128
 tumors,128
-total knee arthroplasty,128
-chronic kidney diseases,127
+hypoxia,128
+urothelial carcinoma,128
 adenocarcinoma,127
-vascular diseases,127
-healthy participants,127
-anorexia nervosa,126
-pertussis,126
-deep vein thrombosis,126
-macular edema,126
+panic disorder,127
+pertussis,127
+secondary acute myeloid leukemia,127
+suicide,126
+cigarette smoking,126
 primary peritoneal cavity cancer,126
+bleeding,126
+sexually transmitted diseases,126
 respiratory insufficiency,126
-secondary acute myeloid leukemia,126
-gingival recession,126
-panic disorder,125
-gestational diabetes,125
-bleeding,125
-dry eye syndromes,125
-recurrent breast cancer,125
-astigmatism,124
-hypoxia,124
-sexually transmitted diseases,124
-suicide,124
+malignant neoplasm,125
+duchenne muscular dystrophy,125
+astigmatism,125
+diet modification,124
+"infertility, female",124
+critical limb ischemia,124
+squamous cell carcinoma,124
+chronic myelogenous leukemia,124
+recurrent breast cancer,124
+substance use,124
+hepatic impairment,124
+obese,124
 "carcinoma, renal cell",123
-squamous cell carcinoma,123
-chronic myelogenous leukemia,123
-urothelial carcinoma,123
-psoriatic arthritis,123
-splenic marginal zone lymphoma,122
-duchenne muscular dystrophy,122
-hepatic impairment,122
-cigarette smoking,122
-gastroesophageal reflux,122
+hip fractures,123
+dietary modification,122
 ovarian neoplasms,122
-obese,121
-dietary modification,121
+aids,122
+presbyopia,122
+gastroesophageal reflux,122
+gout,122
 bronchopulmonary dysplasia,121
-hip fractures,121
-diet modification,121
-"dermatitis, atopic",120
-aids,120
-critical limb ischemia,120
+splenic marginal zone lymphoma,121
+"dermatitis, atopic",121
 hemorrhage,120
-presbyopia,119
-recurrent ovarian carcinoma,119
-bipolar depression,119
-lymphedema,119
-malignant neoplasm,119
-gout,119
-substance use,118
-psoriasis vulgaris,118
-neutropenia,117
-labor pain,117
-carcinoma,117
+bipolar depression,120
+psoriasis vulgaris,120
+labor pain,120
+recurrent ovarian carcinoma,120
+lymphedema,120
+carcinoma,119
+malignant glioma,119
+pediatric obesity,119
+neutropenia,119
+fecal incontinence,118
+liver metastases,118
+children,118
+small lymphocytic lymphoma,118
+"leukemia, myeloid, acute",118
+fever,117
+iron deficiency anemia,117
 thrombocytopenia,117
-"leukemia, myeloid, acute",117
-malignant glioma,116
-fecal incontinence,116
-"infertility, female",116
-iron deficiency anemia,115
-brain injuries,115
-liver metastases,115
-her2/neu negative,115
-small lymphocytic lymphoma,115
-children,115
-muscle weakness,114
-kidney diseases,114
+muscle weakness,117
+kidney diseases,117
+brain injuries,117
+post traumatic stress disorder,117
+inguinal hernia,116
+"stroke, acute",116
+rehabilitation,115
+renal transplantation,115
+breast cancer female,115
+"multiple sclerosis, relapsing-remitting",115
+thyroid cancer,114
 dyspepsia,114
-pediatric obesity,114
-nodal marginal zone b-cell lymphoma,114
-inguinal hernia,114
-fever,114
-renal transplantation,114
-recurrent adult acute lymphoblastic leukemia,114
-thyroid cancer,113
+"renal insufficiency, chronic",113
 "unspecified childhood solid tumor, protocol specific",113
-"multiple sclerosis, relapsing-remitting",113
-extranodal marginal zone b-cell lymphoma of mucosa-associated lymphoid tissue,112
-post traumatic stress disorder,112
+nodal marginal zone b-cell lymphoma,113
+keratoconus,113
+recurrent adult acute lymphoblastic leukemia,112
+gastric adenocarcinoma,112
+dyspnea,112
+social anxiety disorder,111
+tobacco dependence,111
 emphysema,111
-"renal insufficiency, chronic",110
-tobacco dependence,110
+breastfeeding,111
+extranodal marginal zone b-cell lymphoma of mucosa-associated lymphoid tissue,111
+cough,110
 chronic myeloproliferative disorders,110
+severe sepsis,110
+insulin sensitivity,110
+acute ischemic stroke,109
 impaired glucose tolerance,109
-sleep disorders,109
-cough,109
-severe sepsis,109
-rehabilitation,109
-keratoconus,109
-stage iiib non-small cell lung cancer,109
-social anxiety disorder,109
+pregnancy related,109
+migraine disorders,109
 iron deficiency,109
-untreated adult acute myeloid leukemia,108
-dyspnea,108
-breastfeeding,108
-recurrent melanoma,107
-hematologic malignancies,107
+sleep disorders,109
+stage iiib non-small cell lung cancer,109
+"osteoarthritis, hip",108
+sleep initiation and maintenance disorders,108
+hemiparesis,108
+myelofibrosis,108
+hematologic malignancies,108
+adolescent behavior,107
+metastatic renal cell carcinoma,107
+uterine fibroids,107
+restless legs syndrome,107
 "infection, human immunodeficiency virus",107
 bacterial infections,107
-acute ischemic stroke,107
-migraine disorders,107
-sleep initiation and maintenance disorders,107
+recurrent melanoma,107
+herpes zoster,107
+mesothelioma,107
+opioid dependence,107
 adenocarcinoma of the prostate,107
-breast cancer female,107
-myelofibrosis,107
-"osteoarthritis, hip",107
-pregnancy related,106
-"stroke, acute",106
-mesothelioma,106
-colorectal carcinoma,105
-opioid dependence,105
+diabetic foot,107
+prostate adenocarcinoma,106
+colorectal carcinoma,106
+suicidal ideation,106
+"influenza, human",106
+bariatric surgery candidate,106
+general anesthesia,105
+borderline personality disorder,105
+her2/neu negative,105
+stage iv prostate cancer,105
 gliosarcoma,105
-insulin sensitivity,105
-metastatic renal cell carcinoma,105
-gastric adenocarcinoma,105
-recurrent adult burkitt lymphoma,105
-herpes zoster,105
-uterine fibroids,105
-"influenza, human",104
+preeclampsia,105
+systemic sclerosis,104
+sedation,104
 rotator cuff tear,104
-restless legs syndrome,104
-stage iv prostate cancer,104
-prostate adenocarcinoma,104
-diabetic foot,103
-adolescent behavior,103
-hemiparesis,103
+stage ii breast cancer,103
+skin cancer,103
+metastatic pancreatic cancer,103
+osteosarcoma,103
+recurrent adult burkitt lymphoma,103
+aphasia,103
 precancerous condition,103
-metastatic pancreatic cancer,102
-systemic sclerosis,102
-preeclampsia,102
+advanced solid tumor,102
+bronchiectasis,102
+untreated adult acute myeloid leukemia,102
 autistic disorder,102
-stage ii breast cancer,102
-borderline personality disorder,102
 respiratory distress syndrome,102
-osteosarcoma,102
-general anesthesia,102
-stage iv melanoma,101
-suicidal ideation,101
+stage iv melanoma,102
+"colitis, ulcerative",101
+seizures,101
+hypothermia,101
+"pain, acute",101
 adult acute myeloid leukemia with del(5q),101
-angina pectoris,100
+bronchiolitis,100
 recurrent prostate cancer,100
-skin cancer,100
-hypothermia,100
-"colitis, ulcerative",99
-bariatric surgery candidate,99
-paroxysmal atrial fibrillation,99
-peripheral t-cell lymphoma,99
-bronchiolitis,99
+angina pectoris,100
+paroxysmal atrial fibrillation,100
+liver diseases,99
+graft vs host disease,99
+peripheral neuropathy,99
+musculoskeletal pain,99
 palliative care,99
-seizures,99
-sedation,99
-bronchiectasis,99
+anxiety disorder,99
+acquired immunodeficiency syndrome,99
+"hypertension, pulmonary",99
 pre-diabetes,98
-aphasia,98
-peripheral neuropathy,98
-accidental falls,97
-anxiety disorder,97
-recurrent adult diffuse small cleaved cell lymphoma,97
-clostridium difficile infection,97
-"hypertension, pulmonary",97
-recurrent adult lymphoblastic lymphoma,97
-intermittent claudication,97
+parenting,98
+accidental falls,98
+intermittent claudication,98
+dry eye syndrome,98
+celiac disease,98
+neuromuscular blockade,98
+clostridium difficile infection,98
+peripheral t-cell lymphoma,98
+chest pain,98
 adult acute myeloid leukemia with t(15;17)(q22;q12),97
-liver diseases,97
-celiac disease,97
-acquired immunodeficiency syndrome,97
-graft vs host disease,97
-chronic renal failure,96
-musculoskeletal pain,96
+refractory multiple myeloma,97
+chronic renal failure,97
+weight gain,97
+recurrent adult lymphoblastic lymphoma,96
+epithelial ovarian cancer,96
+wound infection,96
+esophageal neoplasms,96
+diffuse large b cell lymphoma,96
 kidney failure,96
-dry eye syndrome,96
-neuromuscular blockade,96
-breast neoplasm,95
-abdominal pain,95
-esophageal neoplasms,95
-recurrent adult diffuse mixed cell lymphoma,95
-chest pain,95
-pressure ulcer,95
-post-operative pain,95
+degenerative disc disease,96
+abdominal pain,96
+post-operative pain,96
+recurrent adult diffuse small cleaved cell lymphoma,96
+pressure ulcer,96
+tobacco use cessation,95
+brain cancer,95
+aortic stenosis,95
 myeloma,95
-arrhythmia,94
+breast neoplasm,95
+uveitis,95
+acute myeloid leukemia (aml),94
+lupus nephritis,94
+respiratory tract infections,94
+anaplastic large cell lymphoma,94
+recurrent adult diffuse mixed cell lymphoma,94
 rectal neoplasms,94
-epithelial ovarian cancer,94
-brain cancer,94
-tobacco use cessation,94
-urinary tract infection,93
-diffuse large b cell lymphoma,93
-wound infection,93
-anaplastic large cell lymphoma,93
-weight gain,93
-allergic conjunctivitis,93
-"pain, acute",93
+hiv-1-infection,94
+arrhythmia,94
 anaplastic astrocytoma,93
-refractory multiple myeloma,93
-parenting,93
-uveitis,92
+urinary tract infection,93
+allergic conjunctivitis,93
+periodontal diseases,93
+hip fracture,93
+mental health,92
 recurrent adult hodgkin lymphoma,92
-acute myeloid leukemia (aml),92
-degenerative disc disease,92
-hip fracture,92
+mood disorders,92
+her2-positive breast cancer,92
+subarachnoid hemorrhage,92
+ischemia,92
+esophageal squamous cell carcinoma,91
+pain management,91
+aml,91
 kidney disease,91
 lower urinary tract symptoms,91
-subarachnoid hemorrhage,91
-mood disorders,91
-respiratory tract infections,91
-lupus nephritis,90
-mental health,90
-breast carcinoma,90
 "arthroplasty, replacement, knee",90
-aortic stenosis,90
-ischemia,90
+opioid-use disorder,90
+breast carcinoma,90
+wounds and injuries,90
 amputation,90
+cognitive decline,90
+acromegaly,90
+gastroparesis,89
+acute respiratory failure,89
+child development,89
+gastrointestinal cancer,89
+gerd,89
+ventricular tachycardia,89
+percutaneous coronary intervention,89
 hyperphosphatemia,89
-aml,89
-wounds and injuries,89
-her2-positive breast cancer,88
-gerd,88
-hiv-1-infection,88
-waldenström macroglobulinemia,88
-gastroparesis,88
-advanced solid tumor,88
-liver neoplasms,88
-acromegaly,88
-gastrointestinal cancer,88
+"anesthesia, local",89
+child,88
 recurrent non-small cell lung cancer,88
-acute respiratory failure,88
-secondary hyperparathyroidism,87
+hemiplegia,88
+sleep deprivation,88
+essential tremor,87
+tobacco use,87
+biliary tract cancer,87
+waldenström macroglobulinemia,87
+liver neoplasms,87
+primary peritoneal carcinoma,87
 prematurity,87
-ventricular tachycardia,87
-sleep deprivation,87
-periodontal diseases,87
-hemiplegia,86
-angioimmunoblastic t-cell lymphoma,86
-recurrent primary peritoneal carcinoma,86
-appendicitis,86
-pneumococcal infections,86
-pain management,86
-"anesthesia, local",86
-glucose metabolism disorders,86
-cognitive decline,86
+pancreas cancer,87
+appendicitis,87
+secondary hyperparathyroidism,87
+refractive error,86
+neoplasm,86
+critically ill,86
 haemophilus influenzae type b,86
-essential tremor,86
-recurrent adult immunoblastic large cell lymphoma,86
-esophageal squamous cell carcinoma,86
-child development,86
-child,86
-percutaneous coronary intervention,86
-refractive error,85
-mechanical ventilation,85
-relapsing-remitting multiple sclerosis,85
-rosacea,85
-primary peritoneal carcinoma,85
-tobacco use,85
-neoplasm,85
-biliary tract cancer,85
-primary myelofibrosis,85
-sinusitis,85
-"obesity, morbid",85
+glucose metabolism disorders,86
+rosacea,86
+"obesity, morbid",86
+pneumococcal infections,86
+mechanical ventilation,86
+bone metastases,86
+primary myelofibrosis,86
+recurrent primary peritoneal carcinoma,86
+recurrent adult immunoblastic large cell lymphoma,85
 age related macular degeneration,85
-pancreas cancer,84
-recurrent fallopian tube carcinoma,84
+cancer survivor,85
+relapsing-remitting multiple sclerosis,85
+sinusitis,85
+atrial flutter,85
+angioimmunoblastic t-cell lymphoma,85
+recurrent fallopian tube carcinoma,85
+sickle cell anemia,84
+recurrent breast carcinoma,84
+portal hypertension,84
+respiratory syncytial virus infections,84
+tourette syndrome,84
 previously treated myelodysplastic syndromes,84
-recurrent cutaneous t-cell non-hodgkin lymphoma,83
-obsessive compulsive disorder,83
-cancer survivor,83
+down syndrome,83
 acute lymphocytic leukemia,83
-recurrent breast carcinoma,83
-critically ill,83
-colonic neoplasms,83
-bacterial vaginosis,83
-sickle cell anemia,83
-portal hypertension,83
-tourette syndrome,83
+acne,83
 hodgkin's lymphoma,83
-respiratory syncytial virus infections,82
-bone metastases,82
+growth hormone deficiency,83
+obsessive compulsive disorder,83
+colonic neoplasms,83
+postpartum depression,83
+non-small-cell lung cancer,83
+bacterial vaginosis,82
+recurrent cutaneous t-cell non-hodgkin lymphoma,82
+body weight,82
 stage iv pancreatic cancer,82
-stable angina,82
-acne,82
-growth hormone deficiency,82
-atrial flutter,82
-meningitis,81
-opioid-use disorder,81
+retinitis pigmentosa,82
 eczema,81
-aplastic anemia,81
 pre-eclampsia,81
 sarcoidosis,81
+aplastic anemia,81
+vitiligo,81
+venous thrombosis,81
 cervical intraepithelial neoplasia,81
-body weight,81
-venous thrombosis,80
-stage iiia non-small cell lung cancer,80
-vitiligo,80
-postpartum depression,80
-non-small-cell lung cancer,80
-kidney transplant,80
-"lupus erythematosus, systemic",80
+meningitis,81
+stable angina,81
+acute stroke,80
 glucose intolerance,80
+stage iiia non-small cell lung cancer,80
+persistent atrial fibrillation,80
+"lupus erythematosus, systemic",80
+kidney transplant,80
 diabetic foot ulcers,80
-retinitis pigmentosa,79
+acute leukemia,80
 open angle glaucoma,79
-down syndrome,79
+hip osteoarthritis,79
 onychomycosis,79
-fatty liver,78
-proteinuria,78
-clear cell renal cell carcinoma,78
-recurrent mycosis fungoides/sezary syndrome,78
+cesarean section complications,79
+proteinuria,79
+clear cell renal cell carcinoma,79
+fatty liver,79
+opiate dependence,78
+hepatic encephalopathy,78
+acute lung injury,78
 social phobia,78
-persistent atrial fibrillation,78
-adult gliosarcoma,77
-mucositis,77
-hip osteoarthritis,77
-acute lung injury,77
-drug abuse,77
-acute leukemia,77
+communication,78
+drug abuse,78
+hyperlipidemias,78
 hodgkin's disease,77
-opiate dependence,77
-liver disease,77
-hyperlipidemias,77
-adult glioblastoma,77
-stage iv renal cell cancer,77
-sexual dysfunction,77
 coronary arteriosclerosis,77
-obstructive sleep apnea syndrome,76
+adult gliosarcoma,77
+"glaucoma, open-angle",77
+"pain, chronic",77
+mucositis,77
+sexual dysfunction,77
+adult glioblastoma,77
+recurrent mycosis fungoides/sezary syndrome,77
+retinal vein occlusion,77
+waldenstrom macroglobulinemia,77
+obstructive sleep apnea syndrome,77
+liver disease,77
+post operative pain,76
+pruritus,76
+cardiopulmonary bypass,76
 hepatitis c virus,76
-estrogen receptor negative,76
-acute stroke,76
-"glaucoma, open-angle",76
-retinal vein occlusion,76
-waldenstrom macroglobulinemia,76
+stage iv renal cell cancer,76
+hyperuricemia,76
+peritoneal cancer,76
 autism spectrum disorders,76
-cesarean section complications,76
-relapsing remitting multiple sclerosis,76
-hepatic encephalopathy,75
-male breast cancer,75
-cardiopulmonary bypass,75
-communication,75
-peritoneal cancer,75
-chemotherapy-induced nausea and vomiting,74
-adult acute myeloid leukemia in remission,74
-bipolar i disorder,74
-adult giant cell glioblastoma,74
-cerebral infarction,74
-anaemia,74
+treatment resistant depression,76
+autoimmune diseases,76
+cerebral infarction,76
+tobacco smoking,75
+dental plaque,75
+relapsing remitting multiple sclerosis,75
+pelvic pain,75
+chemotherapy-induced nausea and vomiting,75
+"lymphoma, b-cell",75
+pancreatic ductal adenocarcinoma,75
 myelodysplastic/myeloproliferative neoplasms,74
-dental plaque,74
-basal cell carcinoma,74
 myelodysplastic syndrome (mds),74
+male breast cancer,74
+anaemia,74
+prostatic hyperplasia,74
+basal cell carcinoma,74
+spinal stenosis,74
+eating disorders,74
+common cold,74
+healthy adults,74
+intracerebral hemorrhage,74
 radiation toxicity,74
-intracerebral hemorrhage,73
-"anesthesia, general",73
-prostatic hyperplasia,73
-fabry disease,73
-cardiomyopathy,73
-progesterone receptor negative,73
-thromboembolism,73
-patellofemoral pain syndrome,73
-autoimmune diseases,73
-spinal stenosis,73
-diabetic neuropathies,73
-unstable angina,73
-recurrent rectal cancer,73
-recurrent colon cancer,73
-non-small-cell lung carcinoma,73
-hematopoietic stem cell transplantation,73
-common cold,73
-pancreatitis,73
-advanced cancers,73
-hodgkin disease,73
+cardiomyopathy,74
+adult giant cell glioblastoma,74
+bipolar i disorder,74
+pancreatitis,74
 polycythemia vera,73
-pruritus,73
-"rhinitis, allergic, seasonal",72
-treatment resistant depression,72
-pelvic pain,72
-abdominal aortic aneurysm,72
-safety,72
+sleep disturbance,73
+thromboembolism,73
+interstitial lung disease,73
+advanced cancers,73
+patellofemoral pain syndrome,73
+recurrent rectal cancer,73
+adult acute myeloid leukemia in remission,73
+hematopoietic stem cell transplantation,73
+hodgkin disease,73
+unstable angina,73
+recurrent colon cancer,73
+diabetic neuropathies,73
+fabry disease,73
+"anesthesia, general",73
+non-small-cell lung carcinoma,73
+nonalcoholic steatohepatitis,73
+scoliosis,72
 nerve block,72
-tobacco smoking,71
-post operative pain,71
-alcohol consumption,71
-scoliosis,71
-functional dyspepsia,71
-"carcinoma, squamous cell",71
+safety,72
+"carcinoma, squamous cell",72
+osteo arthritis knee,72
+abdominal aortic aneurysm,72
+"rhinitis, allergic, seasonal",72
+bariatric surgery,72
+b-cell chronic lymphocytic leukemia,72
+behavior,71
+interstitial cystitis,71
+"solid tumor, adult",71
+intubation,71
 cerebrovascular disorders,71
-b-cell chronic lymphocytic leukemia,71
-bariatric surgery,70
-recurrent plasma cell myeloma,70
-de novo myelodysplastic syndromes,70
-nonalcoholic steatohepatitis,70
+alcohol consumption,71
+functional dyspepsia,71
+measles,71
+frailty,71
 stage ia breast cancer,70
-diabetes type 2,70
-wounds,70
-healthy adults,70
-hyperuricemia,70
-eating disorders,70
+hematologic diseases,70
 stage ib breast cancer,70
-pancreatic ductal adenocarcinoma,70
-measles,70
-intubation,70
+recurrent plasma cell myeloma,70
+prediabetic state,70
+wounds,70
+de novo myelodysplastic syndromes,70
+motor activity,70
 recurrent adult t-cell leukemia/lymphoma,70
 neovascular age-related macular degeneration,70
-behavior,70
-interstitial cystitis,70
+estrogen receptor negative,70
+mood,70
+mds,70
+diabetes type 2,70
+colorectal cancer metastatic,69
+choroidal neovascularization,69
+"osteoporosis, postmenopausal",69
 recurrent ovarian epithelial cancer,69
-menorrhagia,69
+cytomegalovirus infections,69
+metastasis,69
+aged,69
+cognitive function,69
 bacteremia,69
-"pain, chronic",69
-motor activity,69
-interstitial lung disease,69
-mood,69
+menorrhagia,69
 amblyopia,69
-aged,68
-recurrent adult grade iii lymphomatoid granulomatosis,68
-recurrent childhood acute lymphoblastic leukemia,68
-sleep disturbance,68
+mental health wellness 1,69
+triple-negative breast carcinoma,68
+hepatitis c virus infection,68
+high blood pressure,68
+eosinophilic esophagitis,68
 relapsing chronic myelogenous leukemia,68
-"lymphoma, b-cell",68
-hematologic diseases,68
-metastasis,68
-cytomegalovirus infections,68
-advanced breast cancer,67
-refractory plasma cell myeloma,67
-"lymphoma, large b-cell, diffuse",67
-eosinophilic esophagitis,67
-triple-negative breast carcinoma,67
-small intestine cancer,67
-mds,67
-choroidal neovascularization,67
-colorectal cancer metastatic,67
-prediabetic state,67
-high blood pressure,67
-cognitive function,67
-primary open angle glaucoma,67
+cognitive change,68
+juvenile idiopathic arthritis,68
+nafld,68
+primary open angle glaucoma,68
+advanced breast cancer,68
 primary peritoneal cancer,67
-rhabdomyosarcoma,66
-stage iii pancreatic cancer,66
-hemophilia b,66
-juvenile idiopathic arthritis,66
-bradycardia,66
-surgical wound infection,66
-mental health wellness 1,66
-ovarian carcinoma,66
+refractory plasma cell myeloma,67
+rhabdomyosarcoma,67
+refractory acute myeloid leukemia,67
+recurrent adult grade iii lymphomatoid granulomatosis,67
+gestational diabetes mellitus,67
+small intestine cancer,67
+progesterone receptor negative,67
+recurrent childhood acute lymphoblastic leukemia,67
+alopecia areata,67
+malocclusion,67
+postmenopausal osteoporosis,67
+stage iii pancreatic cancer,67
+hemophilia b,67
 brain neoplasms,66
-alopecia areata,66
-primary insomnia,66
+hiv prevention,66
 thalassemia,66
-osteo arthritis knee,66
-frailty,66
-"osteoporosis, postmenopausal",66
-rhinitis,65
-gestational diabetes mellitus,65
-gastroesophageal junction adenocarcinoma,65
-stage iv mantle cell lymphoma,65
-wound healing,65
-"solid tumor, adult",65
+bradycardia,66
+aggression,66
+shock,66
+xerostomia,66
+ovarian carcinoma,66
+non-small cell lung cancer (nsclc),66
+primary insomnia,66
+"lymphoma, large b-cell, diffuse",66
+brain tumors,66
+short bowel syndrome,66
+dengue,66
+laparoscopy,66
+wound healing,66
+rhinitis,66
+cognition,66
+chemotherapy,66
+"obesity, childhood",66
+surgical wound infection,66
 transient ischemic attack,65
-short bowel syndrome,65
-dengue,65
-hiv prevention,65
-recurrent childhood acute myeloid leukemia,65
+sleep apnea syndromes,65
 gallbladder cancer,65
+recurrent childhood acute myeloid leukemia,65
+oncology,65
 preterm infant,65
-hepatitis c virus infection,65
+hematological malignancies,65
+lumbar spinal stenosis,65
+fasting,65
+safety issues,65
 gastrointestinal stromal tumors,65
-malocclusion,65
-cognitive change,65
-xerostomia,65
-brain tumors,65
-aggression,64
-stage iv adult diffuse large cell lymphoma,64
-laparoscopy,64
-sleep apnea syndromes,64
-recurrent glioblastoma,64
+recurrent glioblastoma,65
+hysterectomy,65
+psychological distress,64
 androgenetic alopecia,64
-periodontal disease,64
-gastrointestinal stromal tumor,64
 "urinary bladder, overactive",64
-nafld,64
-shock,64
-lumbar spinal stenosis,64
+gastrointestinal stromal tumor,64
+stage iv mantle cell lymphoma,64
 "rhinitis, allergic, perennial",64
-postmenopausal osteoporosis,64
+gastroesophageal junction adenocarcinoma,64
+peripheral vascular diseases,64
+periodontal disease,64
 intraocular lymphoma,64
-hematological malignancies,64
-non-small cell lung cancer (nsclc),63
+scleroderma,64
+metastatic pancreatic adenocarcinoma,64
+nutrition,63
+stage iv adult diffuse large cell lymphoma,63
+immunosuppression,63
+virus diseases,63
+mechanical ventilation complication,63
+urinary retention,63
+brain injury,63
 "infant, premature",63
 barrett's esophagus,63
-brain injury,63
-mechanical ventilation complication,63
-peripheral vascular diseases,63
-adult nasal type extranodal nk/t-cell lymphoma,62
-stage iii multiple myeloma,62
-scleroderma,62
-metastatic pancreatic adenocarcinoma,62
-migraine headache,62
-stage iv small lymphocytic lymphoma,62
+renal cancer,63
+triple-negative breast cancer,62
+sexual behavior,62
 diabetic neuropathy,62
-virus diseases,62
-fasting,62
-stage iv grade 2 follicular lymphoma,62
-stage iv grade 1 follicular lymphoma,62
-cognition,62
-urinary retention,62
-hysterectomy,61
-oncology,61
-cachexia,61
-chronic fatigue syndrome,61
-safety issues,61
-huntington disease,61
-immunosuppression,61
+stage iii multiple myeloma,62
+recurrent acute myeloid leukemia,62
+migraine headache,62
+huntington disease,62
+"suicide, attempted",61
 mild traumatic brain injury,61
+tendinopathy,61
+stage iv grade 1 follicular lymphoma,61
+adult nasal type extranodal nk/t-cell lymphoma,61
+stage iv small lymphocytic lymphoma,61
+copd exacerbation,61
 "arthroplasty, replacement, hip",61
-chemotherapy,61
-sexual behavior,60
-acute heart failure,60
-schizophreniform disorder,60
-"obesity, childhood",60
-renal cancer,60
-proliferative diabetic retinopathy,60
-"neoplasms, breast",60
-plasma cell myeloma,60
-huntington's disease,60
-hyponatremia,60
-acellular pertussis,60
-hyperopia,60
-adult acute myeloblastic leukemia without maturation (m1),60
-congenital bleeding disorder,60
+dehydration,61
+proliferative diabetic retinopathy,61
+acute heart failure,61
+cachexia,61
+cardiac disease,61
+chronic fatigue syndrome,61
+peri-implantitis,61
+stage iv grade 2 follicular lymphoma,61
+"neoplasms, breast",61
+type1diabetes,60
 bronchial asthma,60
-refractory acute myeloid leukemia,60
+hyponatremia,60
+huntington's disease,60
+heart valve diseases,60
+postmenopause,60
 varicella,60
-satisfaction,59
-adult acute monocytic leukemia (m5b),59
-dehydration,59
+magnetic resonance imaging,60
+bioequivalence,60
+non hodgkin lymphoma,60
+pcos,60
+hyperopia,60
+"stroke, ischemic",60
+intraocular pressure,60
+congenital bleeding disorder,60
+adult acute myeloblastic leukemia without maturation (m1),60
+satisfaction,60
+schizophreniform disorder,60
+addiction,60
+plasma cell myeloma,60
+drug use,60
+b-cell lymphoma,60
+sleep disorder,60
+acellular pertussis,60
+hemorrhoids,60
+marginal zone lymphoma,60
 varicose veins,59
-secondary myelodysplastic syndromes,59
-estrogen receptor positive,59
-adult erythroleukemia (m6a),59
-tendinopathy,59
 carotid stenosis,59
+type2 diabetes mellitus,59
+prehypertension,59
+adult acute monocytic leukemia (m5b),59
+recurrence,59
+dilated cardiomyopathy,59
 adult pure erythroid leukemia (m6b),59
-testicular germ cell tumor,59
-pcos,59
-intraocular pressure,59
-stage iv grade 3 follicular lymphoma,59
-b-cell lymphoma,59
+domestic violence,59
+hypoxemia,59
+"respiratory distress syndrome, adult",59
 acute renal failure,59
-heart valve diseases,59
-marginal zone lymphoma,59
-magnetic resonance imaging,59
-postmenopause,59
-triple-negative breast cancer,59
-psychological distress,58
-adult acute myeloblastic leukemia with maturation (m2),58
-type1diabetes,58
-peanut allergy,58
-type2 diabetes mellitus,58
-adult acute myelomonocytic leukemia (m4),58
-adult acute monoblastic leukemia (m5a),58
-"respiratory distress syndrome, adult",58
-nutrition,58
-bioequivalence,58
-cardiac disease,58
-venous insufficiency,58
-food allergy,58
-adult acute megakaryoblastic leukemia (m7),58
-sleep disorder,58
+adult erythroleukemia (m6a),59
+gynecologic cancer,59
+testicular germ cell tumor,59
+oral mucositis,59
+food allergy,59
+secondary myelodysplastic syndromes,59
+psychological stress,58
+chronic pancreatitis,58
 immune thrombocytopenia,58
-peri-implantitis,58
+venous insufficiency,58
+"health knowledge, attitudes, practice",58
+metabolic diseases,58
+adult acute megakaryoblastic leukemia (m7),58
 distal radius fracture,58
-stage iii mantle cell lymphoma,58
-fibrosis,58
-drug use,58
-recurrence,57
-oral mucositis,57
-hemorrhoids,57
-hypoxemia,57
-psychological stress,57
-gynecologic cancer,57
-dysmenorrhea,57
-uterine cancer,57
-metabolic diseases,57
-prehypertension,57
-pregnancy complications,57
-addiction,57
-hiv-1,57
-chronic pancreatitis,57
-dentin sensitivity,57
+dysmenorrhea,58
+stage iv grade 3 follicular lymphoma,58
+adult acute myeloblastic leukemia with maturation (m2),58
+adult acute myelomonocytic leukemia (m4),58
+anal cancer,58
+mobility limitation,58
+pregnancy complications,58
+adult acute monoblastic leukemia (m5a),58
+gastrointestinal neoplasms,58
+stage iii mantle cell lymphoma,57
 medulloblastoma,57
-mobility limitation,57
-"malaria, falciparum",57
+peanut allergy,57
+hiv-1,57
+sleep disordered breathing,57
+dentin sensitivity,57
+violence,57
+barrett esophagus,57
+ascites,57
+metastatic prostate cancer,57
+uterine cancer,57
 hepatosplenic t-cell lymphoma,57
-"suicide, attempted",57
-psychosocial effects of cancer and its treatment,57
+out-of-hospital cardiac arrest,57
 muscle spasticity,57
-domestic violence,57
-anal cancer,56
-gastrointestinal neoplasms,56
-stage ii multiple myeloma,56
-ventilator associated pneumonia,56
-perioperative/postoperative complications,56
-dilated cardiomyopathy,56
-arteriosclerosis,56
-hyperalgesia,56
-prolymphocytic leukemia,56
-avascular necrosis,56
-"diabetes mellitus, non-insulin-dependent",56
-total knee replacement,56
-"health knowledge, attitudes, practice",56
+fibrosis,57
+psychosocial effects of cancer and its treatment,57
+"malaria, falciparum",57
