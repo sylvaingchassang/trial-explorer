@@ -9,6 +9,8 @@ https://clinicaltrials.gov/AllPublicXML.zip into ./raw_data/ and unzip it for us
 bash ./scripts/wget_raw_data.sh
 ```
 
+**please note, this project no longer uses the raw XML files, it starts with the AACT database below**
+
 ## Setting up local Postgres database with AACT data
 
 Full instructions here https://aact.ctti-clinicaltrials.org/snapshots, slightly modified below:
