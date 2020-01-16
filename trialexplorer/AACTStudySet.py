@@ -7,10 +7,6 @@ from trialexplorer.StudySet import StudySet
 from trialexplorer import config
 from trialexplorer.dim_handlers import DIM_HANDLE_MAP
 
-# fix for pandas memory leak
-cdll.LoadLibrary("libc.so.6")
-libc = CDLL("libc.so.6")
-
 
 class DimAutoCompleter:
     def __init__(self):
@@ -78,7 +74,6 @@ class AACTStudySet(StudySet):
             if dim_name in cur_dims:
                 self.dimensions[dim_name].dump_data()
                 del self.dimensions[dim_name]
-                libc.malloc_trim(0)
                 print("%s successfully dumped" % dim_name)
             else:
                 print("%s was not an enabled dimension, nothing was done" % dim_name)
