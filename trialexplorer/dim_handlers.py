@@ -27,6 +27,7 @@ DIM_HANDLE_MAP = {
     'study_references': AACTStudyDimFlat,
     'links': AACTStudyDimFlat,
     'documents': AACTStudyDimFlat,
+    'participant_flows': AACTStudyDimFlat,
     'ipd_information_types': AACTStudyDimFlat,
     'result_agreements': AACTStudyDimFlat,
     'provided_documents': AACTStudyDimFlat,
