@@ -1,17 +1,13 @@
 # trial-explorer
 exploration tools for the [ClinicalTrials.gov](http://www.clinicaltrials.gov) database
 
-## Downloading Raw XML Data
+## Installation
 
-The following script, executed in the root directory will download and unzip the data from 
-https://clinicaltrials.gov/AllPublicXML.zip into ./raw_data/ and unzip it for use.
-```
-bash ./scripts/wget_raw_data.sh
-```
-
-**please note, this project no longer uses the raw XML files, it starts with the AACT database below**
+Clone this repo, then follow instructions in ./config/private/readme.md to setup database credentials
 
 ## Setting up local Postgres database with AACT data
+
+This step is not needed if you want to use the remote database from AACT directly. This is done by setting the "source" on the AACTConnection object to AACTConnection.REMOTE. A local database instance will be faster but will need more work to setup. The application can be pointed to the local instance by setting the "source" on the AACTConnection object to AACTConnection.LOCAL.
 
 Full instructions here https://aact.ctti-clinicaltrials.org/snapshots, slightly modified below:
 
@@ -33,7 +29,15 @@ Check it completed successfully:
 ```SELECT * FROM pg_catalog.pg_tables```
 ```WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';```
 
-## Usage
+## MeSH Term Utility
+
+Away from the main library for interacting with the AACT Database, there is also a small utility that helps with 
+working with MeSH terms (Medical Subject Headings). The organization that is responsible for maintaining the dictionary
+of MeSH terms, NIH, publishs an index here: https://meshb.nlm.nih.gov/treeView
+
+See ./examples/mesh_terms.ipynb for examples of how to use the library.  
+
+## trialexplorer Usage
 #### Initialization
 ```python
 import pdaactconn as pc
@@ -242,3 +246,4 @@ Dropping records from the outcomes dimension
 Dropping records from the outcome_counts dimension
 Dropping records from the outcome_measurements dimension
 ```
+

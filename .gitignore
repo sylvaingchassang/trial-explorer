@@ -117,4 +117,4 @@ xml/
 *.private.ini
 
 # archive folder for old unused code
-_archive
+_archive/
