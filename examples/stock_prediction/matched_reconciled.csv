@@ -1,0 +1,201 @@
+idx,name,count,matched_f,Ticker_f,source_f,comment,yf_ticker
+0,glaxosmithkline,1706,glaxosmithkline,GSK,Stoxx,y,GSK.L
+1,merck sharp & dohme corp.,1360,merck co,MRK,Russell,y,MRK
+2,pfizer,1243,pfizer,PFE,Russell,y,PFE
+3,eli lilly and company,1031,eli lilly,LLY,Russell,y,LLY
+4,novartis pharmaceuticals,886,novartis,NOVN,Stoxx,y,NOVN.SW
+5,astrazeneca,796,astrazeneca,AZN,Stoxx,y,AZN.ST
+6,hoffmann-la roche,621,roche par,ROG,Stoxx,manual,ROG.SW
+8,"genentech, inc.",501,roche par,ROG,Stoxx,manual,ROG.SW
+9,bristol-myers squibb,477,bristol myers squibb,BMY,Russell,y,BMY
+10,novartis,378,novartis,NOVN,Stoxx,y,NOVN.SW
+11,takeda,353,takeda,4502,Japan,y,4502.T
+12,amgen,348,amgen,AMGN,Russell,y,AMGN
+13,bayer,339,bayer,BAYN,Stoxx,y,BAYN.DE
+14,sanofi,332,sanofi,SAN,Stoxx,y,SAN.PA
+15,allergan,329,allergan,AGN,Russell,y,AGN
+16,gilead sciences,304,gilead sciences,GILD,Russell,y,GILD
+17,alcon research,288,alcon,ALC,Stoxx,y,ALC.SW
+18,shire,233,takeda,4502,Japan,manual,4502.T
+19,novo nordisk a/s,211,novo nordisk,NOVO B,Stoxx,y,NOVO-B.CO
+20,forest laboratories,190,allergan,AGN,Russell,manual,AGN
+21,"millennium pharmaceuticals, inc.",170,takeda,4502,Japan,manual,4502.T
+22,eisai inc.,164,eisai,4523,Japan,y,4523.T
+23,"merck kgaa, darmstadt, germany",155,merck co,MRK,Russell,manual,MRK
+24,"sanofi pasteur, a sanofi company",155,sanofi,SAN,Stoxx,manual,SAN.PA
+25,celgene,155,bristol myers squibb,BMY,Russell,manual,BMY
+26,teva pharmaceuticals usa,148,teva adr,TEVA,Russell,manual,TEVA
+27,celgene corporation,143,bristol myers squibb,BMY,Russell,manual,BMY
+28,"janssen research & development, llc",142,johnson johnson,JNJ,Russell,manual,JNJ
+29,"genzyme, a sanofi company",140,sanofi,SAN,Stoxx,manual,SAN.PA
+30,abbvie,136,abbvie,ABBV,Russell,y,ABBV
+31,"johnson & johnson vision care, inc.",128,johnson johnson,JNJ,Russell,manual,JNJ
+32,novartis vaccines,124,novartis,NOVN,Stoxx,manual,NOVN.SW
+33,abbott,124,abbott laboratories,ABT,Russell,manual,ABT
+34,ucb pharma,120,ucb,UCB,Stoxx,y,UCB.BR
+35,medimmune llc,116,astrazeneca,AZN,Stoxx,manual,AZN.ST
+36,regeneron pharmaceuticals,114,regeneron,REGN,Russell,y,REGN
+37,boston scientific corporation,113,boston scientific,BSX,Russell,y,BSX
+38,wyeth is now a wholly owned subsidiary of pfizer,106,pfizer,PFE,Russell,manual,PFE
+39,abbott medical devices,103,abbott laboratories,ABT,Russell,manual,ABT
+40,"bausch health americas, inc.",91,bausch,BHC,Russell,manual,BHC
+41,"otsuka pharmaceutical development & commercialization, inc.",89,otsuka,4578,Japan,manual,4578.T
+42,"otsuka pharmaceutical development & commercialization, inc.",89,otsuka,4768,Japan,manual,4768.T
+43,biogen,89,biogen,BIIB,Russell,y,BIIB
+45,"otsuka pharmaceutical co., ltd.",85,otsuka,4578,Japan,manual,4578.T
+46,"otsuka pharmaceutical co., ltd.",85,otsuka,4768,Japan,manual,4768.T
+47,astellas pharma inc,84,astellas,4503,Japan,y,4503.T
+48,sunovion,81,dainippon sumitomo,4506,Japan,manual,4506.T
+49,"johnson & johnson pharmaceutical research & development, l.l.c.",80,johnson johnson,JNJ,Russell,manual,JNJ
+50,bausch & lomb incorporated,80,bausch,BHC,Russell,manual,BHC
+52,h. lundbeck a/s,76,h lundbeck,LUN,Stoxx,y,LUN.CO
+53,"daiichi sankyo, inc.",75,daiichi sankyo,4568,Japan,y,4568.T
+54,"abbvie (prior sponsor, abbott)",72,abbvie,ABBV,Russell,manual,ABBV
+55,viiv healthcare,71,glaxosmithkline,GSK,Stoxx,manual,GSK.L
+56,ipsen,71,ipsen,IPN,Stoxx,y,IPN.PA
+57,mitsubishi tanabe pharma corporation,70,mitsubishi chemical,4188,Japan,manual,4188.T
+58,vertex pharmaceuticals incorporated,69,vertex,VRTX,Russell,manual,VRTX
+59,ge healthcare,68,general electric,GE,Russell,manual,GE
+61,medtronic cardiac rhythm and heart failure,64,medtronic,MDT,Russell,manual,MDT
+62,emd serono,64,merck co,MRK,Russell,manual,MRK
+63,"teva branded pharmaceutical products, r&d inc.",62,teva adr,TEVA,Russell,manual,TEVA
+64,cephalon,62,teva adr,TEVA,Russell,manual,TEVA
+65,medtronic - mitg,59,medtronic,MDT,Russell,manual,MDT
+66,medtronic,58,medtronic,MDT,Russell,y,MDT
+67,mallinckrodt,57,mallinckrodt,MNK,Russell,y,MNK
+68,schering-plough,57,merck co,MRK,Russell,manual,MRK
+70,baxter healthcare corporation,52,baxter,BAX,Russell,manual,BAX
+71,alexion pharmaceuticals,50,alexion,ALXN,Russell,y,ALXN
+72,coloplast a/s,49,coloplast,COLO B,Stoxx,y,COLO-B.CO
+73,ciba vision,48,novartis,NOVN,Stoxx,manual,NOVN.SW
+74,cubist pharmaceuticals llc,48,merck co,MRK,Russell,manual,MRK
+75,incyte corporation,48,incyte,INCY,Russell,y,INCY
+76,galderma,47,nestle,NESN,Stoxx,manual,NESN.SW
+77,actelion,45,johnson johnson,JNJ,Russell,manual,JNJ
+78,"eisai co., ltd.",45,eisai,4523,Japan,manual,4523.T
+79,csl behring,44,csl,CSL,Australia,manual,CSL.AX
+81,baxalta now part of shire,42,takeda,4502,Japan,manual,4502.T
+82,"quintiles, inc.",42,iqvia,IQV,Russell,manual,IQV
+85,"centocor, inc.",41,johnson johnson,JNJ,Russell,manual,JNJ
+88,"stiefel, a gsk company",38,glaxosmithkline,GSK,Stoxx,manual,GSK.L
+89,shionogi,38,shionogi,4507,Japan,y,4507.T
+90,endo pharmaceuticals,37,endo,ENDP,Russell,y,ENDP
+91,roche pharma ag,37,roche par,ROG,Stoxx,manual,ROG.SW
+92,zimmer biomet,36,zimmer biomet,ZBH,Russell,y,ZBH
+93,medtronic endovascular,36,medtronic,MDT,Russell,manual,MDT
+94,osi pharmaceuticals,36,osi,OSIS,Russell,y,OSIS
+95,janssen pharmaceutical k.k.,36,johnson johnson,JNJ,Russell,manual,JNJ
+96,biomarin pharmaceutical,35,biomarin,BMRN,Russell,y,BMRN
+99,c. r. bard,34,becton dickinson,BDX,Russell,manual,BDX
+100,colgate palmolive,34,colgatepalmolive,CL,Russell,y,CL
+101,repros therapeutics inc.,34,allergan,AGN,Russell,manual,AGN
+102,acorda therapeutics,33,acorda,ACOR,Russell,y,ACOR
+103,"alkermes, inc.",32,alkermes,ALKS,Russell,y,ALKS
+105,medtronic diabetes,31,medtronic,MDT,Russell,manual,MDT
+107,jazz pharmaceuticals,30,jazz,JAZZ,Russell,y,JAZZ
+108,"galderma laboratories, l.p.",30,nestle,NESN,Stoxx,manual,NESN.SW
+109,"american regent, inc.",29,daiichi sankyo,4568,Japan,manual,4568.T
+110,masimo corporation,29,masimo,MASI,Russell,y,MASI
+111,"ortho-mcneil janssen scientific affairs, llc",29,johnson johnson,JNJ,Russell,manual,JNJ
+112,pharmacyclics llc.,29,abbvie,ABBV,Russell,manual,ABBV
+113,abbott medical optics,29,abbott laboratories,ABT,Russell,manual,ABT
+114,procter and gamble,29,procter gamble,PG,Russell,y,PG
+115,"takeda pharmaceuticals north america, inc.",28,takeda,4502,Japan,manual,4502.T
+116,philips respironics,28,koninklijke philips,PHIA,Stoxx,manual,PHIA.AS
+117,"daiichi sankyo co., ltd.",27,daiichi sankyo,4568,Japan,y,4568.T
+120,"seattle genetics, inc.",27,seattle genetics,SGEN,Russell,y,SGEN
+121,united therapeutics,26,united,UTHR,Russell,y,UTHR
+122,united therapeutics,26,united,UTHR,Russell,y,UTHR
+132,grifols therapeutics llc,24,grifols,GRF,Stoxx,y,GRF.MC
+133,halozyme therapeutics,24,halozyme,HALO,Russell,y,HALO
+141,edwards lifesciences,22,edwards lifesciences,EW,Russell,y,EW
+150,3m,21,3m,MMM,Russell,y,MMM
+153,pra health sciences,20,pra sciences,PRAH,Russell,y,PRAH
+156,eisai limited,20,eisai,4523,Japan,y,4523.T
+162,"puma biotechnology, inc.",19,puma biotechnology,PBYI,Russell,y,PBYI
+164,swedish orphan biovitrum,18,swedish orphan biovitrum,SOBI,Stoxx,y,SOBI.ST
+165,amicus therapeutics,18,amicus,FOLD,Russell,y,FOLD
+173,lexicon pharmaceuticals,18,lexicon,LXRX,Russell,y,LXRX
+181,reckitt benckiser llc,17,reckitt benckiser,RB.,Stoxx,y,RB.L
+182,"spectrum pharmaceuticals, inc",17,spectrum,SPPI,Russell,y,SPPI
+185,"acelrx pharmaceuticals, inc.",16,acelrx,ACRX,Russell,y,ACRX
+186,solvay pharmaceuticals,16,solvay,SOLB,Stoxx,y,SOLB.BR
+195,ucb pharma sa,15,ucb,UCB,Stoxx,y,UCB.BR
+197,"aclaris therapeutics, inc.",15,aclaris,ACRS,Russell,y,ACRS
+198,"smith & nephew, inc.",15,smith nephew,SN.,Stoxx,y,SN.L
+199,"ironwood pharmaceuticals, inc.",15,ironwood,IRWD,Russell,y,IRWD
+203,resmed,15,resmed,RMD,Russell,y,RMD
+204,ultragenyx pharmaceutical inc,15,ultragenyx,RARE,Russell,y,RARE
+206,"medpace, inc.",14,medpace,MEDP,Russell,y,MEDP
+209,emergent biosolutions,14,emergent biosolutions,EBS,Russell,y,EBS
+213,electrocore inc,14,electrocore,ECOR,Russell,y,ECOR
+216,biodelivery sciences international,14,biodelivery sciences,BDSI,Russell,y,BDSI
+218,"ionis pharmaceuticals, inc.",14,ionis,IONS,Russell,y,IONS
+222,"rockwell medical technologies, inc.",13,rockwell,RMTI,Russell,y,RMTI
+225,mannkind corporation,13,mannkind,MNKD,Russell,y,MNKD
+229,theravance biopharma,13,theravance biopharma,TBPH,Russell,y,TBPH
+230,integra lifesciences corporation,13,integra lifesciences,IART,Russell,y,IART
+238,aerie pharmaceuticals,12,aerie,AERI,Russell,y,AERI
+241,"amag pharmaceuticals, inc.",12,amag,AMAG,Russell,y,AMAG
+243,rigel pharmaceuticals,12,rigel,RIGL,Russell,y,RIGL
+254,"dexcom, inc.",11,dexcom,DXCM,Russell,y,DXCM
+255,xeris pharmaceuticals,11,xeris,XERS,Russell,y,XERS
+257,"flexion therapeutics, inc.",11,flexion,FLXN,Russell,y,FLXN
+260,portola pharmaceuticals,11,portola,PTLA,Russell,y,PTLA
+265,"opko health, inc.",11,opko,OPK,Russell,y,OPK
+280,acacia pharma ltd,10,acacia,ACTG,Russell,y,ACTG
+287,genmab,10,genmab,GMAB,Stoxx,y,GMAB.CO
+292,intersect ent,10,intersect ent,XENT,Russell,y,XENT
+300,"church & dwight company, inc.",10,church dwight,CHD,Russell,y,CHD
+310,antares pharma inc.,9,antares,ATRS,Russell,y,ATRS
+313,arrowhead pharmaceuticals,9,arrowhead,ARWR,Russell,y,ARWR
+317,"becton, dickinson and company",9,becton dickinson,BDX,Russell,y,BDX
+318,vanda pharmaceuticals,9,vanda,VNDA,Russell,y,VNDA
+321,"progenics pharmaceuticals, inc.",9,progenics,PGNX,Russell,y,PGNX
+322,perrigo company,9,perrigo,PRGO,Russell,y,PRGO
+323,hill-rom,9,hill rom,HRC,Russell,y,HRC
+329,johnson & johnson,9,johnson johnson,JNJ,Russell,y,JNJ
+333,cochlear,9,cochlear,COH,Australia,y,COH.AX
+337,mylan inc.,9,mylan,MYL,Russell,y,MYL
+341,exelixis,9,exelixis,EXEL,Russell,y,EXEL
+346,acadia pharmaceuticals inc.,8,acadia,ACAD,Russell,y,ACAD
+347,acadia pharmaceuticals inc.,8,acadia,ACAD,Russell,y,ACAD
+355,allergan medical,8,allergan,AGN,Russell,y,AGN
+365,intercept pharmaceuticals,8,intercept,ICPT,Russell,y,ICPT
+367,alnylam pharmaceuticals,8,alnylam,ALNY,Russell,y,ALNY
+373,"ocular therapeutix, inc.",8,ocular therapeutix,OCUL,Russell,y,OCUL
+381,"clarus therapeutics, inc.",7,clarus,CLAR,Russell,y,CLAR
+391,american medical systems,7,american,BSX,Russell,manual,BSX
+392,american medical systems,7,american,BSX,Russell,manual,BSX
+393,american medical systems,7,american,BSX,Russell,manual,BSX
+412,"hologic, inc.",7,hologic,HOLX,Russell,y,HOLX
+425,"mirum pharmaceuticals, inc.",6,mirum,MIRM,Russell,y,MIRM
+428,omeros corporation,6,omeros,OMER,Russell,y,OMER
+429,cutera inc.,6,cutera,CUTR,Russell,y,CUTR
+430,neurocrine biosciences,6,neurocrine biosciences,NBIX,Russell,y,NBIX
+433,organogenesis,6,organogenesis,ORGO,Russell,y,ORGO
+446,karyopharm therapeutics inc,6,karyopharm,KPTI,Russell,y,KPTI
+452,corcept therapeutics,6,corcept,CORT,Russell,y,CORT
+453,nektar therapeutics,6,nektar,NKTR,Russell,y,NKTR
+457,chugai pharmaceutical,6,chugai,4519,Japan,y,4519.T
+462,"clovis oncology, inc.",6,clovis oncology,CLVS,Russell,y,CLVS
+468,"aduro biotech, inc.",6,aduro biotech,ADRO,Russell,y,ADRO
+477,ligand pharmaceuticals,6,ligand,LGND,Russell,y,LGND
+492,cytokinetics,5,cytokinetics,CYTK,Russell,y,CYTK
+516,"recro pharma, inc.",5,recro,REPH,Russell,y,REPH
+534,vifor inc.,5,vifor,VIFN,Stoxx,y,VIFN.SW
+542,morphosys ag,5,morphosys,MOR,Stoxx,y,MOR.DE
+548,biocryst pharmaceuticals,5,biocryst,BCRX,Russell,y,BCRX
+549,"sarepta therapeutics, inc.",5,sarepta,SRPT,Russell,y,SRPT
+559,rti surgical,5,rti surgical,RTIX,Russell,y,RTIX
+565,"atricure, inc.",5,atricure,ATRC,Russell,y,ATRC
+573,laboratory corporation of america,4,laboratory america,LH,Russell,y,LH
+576,johnson & johnson k.k. medical company,4,johnson johnson,JNJ,Russell,y,JNJ
+595,biomérieux,4,biomerieux,BIM,Stoxx,y,BIM.PA
+607,medicinova,4,medicinova,MNOV,Russell,y,MNOV
+614,"catalyst pharmaceuticals, inc.",4,catalyst,CPRX,Russell,y,CPRX
+615,"catalyst pharmaceuticals, inc.",4,catalyst,CPRX,Russell,y,CPRX
+625,"zogenix, inc.",4,zogenix,ZGNX,Russell,y,ZGNX
+626,therapeuticsmd,4,therapeuticsmd,TXMD,Russell,y,TXMD
+627,menlo therapeutics inc.,4,menlo,MNLO,Russell,y,MNLO
+630,merck ltd.,4,merck,MRK,Stoxx,y,MRK.DE
